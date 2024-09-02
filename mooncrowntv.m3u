@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:0 tvg-id="ext" group-title="Canais | Adultos",For Man HD
-http://bgp.cdnr1.xyz:80/diltech/diltech0310/83287
+#EXTINF:0 tvg-id="ext" group-title="Canais | Adultos",m3u
+https://edge13-sof.live.mmcdn.com/live-hls/amlst:adorablair-sd-251d46577399029685a97787b87276cbec1be4dcc1c08b71b5c768eaa08ce775_trns_h264/playlist.m3u8
 #EXTINF:0 tvg-id="PlayboyHD.cl" group-title="Canais | Adultos",Playboy FHD
 http://bgp.cdnr1.xyz:80/diltech/diltech0310/147354
 #EXTINF:0 tvg-id="ext" group-title="Canais | Adultos",Playboy FHD [Alt]
