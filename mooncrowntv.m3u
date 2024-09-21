@@ -1,9 +1,15 @@
 #EXTM3U
-#EXTINF:0 tvg-id="ext" tvg-logo="http://mkvod.info/apps/lg/mkiptv/miniProxy.php/https://ei.phncdn.com/videos/202005/11/312728671/original/(m=eafTGgaaaa)(mh=t6xAqTw0wNGphKud)9.jpg" group-title="Daisy1",daisy5
+#EXTINF:0 tvg-id="ext" tvg-logo="" group-title="Daisy",daisy5
+http://mkvod.info/apps/lg/mkiptv/miniProxy.php/http://mkvod.info/apps/lg/mkiptv/miniProxy.php/https://cv-h.phncdn.com/hls/videos/202208/07/413237961/480P_2000K_413237961.mp4/index-v1-a1.m3u8?HfzuNkajeUQbHr8dthl5ySLJEmUBNp_a_zXrt1P0GYF72qmsxx8k4M3bc3hdTMruJVs4ofRzmKjsEoP08o8nR6Rb-tql6y1L26LCHnsaUYGrJQVcoWtU1lzVWWY0ORaaScuzi35NS2guJ8-25zLtgwZZcAAPVYh87l1QUqd8aY2i0SO7iIYaVLCqFbQV5_64NZUXAuWG_w
+#EXTINF:0 tvg-id="ext" tvg-logo="" group-title="Daisy",daisy4
+http://mkvod.info/apps/lg/mkiptv/miniProxy.php/http://mkvod.info/apps/lg/mkiptv/miniProxy.php/https://ev-h.phncdn.com/hls/videos/202001/21/278313551/220928_1331_480P_2000K_278313551.mp4/index-v1-a1.m3u8?validfrom=1726930055&validto=1726937255&ipa=51.77.201.109&hdl=-1&hash=RHE%2BNOs5zHz9xi7XQuV4j0v8EGY%3D
+#EXTINF:0 tvg-id="ext" tvg-logo="" group-title="Daisy",daisy3
+http://mkvod.info/apps/lg/mkiptv/miniProxy.php/http://mkvod.info/apps/lg/mkiptv/miniProxy.php/https://ev-h.phncdn.com/hls/videos/202009/15/352015632/220930_1302_480P_2000K_352015632.mp4/index-v1-a1.m3u8?validfrom=1726930079&validto=1726937279&ipa=51.77.201.109&hdl=-1&hash=TYjCKpJks2%2F8bGkj5sATIT5gnMA%3D
+#EXTINF:0 tvg-id="ext" tvg-logo="" group-title="Daisy",daisy2
 http://mkvod.info/apps/lg/mkiptv/miniProxy.php/http://mkvod.info/apps/lg/mkiptv/miniProxy.php/https://ev-h.phncdn.com/hls/videos/202009/29/356129232/220930_1202_480P_2000K_356129232.mp4/index-v1-a1.m3u8?validfrom=1726928625&validto=1726935825&ipa=51.77.201.109&hdl=-1&hash=KsSxpj5aW4iVRgEKK3G2cNJQ%2B1U%3D
-#EXTINF:0 tvg-id="ext" tvg-logo="http://mkvod.info/apps/lg/mkiptv/miniProxy.php/https://ei.phncdn.com/videos/202005/11/312728671/original/(m=eafTGgaaaa)(mh=t6xAqTw0wNGphKud)9.jpg" group-title="Daisy",daisy1
+#EXTINF:0 tvg-id="ext" tvg-logo="" group-title="Daisy",daisy1
 http://mkvod.info/apps/lg/mkiptv/miniProxy.php/http://mkvod.info/apps/lg/mkiptv/miniProxy.php/https://ev-h.phncdn.com/hls/videos/202101/07/379875612/220927_1833_480P_2000K_379875612.mp4/index-v1-a1.m3u8?validfrom=1726928445&validto=1726935645&ipa=51.77.201.109&hdl=-1&hash=yQ4IFAPefC3XPq3%2B0pmr%2B5%2FTsTc%3D
-#EXTINF:0 tvg-id="ext" tvg-logo="http://mkvod.info/apps/lg/mkiptv/miniProxy.php/https://ei.phncdn.com/videos/202005/11/312728671/original/(m=eafTGgaaaa)(mh=t6xAqTw0wNGphKud)9.jpg" group-title="Daisy",daisy
+#EXTINF:0 tvg-id="ext" tvg-logo="" group-title="Daisy",daisy
 http://mkvod.info/apps/lg/mkiptv/miniProxy.php/http://mkvod.info/apps/lg/mkiptv/miniProxy.php/https://ev-h.phncdn.com/hls/videos/202306/16/433661951/480P_2000K_433661951.mp4/index-v1-a1.m3u8?validfrom=1726927956&validto=1726935156&ipa=51.77.201.109&hdl=-1&hash=6%2BaijyOQ%2F2wRBjVl5SjoSkaiOJY%3D
 #EXTINF:0 tvg-id="ext" tvg-logo="https://thumb.live.mmcdn.com/ri/jared3536.jpg?1725145320" group-title="Adultos",t
 https://edge5-sof.live.mmcdn.com/live-hls/amlst:jared3536-sd-a3e9e092b82f26074d77b32383aa3076ac61fb9ec3bd090de24795051b7212c2_trns_h264/playlist.m3u8
