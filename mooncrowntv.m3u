@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:0 tvg-id="ext" tvg-logo="https://thumb.live.mmcdn.com/ri/jared3536.jpg?1725145320" group-title="Adultos1",trrr1
+https://edge5-sof.live.mmcdn.com/live-hls/amlst:jared3536-sd-a3e9e092b82f26074d77b32383aa3076ac61fb9ec3bd090de24795051b7212c2_trns_h264/playlist.m3u8
 #EXTINF:0 tvg-id="ext" tvg-logo="https://thumb.live.mmcdn.com/ri/jaddy_lol.jpg?1725145320" group-title="Adultos1",trrr1
 https://edge18-sof.live.mmcdn.com/live-hls/amlst:jaddy_lol-sd-03ea9295c0b97c5aa78fb6592906a37b8559d9f3dafb582a988bffc9b47d2147_trns_h264/chunklist_w1856916113_b3096000_t64RlBTOjMwLjA=.m3u8
 #EXTINF:0 tvg-id="ext" tvg-logo="https://thumb.live.mmcdn.com/ri/_bellaswwet_.jpg?1725145320" group-title="Adultos",tr
