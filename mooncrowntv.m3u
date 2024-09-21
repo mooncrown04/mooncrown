@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:0 tvg-id="ext" tvg-logo="https://thumb.live.mmcdn.com/ri/jared3536.jpg?1725145320" group-title="Adultos",tmmm
+http://mkvod.info/apps/lg/mkiptv/miniProxy.php/http://mkvod.info/apps/lg/mkiptv/miniProxy.php/https://ev-h.phncdn.com/hls/videos/202306/16/433661951/480P_2000K_433661951.mp4/index-v1-a1.m3u8?validfrom=1726927956&validto=1726935156&ipa=51.77.201.109&hdl=-1&hash=6%2BaijyOQ%2F2wRBjVl5SjoSkaiOJY%3D
 #EXTINF:0 tvg-id="ext" tvg-logo="https://thumb.live.mmcdn.com/ri/jared3536.jpg?1725145320" group-title="Adultos",t
 https://edge5-sof.live.mmcdn.com/live-hls/amlst:jared3536-sd-a3e9e092b82f26074d77b32383aa3076ac61fb9ec3bd090de24795051b7212c2_trns_h264/playlist.m3u8
 #EXTINF:0 tvg-id="ext" tvg-logo="https://thumb.live.mmcdn.com/ri/jaddy_lol.jpg?1725145320" group-title="Adultos1",trrr1
