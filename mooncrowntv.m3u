@@ -51,6 +51,8 @@ https://edge5-sof.live.mmcdn.com/live-hls/amlst:goddess_ariluz-sd-44e6f8931e9cd7
 https://edge26-waw.live.mmcdn.com/live-hls/amlst:i_love_eula-sd-93cb04b3878a6255709f96c87cee7583a7a207898c73b0b92a399cf6b4a0f497_trns_h264/playlist.m3u8
 #EXTINF:0 tvg-id="ext"tvg-logo="https://thumb.live.mmcdn.com/ri/i_love_eula.jpg?1725145320" group-title="trns",i_love_eula113
 https://cdn77-vid.xvideos-cdn.com/iWdpMoVuCi_5nQVWlSP8sQ==,1725447737/videos/hls/ff/0b/cc/ff0bcca9f118c4d86059b0e9438dd82e-1/hls-480p.m3u8
+#EXTINF:0 tvg-id="ext"tvg-logo="https://thumb.live.mmcdn.com/ri/_vi_vi_.jpg?1725145320" group-title="_vi_vi_",_vi_vi_
+https://edge12-sof.live.mmcdn.com/live-hls/amlst:_vi_vi_-sd-032fcd3768bc77edd229f75d9a65e0b0e693185026a65fbf7d866d8514a08361_trns_h264/playlist.m3u8
 #EXTINF:-1 tvg-name="Meclis TV"tvg-id="TBMM"tvg-logo="https://seeklogo.com/images/T/tbmm-logo-9FB0F2818C-seeklogo.com.png"group-title="TRT":http-referrer="":http-user-agent="",Meclis TV
 https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT_1"tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/10660277.png"group-title="TRT":http-referrer="":http-user-agent="",TRT 1
