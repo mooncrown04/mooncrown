@@ -131,6 +131,6 @@ https://tv-trtbelgesel.medya.trt.com.tr/master_720.m3u8
 https://dogus-live.daioncdn.net/tlc/tlc_720p.m3u8
 #EXTINF:-1 tvg-name="DMax"tvg-id="Belgesel_DMax"tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/604a04ef866ac32574736ef6"group-title="Belgesel":http-referrer="":http-user-agent="",DMax
 https://dogus-live.daioncdn.net/dmax/dmax_720p.m3u8
-#EXTINF:-1 tvg-name="tele1"tvg-id="Belgesel_DMax"tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/604a04ef866ac32574736ef6"group-title="Belgesel":http-referrer="":http-user-agent="",Tele1
-http://tele1.blutv.com/blutv_tele1_live/live_720p2000000kbps/index.m3u8
+#EXTINF:-1 tvg-name="tele1"tvg-id="Belgesel_DMax"tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png"group-title="HABER":http-referrer="":http-user-agent="",Tele1
+https://live-cdn-65984.varplaycdn.cfd/tele1/index.m3u8
 
