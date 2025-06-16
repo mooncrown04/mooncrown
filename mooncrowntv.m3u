@@ -5,8 +5,6 @@ https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 https://bozztv.com/gin-dvrfl05/gin-trt1eu/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="TRT 2"tvg-id="TRT_2"tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7027954.png"group-title="TRT":http-referrer="":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",TRT 2
 https://bozztv.com/gin-36bay3/gt-trt2/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="A Spor "tvg-id="A_Spor "tvg-logo="https://iaspr.tmgrup.com.tr/site/v3/video/i/logo.png"group-title="Spor ":http-referrer="":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",A Spor
-https://bozztv.com/gin-dvrfl05/gin-aspor/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="TRT Spor"tvg-id="Spor_TRT"tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png"group-title="Spor":http-referrer="":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",TRT Spor
 https://bozztv.com/gin-dvrfl05/gin-trtspor/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="TRT Spor Yıldız"tvg-id="Spor_SporYildiz"tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11290418.png"group-title="Spor":http-referrer="":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",TRT Spor Yıldız
@@ -15,24 +13,12 @@ https://bozztv.com/gin-dvrfl05/gin-trtspor2/tracks-v1a1/mono.m3u8
 https://live.sportstv.com.tr/hls/low/sportstv.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS Haber"tvg-id="Spor_beINSPORTSHaber"tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-haber-logo.jpg.webp"group-title="Spor":http-referrer="":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS Haber
 https://bozztv.com/gin-dvrfl05/gin-beinsportshaber/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="GS TV"tvg-id="Spor_GSTV"tvg-logo="https://upload.wikimedia.org/wikipedia/tr/a/a1/Gstv-yeni.PNG"group-title="Spor":http-referrer="":http-user-agent="",GS TV
-https://owifavo5.rocketcdn.com/gstv/gstv.smil/master.m3u8
-#EXTINF:-1 tvg-name="FB TV"tvg-id="Spor_FBTV"tvg-logo="https://seeklogo.com/images/F/fenerbahce-tv-logo-A4F539D377-seeklogo.com.png"group-title="Spor":http-referrer="":http-user-agent="",FB TV
-http://stream.tvcdn.net/spor/fb-tv.m3u8
 #EXTINF:-1 tvg-name="NBA TV"tvg-id="Spor_NBATV"tvg-logo="https://upload.wikimedia.org/wikipedia/tr/8/89/Nbatv.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",NBA TV
 https://osaka.trgoalshls13.shop/yayinnbatv.m3u8
 #EXTINF:-1 tvg-name="Euro Sport"tvg-id="Spor_EuroSport"tvg-logo="https://w7.pngwing.com/pngs/350/883/png-transparent-eurosport-1-eurosport-2-television-channel-1-euro-television-blue-angle.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",Euro Sport
 https://6bb032107532.cf-worker-9f165cb16b53.workers.dev/?https://uno.e1a0397cd3a12e2.shop/p/9cgzadFETtKAJ5KsVc/132/a.acdwatercn.shop/chunklist_hd.m3u8
 #EXTINF:-1 tvg-name="Euro Sport 2"tvg-id="Spor_EuroSport2"tvg-logo="https://w7.pngwing.com/pngs/327/493/png-transparent-eurosport-1-television-channel-logo-eurosport-2-others-miscellaneous-television-text.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",Euro Sport 2
 https://6bb032107532.cf-worker-9f165cb16b53.workers.dev/?https://uno.e1a0397cd3a12e2.shop/p/9cgzadFETtKAJ5KsVc/142/a.acdwatercn.shop/chunklist_hd.m3u8
-#EXTINF:-1 tvg-name="Tivibu Spor 1"tvg-id="Spor_TivibuSpor1"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/qadnsi1642604437.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",Tivibu Spor 1
-https://osaka.trgoalshls13.shop/yayint1.m3u8
-#EXTINF:-1 tvg-name="Tivibu Spor 2"tvg-id="Spor_TivibuSpor2"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/kuasdm1642604455.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",Tivibu Spor 2
-https://osaka.trgoalshls13.shop/yayint2.m3u8
-#EXTINF:-1 tvg-name="Tivibu Spor 3"tvg-id="Spor_TivibuSpor3"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/slwrz41642604502.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",Tivibu Spor 3
-https://osaka.trgoalshls13.shop/yayint3.m3u8
-#EXTINF:-1 tvg-name="Tivibu Spor 4"tvg-id="Spor_TivibuSpor4"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/59bqi81642604517.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",Tivibu Spor 4
-https://6bb032107532.cf-worker-9f165cb16b53.workers.dev/?https://nove.6a0ec8ce41cae2c.shop/p/mactanmaca9696.shop/609/a.acdwatercn.shop/chunklist_hd.m3u8
 #EXTINF:-1 tvg-name="Spor Smart"tvg-id="Spor_SporSmart"tvg-logo="https://dsmart-static-v2.ercdn.net//resize-width/1920/content/p/el/11909/Thumbnail.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",Spor Smart
 https://osaka.trgoalshls13.shop/yayinsmarts.m3u8
 #EXTINF:-1 tvg-name="Spor Smart 2"tvg-id="Spor_SporSmart2"tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/SPORSMART2-gri.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",Spor Smart 2
@@ -41,28 +27,6 @@ https://osaka.trgoalshls13.shop/yayinsms2.m3u8
 https://osaka.trgoalshls13.shop/yayinss.m3u8
 #EXTINF:-1 tvg-name="S SPORT 2"tvg-id="Spor_SSPORT2"tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",S SPORT 2
 https://osaka.trgoalshls13.shop/yayinss2.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS"tvg-id="Spor_beINSPORTS"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS
-https://osaka.trgoalshls13.shop/yayin1.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS"tvg-id="Spor_beINSPORTS"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS
-https://s1k3rl3r.zirvedeyim4.cfd/yayininat.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS"tvg-id="Spor_beINSPORTS"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS
-https://6bb032107532.cf-worker-9f165cb16b53.workers.dev/?https://nove.6a0ec8ce41cae2c.shop/p/mactanmaca9696.shop/601/a.acdwatercn.shop/chunklist_hd.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS 2"tvg-id="Spor_beINSPORTS2"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS 2
-https://osaka.trgoalshls13.shop/yayinb2.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS 2"tvg-id="Spor_beINSPORTS2"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS 2
-https://s1k3rl3r.zirvedeyim4.cfd/yayinb2.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS 2"tvg-id="Spor_beINSPORTS2"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS 2
-https://6bb032107532.cf-worker-9f165cb16b53.workers.dev/?https://uno.e1a0397cd3a12e2.shop/p/9cgzadFETtKAJ5KsVc/602/a.acdwatercn.shop/chunklist_hd.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS 3"tvg-id="Spor_beINSPORTS3"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS 3
-https://osaka.trgoalshls13.shop/yayinb3.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS 4"tvg-id="Spor_beINSPORTS4"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS 4
-https://osaka.trgoalshls13.shop/yayinb4.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS 5"tvg-id="Spor_beINSPORTS5"tvg-logo="https://i.imgur.com/iRKfaee.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS 5
-https://osaka.trgoalshls13.shop/yayinb5.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS Max"tvg-id="Spor_beINSPORTSMax"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/BeIN_Sports_MAX.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS Max
-https://osaka.trgoalshls13.shop/yayinbm1.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS Max 2"tvg-id="Spor_beINSPORTSMax2"tvg-logo="https://i.imgur.com/t7U20yR.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS Max 2
-https://osaka.trgoalshls13.shop/yayinbm2.m3u8
 #EXTINF:-1 tvg-name="EXXEN"tvg-id="Spor_EXXEN"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/db/Exxen.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",EXXEN
 https://osaka.trgoalshls13.shop/yayinex1.m3u8
 #EXTINF:-1 tvg-name="EXXEN"tvg-id="Spor_EXXEN"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/db/Exxen.png"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",EXXEN 2
@@ -167,5 +131,6 @@ https://tv-trtbelgesel.medya.trt.com.tr/master_720.m3u8
 https://dogus-live.daioncdn.net/tlc/tlc_720p.m3u8
 #EXTINF:-1 tvg-name="DMax"tvg-id="Belgesel_DMax"tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/604a04ef866ac32574736ef6"group-title="Belgesel":http-referrer="":http-user-agent="",DMax
 https://dogus-live.daioncdn.net/dmax/dmax_720p.m3u8
-
+#EXTINF:-1 tvg-name="DMax"tvg-id="Belgesel_DMax"tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/604a04ef866ac32574736ef6"group-title="Belgesel":http-referrer="":http-user-agent="",artı tv
+https://new.cache-stream.workers.dev/stream/UCxVicskgBc8OD66iLKc7Uaw/live.m3u8
 
