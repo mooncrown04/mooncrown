@@ -31,9 +31,12 @@ jobs:
       run: python script.py
 
     - name: Değişiklikleri repoya ekle ve pushla
+      env:
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add filtered_playlist.m3u
         git commit -m "Otomatik: filtered_playlist.m3u güncellendi [ci skip]" || echo "Commit edilecek değişiklik yok."
+        git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
         git push origin HEAD:${{ github.ref }}
