@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Kodu çek (Checkout)
+    - name: Kodu çek
       uses: actions/checkout@v4
 
     - name: Python kurulumu
@@ -26,7 +26,18 @@ jobs:
         pip install aiohttp
 
     - name: Scripti çalıştır
-      run: python script.py
+      run: |
+        python script.py
+        echo "Script çalıştırıldı. Çıktı dosyası kontrol ediliyor..."
+
+    - name: filtered_playlist.m3u var mı?
+      run: |
+        if [ -f filtered_playlist.m3u ]; then
+          echo "filtered_playlist.m3u bulundu."
+        else
+          echo "filtered_playlist.m3u BULUNAMADI!"
+          exit 1
+        fi
 
     - name: Workspace dosyalarını listele
       run: ls -l
