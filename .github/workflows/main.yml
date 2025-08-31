@@ -1,11 +1,11 @@
-name: Python Async IPTV Playlist Workflow
+name: Python Async IPTV Playlist Commit Workflow
 
 on:
   workflow_dispatch:
   push:
     paths:
       - script.py
-      - .github/workflows/python-async-iptv-playlist.yml
+      - .github/workflows/python-async-iptv-commit.yml
 
 jobs:
   run-script:
@@ -14,6 +14,8 @@ jobs:
     steps:
     - name: Kodu çek
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # Tüm geçmişi çekmek için
 
     - name: Python kurulumu
       uses: actions/setup-python@v5
@@ -26,24 +28,12 @@ jobs:
         pip install aiohttp
 
     - name: Scripti çalıştır
+      run: python script.py
+
+    - name: Değişiklikleri repoya ekle ve pushla
       run: |
-        python script.py
-        echo "Script çalıştırıldı. Çıktı dosyası kontrol ediliyor..."
-
-    - name: filtered_playlist.m3u var mı?
-      run: |
-        if [ -f filtered_playlist.m3u ]; then
-          echo "filtered_playlist.m3u bulundu."
-        else
-          echo "filtered_playlist.m3u BULUNAMADI!"
-          exit 1
-        fi
-
-    - name: Workspace dosyalarını listele
-      run: ls -l
-
-    - name: Filtrelenmiş M3U dosyasını yükle
-      uses: actions/upload-artifact@v4
-      with:
-        name: filtered_playlist
-        path: filtered_playlist.m3u
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add filtered_playlist.m3u
+        git commit -m "Otomatik: filtered_playlist.m3u güncellendi [ci skip]" || echo "Commit edilecek değişiklik yok."
+        git push origin HEAD:${{ github.ref }}
