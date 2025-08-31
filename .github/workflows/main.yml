@@ -1,34 +1,37 @@
 name: Python Async IPTV Playlist Workflow
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - script.py
-      - .github/workflows/python-app.yml
-  workflow_dispatch:
+      - .github/workflows/python-async-iptv-playlist.yml
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
+    - name: Kodu çek (Checkout)
       uses: actions/checkout@v4
 
-    - name: Set up Python
+    - name: Python kurulumu
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
 
-    - name: Install dependencies
+    - name: Bağımlılıkları yükle
       run: |
         python -m pip install --upgrade pip
         pip install aiohttp
 
-    - name: Run script
+    - name: Scripti çalıştır
       run: python script.py
 
-    - name: Upload filtered M3U output
+    - name: Workspace dosyalarını listele
+      run: ls -l
+
+    - name: Filtrelenmiş M3U dosyasını yükle
       uses: actions/upload-artifact@v4
       with:
         name: filtered_playlist
