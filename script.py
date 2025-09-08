@@ -116,14 +116,17 @@ def parse_m3u(m3u_content: str) -> List[Channel]:
             name_match = re.search(r'tvg-name="([^"]*)"', line)
             group_match = re.search(r'tvg-group="([^"]*)"|group-title="([^"]*)"', line)
             
-            name = name_match.group(1) if name_match else "Unknown Channel"
+            name = name_match.group(1).strip() if name_match else None
             category = (group_match.group(1) or group_match.group(2)) if group_match else "Various"
             
             # Sonraki satırın bir URL olup olmadığını kontrol et
             if i + 1 < len(lines) and not lines[i+1].startswith("#"):
                 url = lines[i+1].strip()
-                if url:
+                # Adı boş olan kanalları atla
+                if url and name:
                     channels.append(Channel(name=name, category=category, url=url))
+                elif not name:
+                    logging.info(f"Kanal adı boş olduğu için atlandı. URL: {url}")
                 i += 1
         i += 1
     return channels
@@ -143,10 +146,11 @@ async def download_m3u(url: str) -> str | None:
 
 
 def generate_m3u(channels: List[Channel]) -> str:
-    """Temizlenmiş listeyi M3U formatına çevir."""
+    """Temizlenmiş listeyi M3U formatına çevirir ve grup bilgisini hem tvg-group hem de group-title olarak yazar."""
     m3u_content = "#EXTM3U\n"
     for ch in channels:
-        m3u_content += f'#EXTINF:-1 tvg-name="{ch.name}" tvg-group="{ch.category}",{ch.name}\n'
+        # İki etiketle de grup bilgisini ekliyoruz
+        m3u_content += f'#EXTINF:-1 tvg-name="{ch.name}" tvg-group="{ch.category}" group-title="{ch.category}",{ch.name}\n'
         m3u_content += f'{ch.url}\n'
     return m3u_content
 
