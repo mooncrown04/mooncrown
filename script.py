@@ -5,10 +5,6 @@ import re
 from dataclasses import dataclass, field
 from typing import List, Dict
 
-# Türkçe karakter desteği için
-import locale
-locale.setlocale(locale.LC_ALL, 'tr_TR.UTF-8')
-
 # Ayarları yapılandır
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
