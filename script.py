@@ -18,11 +18,17 @@ M3U_SOURCES = [
     'https://tinyurl.com/TVCANLI'
 ]
 
-# Kategori eşleştirme (daha iyi eşleşme için kullanılıyor)
+
+# Kategori eşleştirme: Kaynaklardaki farklı kategori isimlerini standartlaştırır.
+# Örneğin, "Sport" kategorisini "Spor" olarak günceller.
 CATEGORY_MAPPING = {
-    "Sport": "Sports",
+    "Sport": "Spor",
     "Movie": "Movies",
-    "News": "News & Politics"
+    "News": "News & Politics",
+    "Çocuk": "Kids",
+    "Çizgi Film": "Kids",
+    "Sports": "Spor",
+    "Sporlar": "Spor",
 }
 
 # Filtrelenmesi gereken kategoriler
