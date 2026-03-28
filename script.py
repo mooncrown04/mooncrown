@@ -2,181 +2,135 @@ import asyncio
 import logging
 import aiohttp
 import re
-from dataclasses import dataclass, field
-from typing import List, Dict
+from dataclasses import dataclass
+from typing import List
 
-# --- AYARLAR ---
+# --- LOG AYARLARI ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-TIMEOUT = 7  # Kanal kontrolü için zamanaşımı
-MAX_CONCURRENT_REQUESTS = 50 # Aynı anda yapılacak kontrol sayısı
-USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+# --- AYARLAR ---
+TIMEOUT = 5
+MAX_CONCURRENT_REQUESTS = 30 # Hız ve banlanma dengesi için
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
 
+# Kaynaklar (Kendi linklerini buraya ekleyebilirsin)
 M3U_SOURCES = [
     'https://raw.githubusercontent.com/Mertcantv/Mertcan/refs/heads/main/%C4%B0zle2.m3u',
     'https://raw.githubusercontent.com/primatzeka/kurbaga/main/NeonSpor/NeonSpor.m3u',
     'https://tinyurl.com/TVCANLI'
 ]
 
-# Kategori Standartlaştırma Sözlüğü
-# Soldaki kelime yakalanırsa, sağdaki kelimeye dönüştürülür.
+# Kategori Dönüştürme Sözlüğü
+# Küçük harfle kontrol edilir, sağdaki değere dönüştürülür.
 CATEGORY_MAPPING = {
-    "Haber": "Haberler",
-    "News": "Haberler",
-    "Sport": "Spor",
-    "Sporlar": "Spor",
-    "Sports": "Spor",
-    "Movie": "Sinema",
-    "Film": "Sinema",
-    "Cinema": "Sinema",
-    "Belgesel": "Belgesel",
-    "Documentary": "Belgesel",
-    "Çocuk": "Çocuk & Aile",
-    "Kids": "Çocuk & Aile",
-    "Cartoon": "Çocuk & Aile",
-    "Müzik": "Müzik",
-    "Music": "Müzik",
-    "Eğlence": "Eğlence",
-    "Entertainment": "Eğlence"
+    "haber": "Haberler",
+    "ulusal": "Ulusal Kanallar",
+    "sport": "Spor",
+    "spor": "Spor",
+    "movie": "Sinema",
+    "film": "Sinema",
+    "belgesel": "Belgesel",
+    "cocuk": "Çocuk & Aile",
+    "kids": "Çocuk & Aile"
 }
-
-FILTER_CATEGORIES = ["Adult", "XXX", "Erotic", "Cinsel"]
 
 @dataclass
 class Channel:
     name: str
     category: str
     url: str
-    metadata: dict = field(default_factory=dict)
 
-# --- FONKSİYONLAR ---
-
-def clean_category_string(cat_name: str) -> str:
-    """Regex ile gereksiz karakterleri (|Tr|, [EN], ---) temizler."""
-    if not cat_name:
-        return "Various"
+def clean_category(raw_cat: str) -> str:
+    """'|Tr| Haber' -> 'Haberler' dönüşümünü yapar."""
+    # 1. Adım: Sembolleri ve ülke kodlarını temizle (|Tr|, [Tr], TR: vb.)
+    clean = re.sub(r'[|\[\(].*?[|\]\)]', '', raw_cat) 
+    clean = clean.replace(':', '').strip().lower()
     
-    # 1. Adım: |TR|, [EN], (4K) gibi yapıları temizle
-    cat_name = re.sub(r'^[|\[\(].*?[|\]\)]\s*', '', cat_name)
-    # 2. Adım: Özel karakterleri (-, *, _, =) temizle
-    cat_name = re.sub(r'[-*_=]+', '', cat_name)
-    # 3. Adım: Baş ve sondaki boşlukları al ve kelimeleri düzelt
-    cat_name = cat_name.strip().title()
-    
-    # 4. Adım: Mapping sözlüğüyle eşleştir
-    for key, value in CATEGORY_MAPPING.items():
-        if key.lower() in cat_name.lower():
-            return value
-            
-    return cat_name
+    # Türkçe karakter normalizasyonu (Arama kolaylığı için)
+    clean = clean.replace('ı', 'i').replace('ü', 'u').replace('ö', 'o').replace('ş', 's').replace('ç', 'c').replace('ğ', 'g')
 
-async def check_url(sem: asyncio.Semaphore, session: aiohttp.ClientSession, channel: Channel) -> Channel | None:
-    """Kanal linkinin aktif olup olmadığını kontrol eder."""
-    async with sem:
-        try:
-            async with session.get(channel.url, timeout=TIMEOUT, allow_redirects=True) as response:
-                if response.status == 200:
-                    logging.info(f"AKTİF: {channel.name}")
-                    return channel
-        except Exception:
-            pass # Hatalı linkleri sessizce geç
-        return None
+    # 2. Adım: Mapping sözlüğünde ara
+    for key, target in CATEGORY_MAPPING.items():
+        if key in clean:
+            return target
+    
+    # 3. Adım: Eşleşme yoksa temizlenmiş metni güzelleştirip döndür
+    return clean.title() if clean else "Genel"
 
 def parse_m3u(m3u_content: str) -> List[Channel]:
-    """M3U içeriğini ayrıştırır ve kategorileri temizler."""
+    """Senin paylaştığın özel formata göre ayrıştırma yapar."""
     channels = []
-    lines = m3u_content.splitlines()
+    # #EXTINF ile başlayan blokları bul
+    pattern = re.compile(r'#EXTINF:.*?(?:group-title|tvg-group)="([^"]+)".*?,([^\n\r]+)[\s\n\r]+(http[^\s\n\r]+)', re.IGNORECASE)
     
-    for i in range(len(lines)):
-        line = lines[i].strip()
-        if line.startswith("#EXTINF"):
-            # tvg-name veya tırnak içindeki ismi yakala
-            name_match = re.search(r'tvg-name="([^"]*)"', line)
-            if not name_match:
-                name_match = re.search(r',([^,]*)$', line)
+    matches = pattern.findall(m3u_content)
+    
+    for match in matches:
+        raw_group, raw_name, url = match
+        
+        final_cat = clean_category(raw_group)
+        name = raw_name.strip()
+        
+        # Sadece adı ve URL'si olanları ekle
+        if name and url:
+            channels.append(Channel(name=name, category=final_cat, url=url))
             
-            # Kategori bilgisi (group-title veya tvg-group)
-            group_match = re.search(r'group-title="([^"]*)"|tvg-group="([^"]*)"', line)
-            
-            raw_name = name_match.group(1).strip() if name_match else "Bilinmeyen Kanal"
-            raw_category = (group_match.group(1) or group_match.group(2)) if group_match else "Genel"
-            
-            # Kategori temizleme ve birleştirme
-            clean_cat = clean_category_string(raw_category)
-            
-            # Filtre kontrolü
-            if any(f.lower() in clean_cat.lower() for f in FILTER_CATEGORIES):
-                continue
-
-            # URL bir sonraki satırda olmalı
-            if i + 1 < len(lines):
-                url = lines[i+1].strip()
-                if url and not url.startswith("#"):
-                    channels.append(Channel(name=raw_name, category=clean_cat, url=url))
     return channels
 
-async def download_m3u(session: aiohttp.ClientSession, url: str) -> str:
-    """M3U listesini indirir."""
-    try:
-        async with session.get(url, timeout=15) as response:
-            if response.status == 200:
-                return await response.text()
-    except Exception as e:
-        logging.error(f"İndirme Hatası ({url}): {e}")
-    return ""
-
-def generate_m3u_output(channels: List[Channel]) -> str:
-    """Final M3U içeriğini oluşturur."""
-    output = "#EXTM3U\n"
-    for ch in channels:
-        output += f'#EXTINF:-1 tvg-name="{ch.name}" group-title="{ch.category}",{ch.name}\n'
-        output += f'{ch.url}\n'
-    return output
+async def check_url(sem, session, ch):
+    """Linklerin çalışıp çalışmadığını doğrular."""
+    async with sem:
+        try:
+            # allow_redirects=True önemli çünkü bazı linkler yönlendirme yapar
+            async with session.get(ch.url, timeout=TIMEOUT, allow_redirects=True) as response:
+                if response.status == 200:
+                    logging.info(f"OK: {ch.name}")
+                    return ch
+        except:
+            pass
+        return None
 
 async def main():
-    headers = {'User-Agent': USER_AGENT}
-    all_extracted_channels = []
+    async with aiohttp.ClientSession(headers={'User-Agent': USER_AGENT}) as session:
+        all_channels = []
+        
+        # 1. Verileri Çek
+        for url in M3U_SOURCES:
+            logging.info(f"Liste indiriliyor: {url}")
+            try:
+                async with session.get(url, timeout=15) as resp:
+                    if resp.status == 200:
+                        text = await resp.text()
+                        found = parse_m3u(text)
+                        all_channels.extend(found)
+                        logging.info(f"Bulunan kanal: {len(found)}")
+            except Exception as e:
+                logging.error(f"Hata oluştu: {url} -> {e}")
 
-    async with aiohttp.ClientSession(headers=headers) as session:
-        # 1. Kaynakları İndir ve Ayrıştır
-        for source_url in M3U_SOURCES:
-            logging.info(f"Kaynak işleniyor: {source_url}")
-            content = await download_m3u(session, source_url)
-            if content:
-                found = parse_m3u(content)
-                all_extracted_channels.extend(found)
-                logging.info(f"{len(found)} kanal bulundu.")
-
-        if not all_extracted_channels:
-            logging.error("Hiç kanal bulunamadı. Program sonlandırılıyor.")
+        if not all_channels:
+            logging.error("Hiç kanal ayrıştırılamadı. Regex desenini kontrol edin.")
             return
 
-        # 2. Ölü Linkleri Temizle (Asenkron)
-        logging.info(f"Toplam {len(all_extracted_channels)} kanal kontrol ediliyor (Link kontrolü)...")
+        # 2. Canlılık Kontrolü
+        logging.info(f"Toplam {len(all_channels)} kanal kontrol ediliyor...")
         sem = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
-        tasks = [check_url(sem, session, ch) for ch in all_extracted_channels]
-        
+        tasks = [check_url(sem, session, ch) for ch in all_channels]
         results = await asyncio.gather(*tasks)
-        alive_channels = [ch for ch in results if ch is not None]
-
-        logging.info(f"Kontrol tamamlandı. Aktif kanal sayısı: {len(alive_channels)}")
-
-        # 3. Dosyaya Yaz
-        final_m3u = generate_m3u_output(alive_channels)
-        with open("temiz_liste.m3u", "w", encoding="utf-8") as f:
-            f.write(final_m3u)
         
-        # Kategori istatistiklerini göster
-        stats = {}
-        for ch in alive_channels:
-            stats[ch.category] = stats.get(ch.category, 0) + 1
-        
-        logging.info("--- İŞLEM TAMAMLANDI ---")
-        logging.info(f"Oluşturulan Gruplar: {stats}")
-        logging.info("Dosya: temiz_liste.m3u olarak kaydedildi.")
+        alive_channels = [c for c in results if c]
+
+        # 3. M3U Olarak Kaydet
+        if alive_channels:
+            with open("guncel_liste.m3u", "w", encoding="utf-8") as f:
+                f.write("#EXTM3U\n")
+                for ch in alive_channels:
+                    # Hem tvg-group hem group-title ekliyoruz ki her player tanısın
+                    f.write(f'#EXTINF:-1 group-title="{ch.category}" tvg-group="{ch.category}",{ch.name}\n')
+                    f.write(f"{ch.url}\n")
+            
+            logging.info(f"Başarılı! {len(alive_channels)} kanal 'guncel_liste.m3u' dosyasına yazıldı.")
+        else:
+            logging.warning("Hiç çalışan kanal bulunamadı.")
 
 if __name__ == "__main__":
-    try:
-        asyncio.run(main())
-    except KeyboardInterrupt:
-        pass
+    asyncio.run(main())
