@@ -1,21 +1,23 @@
-name: Python Async IPTV Playlist Commit Workflow
+name: IPTV Otomatik Guncelleme
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Manuel tetikleme için
+  schedule:
+    - cron: '0 */6 * * *' # Her 6 saatte bir otomatik çalışır
   push:
     paths:
-      - script.py
-      - .github/workflows/python-async-iptv-commit.yml
+      - 'script.py'
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    # GitHub'a yazma izni vermek için bu kısım kritik:
+    permissions:
+      contents: write
 
     steps:
     - name: Kodu çek
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0 # Tüm geçmişi çekmek için
 
     - name: Python kurulumu
       uses: actions/setup-python@v5
@@ -30,13 +32,18 @@ jobs:
     - name: Scripti çalıştır
       run: python script.py
 
-    - name: Değişiklikleri repoya ekle ve pushla
-      env:
-        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Değişiklikleri Kontrol Et ve Yukle
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add filtered_playlist.m3u
-        git commit -m "Otomatik: filtered_playlist.m3u güncellendi [ci skip]" || echo "Commit edilecek değişiklik yok."
-        git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
-        git push origin HEAD:${{ github.ref }}
+        
+        # Python kodun hangi dosyayı üretiyorsa onu ekle (Hepsini garantiye alalım)
+        git add *.m3u || echo "M3U dosyası bulunamadı"
+        
+        # Değişiklik var mı kontrol et
+        if git diff --staged --quiet; then
+          echo "Değişiklik yok, işlem sonlandırılıyor."
+        else
+          git commit -m "Otomatik Güncelleme: $(date +'%Y-%m-%d %H:%M') [ci skip]"
+          git push origin HEAD:${{ github.ref }}
+        fi
