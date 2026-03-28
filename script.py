@@ -13,7 +13,6 @@ TIMEOUT = 5
 
 # M3U kaynak linkleri (Buraya güncel linkleri ekleyebilirsiniz)
 M3U_SOURCES = [
-    //'https://raw.githubusercontent.com/GitLatte/patr0n/refs/heads/site/lists/iptvsevenler.m3u',
     'https://raw.githubusercontent.com/Mertcantv/Mertcan/refs/heads/main/%C4%B0zle2.m3u',
     'https://raw.githubusercontent.com/primatzeka/kurbaga/main/NeonSpor/NeonSpor.m3u',
     'https://tinyurl.com/TVCANLI'
