@@ -13,14 +13,12 @@ TIMEOUT = 7
 MAX_CONCURRENT_REQUESTS = 30 
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
 
-# Kaynaklar
 M3U_SOURCES = [
     'https://raw.githubusercontent.com/Mertcantv/Mertcan/refs/heads/main/%C4%B0zle2.m3u',
     'https://raw.githubusercontent.com/primatzeka/kurbaga/main/NeonSpor/NeonSpor.m3u',
     'https://tinyurl.com/TVCANLI'
 ]
 
-# Kategori Dönüştürme Sözlüğü
 CATEGORY_MAPPING = {
     "haber": "Haberler",
     "ulusal": "Ulusal Kanallar",
@@ -41,49 +39,53 @@ class Channel:
     logo: str = ""
 
 def clean_category(raw_cat: str) -> str:
-    """Kategori temizleme ve standartlaştırma."""
     if not raw_cat: return "Genel"
     clean = re.sub(r'[|\[\(].*?[|\]\)]', '', raw_cat) 
     clean = clean.replace(':', '').strip().lower()
     clean = clean.replace('ı', 'i').replace('ü', 'u').replace('ö', 'o').replace('ş', 's').replace('ç', 'c').replace('ğ', 'g')
-
     for key, target in CATEGORY_MAPPING.items():
         if key in clean:
             return target
     return clean.title() if clean else "Genel"
 
+def normalize_channel_identity(name: str):
+    """Kanal ismini temizleyerek standart bir kimlik oluşturur."""
+    # 1. Parantez içlerini ve ekleri sil (HD, SD, Yedek, [TR] vb.)
+    name = re.sub(r'[\[\(].*?[\]\)]', '', name)
+    patterns = [r'\bHD\b', r'\bSD\b', r'\bFHD\b', r'\b4K\b', r'\bYedek\b', r'\bBackup\b', r'\bHEVC\b']
+    for p in patterns:
+        name = re.sub(p, '', name, flags=re.IGNORECASE)
+    
+    # 2. Fazla boşlukları at ve temizle
+    clean_name = ' '.join(name.split()).strip().upper()
+    return clean_name
+
 def parse_m3u(m3u_content: str) -> List[Channel]:
-    """M3U içeriğinden Logo, Grup, İsim ve URL bilgilerini çeker."""
     channels = []
-    # Regex: grup, logo, isim ve url'yi yakalar
     pattern = re.compile(
         r'#EXTINF:.*?(?:group-title|tvg-group)="([^"]*)".*?(?:tvg-logo)="([^"]*)".*?,([^\n\r]+)[\s\n\r]+(http[^\s\n\r]+)', 
         re.IGNORECASE | re.DOTALL
     )
-    
     matches = pattern.findall(m3u_content)
-    seen_urls = set()  # Aynı liste içindeki mükerrerleri engellemek için
+    seen_urls = set()
 
     for match in matches:
         raw_group, logo_url, raw_name, url = match
         url = url.strip()
-        
-        # Eğer bu URL daha önce eklendiyse atla
-        if url in seen_urls:
-            continue
+        if url in seen_urls: continue
             
-        final_cat = clean_category(raw_group)
-        name = raw_name.strip()
+        # KİMLİK BİLGİLERİNİ EŞİTLE
+        std_name = normalize_channel_identity(raw_name)
+        std_category = clean_category(raw_group)
         logo = logo_url.strip()
         
-        if name and url:
-            channels.append(Channel(name=name, category=final_cat, url=url, logo=logo))
+        if std_name and url:
+            channels.append(Channel(name=std_name, category=std_category, url=url, logo=logo))
             seen_urls.add(url)
             
     return channels
 
 async def check_url(sem, session, ch):
-    """Linklerin çalışıp çalışmadığını doğrular."""
     async with sem:
         try:
             async with session.get(ch.url, timeout=TIMEOUT, allow_redirects=True) as response:
@@ -97,50 +99,51 @@ async def check_url(sem, session, ch):
 async def main():
     async with aiohttp.ClientSession(headers={'User-Agent': USER_AGENT}) as session:
         all_channels = []
-        global_seen_urls = set() # Tüm kaynaklar arasında benzersiz URL kontrolü
+        global_seen_urls = set()
+        # Kanal ismi bazlı en iyi logoyu saklamak için (Opsiyonel: İlk bulduğu logoyu herkese verir)
+        logo_map = {} 
         
-        # 1. Verileri Çek ve Birleştir
         for url in M3U_SOURCES:
-            logging.info(f"Liste indiriliyor: {url}")
+            logging.info(f"İndiriliyor: {url}")
             try:
                 async with session.get(url, timeout=15) as resp:
                     if resp.status == 200:
                         text = await resp.text()
                         found = parse_m3u(text)
-                        
                         for ch in found:
                             if ch.url not in global_seen_urls:
+                                # İsim bazlı logo eşleme: TRT 1 HD'nin logosu varsa, TRT 1 SD'ye de onu ver.
+                                if ch.name not in logo_map and ch.logo:
+                                    logo_map[ch.name] = ch.logo
+                                
                                 all_channels.append(ch)
                                 global_seen_urls.add(ch.url)
-                        
-                        logging.info(f"Kaynaktan {len(found)} kanal işlendi.")
             except Exception as e:
-                logging.error(f"Hata oluştu: {url} -> {e}")
+                logging.error(f"Hata: {e}")
 
-        if not all_channels:
-            logging.error("Hiç kanal ayrıştırılamadı.")
-            return
+        if not all_channels: return
 
         # 2. Canlılık Kontrolü
-        logging.info(f"Toplam {len(all_channels)} benzersiz kanal kontrol ediliyor...")
         sem = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
         tasks = [check_url(sem, session, ch) for ch in all_channels]
         results = await asyncio.gather(*tasks)
-        
         alive_channels = [c for c in results if c]
 
-        # 3. M3U Olarak Kaydet
         if alive_channels:
+            # SIRALAMA: İsme göre sırala ki aynı kanallar peş peşe gelsin
+            alive_channels.sort(key=lambda x: (x.category, x.name))
+            
             with open("guncel_liste.m3u", "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n")
                 for ch in alive_channels:
-                    # Sade ve logolu çıktı
-                    f.write(f'#EXTINF:-1 group-title="{ch.category}" tvg-logo="{ch.logo}",{ch.name}\n')
+                    # Logo Eşitleme: Eğer bu kanalın ismi için bir logo bulunduysa hepsine aynı logoyu bas
+                    final_logo = logo_map.get(ch.name, ch.logo)
+                    
+                    # ÇIKTI: Grup, Logo ve İsim artık birebir aynı!
+                    f.write(f'#EXTINF:-1 group-title="{ch.category}" tvg-logo="{final_logo}",{ch.name}\n')
                     f.write(f"{ch.url}\n")
             
-            logging.info(f"BİTTİ! {len(alive_channels)} benzersiz ve aktif kanal kaydedildi.")
-        else:
-            logging.warning("Hiç çalışan kanal bulunamadı.")
+            logging.info(f"BİTTİ! {len(alive_channels)} kanal aynı kimliklerle kaydedildi.")
 
 if __name__ == "__main__":
     asyncio.run(main())
