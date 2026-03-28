@@ -124,8 +124,8 @@ async def main():
             with open("guncel_liste.m3u", "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n")
                 for ch in alive_channels:
-                    # Hem tvg-group hem group-title ekliyoruz ki her player tanısın
-                    f.write(f'#EXTINF:-1 group-title="{ch.category}" tvg-group="{ch.category}",{ch.name}\n')
+                    # Sadece group-title kalsın, tvg-group ve tvg-name etiketlerini kaldırdık
+                    f.write(f'#EXTINF:-1 group-title="{ch.category}",{ch.name}\n')
                     f.write(f"{ch.url}\n")
             
             logging.info(f"Başarılı! {len(alive_channels)} kanal 'guncel_liste.m3u' dosyasına yazıldı.")
