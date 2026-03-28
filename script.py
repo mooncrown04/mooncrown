@@ -19,6 +19,15 @@ M3U_SOURCES = [
     'https://tinyurl.com/TVCANLI'
 ]
 
+# --- SIRALAMA ÖNCELİĞİ ---
+# Buradaki sıraya göre M3U dosyasında en üstte görünecekler.
+# İstediğin zaman buraya yeni gruplar ekleyebilirsin.
+PRIORITY_GROUPS = [
+    "Ulusal Kanallar",
+    "Haberler",
+    "Spor"
+]
+
 CATEGORY_MAPPING = {
     "haber": "Haberler",
     "ulusal": "Ulusal Kanallar",
@@ -49,16 +58,11 @@ def clean_category(raw_cat: str) -> str:
     return clean.title() if clean else "Genel"
 
 def normalize_channel_identity(name: str):
-    """Kanal ismini temizleyerek standart bir kimlik oluşturur."""
-    # 1. Parantez içlerini ve ekleri sil (HD, SD, Yedek, [TR] vb.)
     name = re.sub(r'[\[\(].*?[\]\)]', '', name)
     patterns = [r'\bHD\b', r'\bSD\b', r'\bFHD\b', r'\b4K\b', r'\bYedek\b', r'\bBackup\b', r'\bHEVC\b']
     for p in patterns:
         name = re.sub(p, '', name, flags=re.IGNORECASE)
-    
-    # 2. Fazla boşlukları at ve temizle
-    clean_name = ' '.join(name.split()).strip().upper()
-    return clean_name
+    return ' '.join(name.split()).strip().upper()
 
 def parse_m3u(m3u_content: str) -> List[Channel]:
     channels = []
@@ -68,21 +72,15 @@ def parse_m3u(m3u_content: str) -> List[Channel]:
     )
     matches = pattern.findall(m3u_content)
     seen_urls = set()
-
     for match in matches:
         raw_group, logo_url, raw_name, url = match
         url = url.strip()
         if url in seen_urls: continue
-            
-        # KİMLİK BİLGİLERİNİ EŞİTLE
         std_name = normalize_channel_identity(raw_name)
         std_category = clean_category(raw_group)
-        logo = logo_url.strip()
-        
         if std_name and url:
-            channels.append(Channel(name=std_name, category=std_category, url=url, logo=logo))
+            channels.append(Channel(name=std_name, category=std_category, url=url, logo=logo_url.strip()))
             seen_urls.add(url)
-            
     return channels
 
 async def check_url(sem, session, ch):
@@ -96,11 +94,19 @@ async def check_url(sem, session, ch):
             pass
         return None
 
+def get_group_priority(category_name: str) -> int:
+    """Kategorinin öncelik sırasını döndürür."""
+    try:
+        # Eğer kategori PRIORITY_GROUPS içindeyse index numarasını döner (0, 1, 2...)
+        return PRIORITY_GROUPS.index(category_name)
+    except ValueError:
+        # Eğer listede yoksa çok büyük bir numara döner ki en sona kalsın
+        return 999
+
 async def main():
     async with aiohttp.ClientSession(headers={'User-Agent': USER_AGENT}) as session:
         all_channels = []
         global_seen_urls = set()
-        # Kanal ismi bazlı en iyi logoyu saklamak için (Opsiyonel: İlk bulduğu logoyu herkese verir)
         logo_map = {} 
         
         for url in M3U_SOURCES:
@@ -112,10 +118,8 @@ async def main():
                         found = parse_m3u(text)
                         for ch in found:
                             if ch.url not in global_seen_urls:
-                                # İsim bazlı logo eşleme: TRT 1 HD'nin logosu varsa, TRT 1 SD'ye de onu ver.
                                 if ch.name not in logo_map and ch.logo:
                                     logo_map[ch.name] = ch.logo
-                                
                                 all_channels.append(ch)
                                 global_seen_urls.add(ch.url)
             except Exception as e:
@@ -123,27 +127,25 @@ async def main():
 
         if not all_channels: return
 
-        # 2. Canlılık Kontrolü
         sem = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
         tasks = [check_url(sem, session, ch) for ch in all_channels]
         results = await asyncio.gather(*tasks)
         alive_channels = [c for c in results if c]
 
         if alive_channels:
-            # SIRALAMA: İsme göre sırala ki aynı kanallar peş peşe gelsin
-            alive_channels.sort(key=lambda x: (x.category, x.name))
+            # --- ÖZEL SIRALAMA MANTIĞI ---
+            # 1. Önce get_group_priority ile kategori sırasına bakılır.
+            # 2. Kategoriler aynıysa isme göre alfabetik dizilir.
+            alive_channels.sort(key=lambda x: (get_group_priority(x.category), x.category, x.name))
             
             with open("guncel_liste.m3u", "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n")
                 for ch in alive_channels:
-                    # Logo Eşitleme: Eğer bu kanalın ismi için bir logo bulunduysa hepsine aynı logoyu bas
                     final_logo = logo_map.get(ch.name, ch.logo)
-                    
-                    # ÇIKTI: Grup, Logo ve İsim artık birebir aynı!
                     f.write(f'#EXTINF:-1 group-title="{ch.category}" tvg-logo="{final_logo}",{ch.name}\n')
                     f.write(f"{ch.url}\n")
             
-            logging.info(f"BİTTİ! {len(alive_channels)} kanal aynı kimliklerle kaydedildi.")
+            logging.info(f"BİTTİ! {len(alive_channels)} kanal sıralı şekilde kaydedildi.")
 
 if __name__ == "__main__":
     asyncio.run(main())
