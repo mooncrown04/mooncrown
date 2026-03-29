@@ -14,6 +14,7 @@ MAX_CONCURRENT_REQUESTS = 30
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
 
 M3U_SOURCES = [
+    'https://raw.githubusercontent.com/smartgmr/cdn/refs/heads/main/Perfect.m3u',
     'https://raw.githubusercontent.com/Mertcantv/Mertcan/refs/heads/main/%C4%B0zle2.m3u',
     'https://raw.githubusercontent.com/primatzeka/kurbaga/main/NeonSpor/NeonSpor.m3u',
     'https://tinyurl.com/TVCANLI'
