@@ -171,10 +171,6 @@ https://tinyurl.com/SyndraxicBORfm
 https://tinyurl.com/SyndraxicDAMARfm
 #EXTINF:-1 group-title="Arabesk Radyolar" tvg-logo="",KARESİ RADYO
 https://tinyurl.com/SyndraxicKRS
-#EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/8kr.png",8 КАНАЛ КРАСНОЯРСКИЙ КРАЙ
-http://live.mediabaytv.workers.dev/?ID=414
-#EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/a2i-music.png",A2I MUSIC
-http://live.mediabaytv.workers.dev/?ID=453
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/a2i-r.png",A2I RELIGION
 http://live.mediabaytv.workers.dev/?ID=452
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/A2i-t.png",A2ITV
@@ -183,8 +179,10 @@ http://live.mediabaytv.workers.dev/?ID=451
 http://live.mediabaytv.workers.dev/?ID=654
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/10-2021/Al-Jazeera-eng.png",AL JAZEERA ENGLISH
 http://live.mediabaytv.workers.dev/?ID=653
-#EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/ugcTZashgabadmb.png",ASGABAT
-http://live.mediabaytv.workers.dev/?ID=386
+#EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/arb.png",ARB
+http://live.mediabaytv.workers.dev/?ID=571
+#EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/08-2019/arb-24.png",ARB 24
+http://live.mediabaytv.workers.dev/?ID=572
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/Js/246030/logo.png",ATV
 http://live.mediabaytv.workers.dev/?ID=86
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/AzTVnew.png",AZTV
@@ -213,40 +211,26 @@ http://live.mediabaytv.workers.dev/?ID=427
 http://live.mediabaytv.workers.dev/?ID=90
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://yt3.googleusercontent.com/T10TP4qbY584Rx30XlDn_7EPIvo4OsI6wtdlh2UCtQWithOqWNqxiSnhPY3EwX1oM4kevKcTEbI",IDMAN TV
 http://live.mediabaytv.workers.dev/?ID=92
-#EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/04-2024/505.jpg",ISHONCH TV
-http://live.mediabaytv.workers.dev/?ID=700
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/692.jpg",ISTIQLOL TV
 http://live.mediabaytv.workers.dev/?ID=692
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/Jf5xPjahonnamomb.png",JAHONNAMO
 http://live.mediabaytv.workers.dev/?ID=106
-#EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/10-2025/570.jpg",KNTV
-http://live.mediabaytv.workers.dev/?ID=714
-#EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/06-2024/525.jpg",LIVETVAZ
-http://live.mediabaytv.workers.dev/?ID=704
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/aGaA6medeniyyettvmb.png",MEDENIYYET
 http://live.mediabaytv.workers.dev/?ID=98
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/mediabay1235.png",MEDIABAY TV
 http://live.mediabaytv.workers.dev/?ID=491
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/milliylogo.png",MILLIYTV
 http://live.mediabaytv.workers.dev/?ID=391
-#EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/540.jpg",MIMI TV
-http://live.mediabaytv.workers.dev/?ID=707
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/06-2018/nrbtv.png",NRBTV
 http://live.mediabaytv.workers.dev/?ID=420
-#EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/A/Bt/246120/logo.png",NTV
-http://live.mediabaytv.workers.dev/?ID=693
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/12222.jpg",O'ZBEKISTON
 http://live.mediabaytv.workers.dev/?ID=140
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/Ozbekiston242.jpg",O'ZBEKISTON 24
 http://live.mediabaytv.workers.dev/?ID=393
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/real-tv.png",REAL TV
 http://live.mediabaytv.workers.dev/?ID=475
-#EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/09-2025/8855.jpg",RETROTV
-http://live.mediabaytv.workers.dev/?ID=712
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/hfzKVtvsafinamb.png",SAFINA
 http://live.mediabaytv.workers.dev/?ID=110
-#EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/545.jpg",SHIFO TV
-http://live.mediabaytv.workers.dev/?ID=708
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/iTUCW2.png",TOSHKENT
 http://live.mediabaytv.workers.dev/?ID=136
 #EXTINF:-1 group-title="Azerbeycan Mediabaytv" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/10-2019/TRT-World.png",TRT WORLD
@@ -299,8 +283,6 @@ https://goldvod.org/live/hpgdiscoo/123456/262.m3u8
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1406
 #EXTINF:-1 group-title="Digerleri" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/a_haber_Evs.png",A HABER
 https://zeustv432423.info/xahaber/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Digerleri" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/Js/246030/logo.png",ATV
-https://zeustv432423.info/xatv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Digerleri" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/X/rT/245949/logo.png",SHOW TV
 https://ciner.daioncdn.net/showtv/showtv.m3u8?app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 #EXTINF:-1 group-title="Digerleri" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304475.png",TV 8
@@ -321,8 +303,6 @@ https://goldvod.org/live/hpgdiscoo/123456/187.m3u8
 http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=246126
 #EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/T/Rx/246135/logo.png",A SPOR
 http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=246135
-#EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/Js/246030/logo.png",ATV
-http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=246030
 #EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/z/s0/246105/logo.png",BEYAZ TV
 http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=246105
 #EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/U/Cg/245940/logo.png",CNN TÜRK
@@ -335,8 +315,6 @@ http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=245961
 http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=246144
 #EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/7/RQ/246027/logo.png",HABER TÜRK
 http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=246027
-#EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/F/zn/246096/logo.png",HALK TV
-http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=246096
 #EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/X/p9/394506/logo.png",HT SPOR
 http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=394506
 #EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/E/ON/246138/logo.png",KANAL 7
@@ -347,8 +325,6 @@ http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=245931
 http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=245997
 #EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/A/Bt/246120/logo.png",NTV
 http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=246120
-#EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/X/rT/245949/logo.png",SHOW TV
-http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=245949
 #EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/7/lm/246003/logo.png",SPOR SMART
 http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=246003
 #EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/Y/Sk/245994/logo.png",STAR
@@ -363,8 +339,6 @@ http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=246066
 http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=246069
 #EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/tg/245943/logo.png",TRT 1
 http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=245943
-#EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/v/Ri/246039/logo.png",TRT 2
-http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=246039
 #EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/c/Bc/246024/logo.png",TRT HABER
 http://schedule-statutory-latex-colored.trycloudflare.com/Go.php?ID=246024
 #EXTINF:-1 group-title="Dsmart" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/K/_x/245946/logo.png",TRT SPOR
@@ -431,6 +405,8 @@ http://live.smartglwiz.workers.dev/?ID=BaharTV_HD
 http://live.smartglwiz.workers.dev/?ID=BBCPersian_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307475.png",BBC PERSIAN AFGHANISTAN
 http://live.smartglwiz.workers.dev/?ID=BBCPersianAfghan_HD
+#EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307588.png",BEGUM
+http://live.smartglwiz.workers.dev/?ID=Begum_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307409.png",CAFE TRADE TV
 http://live.smartglwiz.workers.dev/?ID=CafeTradeTV_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307513.png",CHANNEL ONE
@@ -465,6 +441,8 @@ http://live.smartglwiz.workers.dev/?ID=EslahTV_HD
 http://live.smartglwiz.workers.dev/?ID=EuroNewsFarsi_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_302142.png",FARHANGE IRAN ZAMIN
 http://live.smartglwiz.workers.dev/?ID=FarhangeIranZamin_HD
+#EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307453.png",FARSI TV
+http://live.smartglwiz.workers.dev/?ID=FarsiTV_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307584.png",FAZA
 http://live.smartglwiz.workers.dev/?ID=Faza_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_300202.png",FILM 1
@@ -521,6 +499,8 @@ http://live.smartglwiz.workers.dev/?ID=ICnet_HD
 http://live.smartglwiz.workers.dev/?ID=ICnet2_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_300316.png",ICNET 3
 http://live.smartglwiz.workers.dev/?ID=ICnet3_HD
+#EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_302508.png",IFILM FARSI
+http://live.smartglwiz.workers.dev/?ID=iFilmFarsi_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/06-2019/imam1.png",IMAM HUSSEIN TV 1
 http://live.smartglwiz.workers.dev/?ID=ImamHusseinTV1_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307372.png",IMAN BE MASIH
@@ -535,10 +515,10 @@ http://live.smartglwiz.workers.dev/?ID=IranInternational_HD
 http://live.smartglwiz.workers.dev/?ID=IranProudSeriesPlus_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_302132.png",IRANE ARYAEE
 http://live.smartglwiz.workers.dev/?ID=IranEAryaee_HD
-#EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_300411.png",IRIB CHANNEL 4
-http://live.smartglwiz.workers.dev/?ID=IRIBChannel4_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_300401.png",IRIB OFOGH
 http://live.smartglwiz.workers.dev/?ID=IRIBOfogh_HD
+#EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307494.png",IRIB VARZESH
+http://live.smartglwiz.workers.dev/?ID=IRIBVarzesh_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307562.png",IRTV
 http://live.smartglwiz.workers.dev/?ID=IRTV_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307101.png",ISRAEL PARS TV
@@ -551,6 +531,8 @@ http://live.smartglwiz.workers.dev/?ID=ITN_HD
 http://live.smartglwiz.workers.dev/?ID=ITNEurope_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/Jf5xPjahonnamomb.png",JAHONNAMO
 http://live.smartglwiz.workers.dev/?ID=Jahonnamo_HD
+#EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307316.png",JEWISH TV
+http://live.smartglwiz.workers.dev/?ID=JewishTV_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_306960.png",JIN TV
 http://live.smartglwiz.workers.dev/?ID=JinTV_HD
 #EXTINF:-1 group-title="Glwiz Persian" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_303985.png",KANAL JADID
@@ -899,70 +881,108 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e18
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlists.m3u8
 #EXTINF:-1 group-title="Muzik" tvg-logo="https://i.ibb.co/R4pcKqK/powerturk-slow.png",POWERTÜRK SLOW
 https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/584.png",AXN BLACK
-http://live.cdn-polskie.workers.dev/?ID=84
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/560.png",BBC FIRST
-http://live.cdn-polskie.workers.dev/?ID=60
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/519.png",CANAL+ SERIALE
-http://live.cdn-polskie.workers.dev/?ID=19
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/626.png",CINEMAX 2
-http://live.cdn-polskie.workers.dev/?ID=126
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/594.png",DISCOVERY SCIENCE
-http://live.cdn-polskie.workers.dev/?ID=94
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/562.png",DOMO+
-http://live.cdn-polskie.workers.dev/?ID=62
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/507.png",ELEVEN SPORTS 1
-http://live.cdn-polskie.workers.dev/?ID=7
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/544.png",ELEVEN SPORTS 4
-http://live.cdn-polskie.workers.dev/?ID=44
-#EXTINF:-1 group-title="Polskietv" tvg-logo="http://yt3.ggpht.com/uLs2ZkqijBRkGlO0nSIJJpF_BJZhxdtaVq5lQXDnnwPTS41FekCPAqVz0ZU2RZjfhlvClkw-BQ",FOX
-http://live.cdn-polskie.workers.dev/?ID=93
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/523.png",HBO 3
-http://live.cdn-polskie.workers.dev/?ID=23
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/572.png",HGTV
-http://live.cdn-polskie.workers.dev/?ID=72
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/532.png",METRO
-http://live.cdn-polskie.workers.dev/?ID=32
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/558.png",13 ULICA
+http://live.cdn-polskie.workers.dev/?ID=58
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/613.png",AXN SPIN
+http://live.cdn-polskie.workers.dev/?ID=113
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/513.png",CANAL+ 360
+http://live.cdn-polskie.workers.dev/?ID=13
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/623.png",CANAL+ EXTRA 2
+http://live.cdn-polskie.workers.dev/?ID=123
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/625.png",CANAL+ EXTRA 4
+http://live.cdn-polskie.workers.dev/?ID=125
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/615.png",COMEDY CENTRAL
+http://live.cdn-polskie.workers.dev/?ID=115
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/570.png",DISCOVERY CHANNEL
+http://live.cdn-polskie.workers.dev/?ID=70
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/607.png",DISCOVERY HISTORIA
+http://live.cdn-polskie.workers.dev/?ID=107
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/521.png",ELEVEN SPORTS 2
+http://live.cdn-polskie.workers.dev/?ID=21
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/600.png",FILMBOX EXTRA
+http://live.cdn-polskie.workers.dev/?ID=100
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/614.png",FILMBOX FAMILY
+http://live.cdn-polskie.workers.dev/?ID=114
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/515.png",HBO 2
+http://live.cdn-polskie.workers.dev/?ID=15
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/566.png",KINO POLSKA MUZYKA
+http://live.cdn-polskie.workers.dev/?ID=66
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/585.png",MCM TOP
+http://live.cdn-polskie.workers.dev/?ID=85
 #EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/632.png",MOTOWIZJA
 http://live.cdn-polskie.workers.dev/?ID=132
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/629.png",NATIONAL GEOGRAPHIC
-http://live.cdn-polskie.workers.dev/?ID=129
 #EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/616.png",NICK JR
 http://live.cdn-polskie.workers.dev/?ID=116
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/577.png",POLSAT
-http://live.cdn-polskie.workers.dev/?ID=77
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/578.png",POLSAT NEWS
-http://live.cdn-polskie.workers.dev/?ID=78
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/602.png",POLSAT SERIALE
-http://live.cdn-polskie.workers.dev/?ID=102
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/618.png",POLSAT RODZINA
+http://live.cdn-polskie.workers.dev/?ID=118
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/506.png",POLSAT SPORT
+http://live.cdn-polskie.workers.dev/?ID=6
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/508.png",POLSAT SPORT 2
+http://live.cdn-polskie.workers.dev/?ID=8
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/634.png",POLSAT SPORT FIGHT
+http://live.cdn-polskie.workers.dev/?ID=134
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/628.png",SCIFI
+http://live.cdn-polskie.workers.dev/?ID=128
 #EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/563.png",TTV
 http://live.cdn-polskie.workers.dev/?ID=63
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/554.png",TV PULS 2
-http://live.cdn-polskie.workers.dev/?ID=54
 #EXTINF:-1 group-title="Polskietv" tvg-logo="https://yt3.ggpht.com/Eku_zs4qo9skHxO8r9r4P-QxID2SBa78_WETR9pddyZ6rRKZ6M9RrSqlM6kFriAsfoU40zUighc",TV4
 http://live.cdn-polskie.workers.dev/?ID=33
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/505.png",TVN
+http://live.cdn-polskie.workers.dev/?ID=5
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/550.png",TVN 24
+http://live.cdn-polskie.workers.dev/?ID=50
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/552.png",TVN 7
+http://live.cdn-polskie.workers.dev/?ID=52
 #EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/605.png",TVN TURBO
 http://live.cdn-polskie.workers.dev/?ID=105
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/592.png",TVP
-http://live.cdn-polskie.workers.dev/?ID=92
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/504.png",TVP 3
-http://live.cdn-polskie.workers.dev/?ID=4
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/574.png",TVS
-http://live.cdn-polskie.workers.dev/?ID=74
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/531.png",TVP ABC
+http://live.cdn-polskie.workers.dev/?ID=31
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/576.png",TVP KULTURA
+http://live.cdn-polskie.workers.dev/?ID=76
 #EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/603.png",VIASAT HISTORY
 http://live.cdn-polskie.workers.dev/?ID=103
-#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/557.png",WP
-http://live.cdn-polskie.workers.dev/?ID=57
-#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/ANTENASTARSHD.png",ANTENA STARS
-http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1385
-#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/560.png",BBC FIRST
-http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1835
+#EXTINF:-1 group-title="Polskietv" tvg-logo="https://www.polskie.tv/play/images/logos/586.png",VIASAT NATURE
+http://live.cdn-polskie.workers.dev/?ID=86
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/a7tv.jpg",A7 TV
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1988
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/ACASAGOLD.png",ACASA GOLD
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1383
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/AGROTV.png",AGRO TV
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1561
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/aleph.webp",ALEPH NEWS
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1972
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_303571.png",AMC
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1301
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/comedy-play.jpg",ANTENA COMEDY
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1979
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/iasitv.png",ARGES TV
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1990
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/academy.png",ATOMIC ACADEMY TV
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1976
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/559.png",AXN
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1560
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/584.png",AXN BLACK
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1807
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/613.png",AXN SPIN
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1809
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/583.png",AXN WHITE
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1811
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/BBC-EARTH.png",BBC EARTH
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1558
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/528.png",CARTOON NETWORK
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1476
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/1055172-cartoonitologoconfetti-1280.jpg",CARTOONITO
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1470
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/516.png",CINEMAX
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1451
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/615.png",COMEDY CENTRAL
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1447
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/02/crime-investigation.png",CRIME & INVESTIGATION
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1899
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2024/05/da-vinci.png",DAVINCI
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1763
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="http://sarkor.tv/static/images/channels/Deutsche Welle HD.png",DEUTSCHE WELLE
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1813
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/526.png",DISNEY CHANNEL
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1469
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/529.png",DISNEY JUNIOR
@@ -971,36 +991,48 @@ http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1467
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1983
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="http://sarkor.tv/static/images/channels/Duck TV HD.png",DUCK TV
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1477
-#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/ETNOTV.png",ETNOTV
-http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1503
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/E-ENTERRTAINENT.png",E ENTERTAINMENT
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1554
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/EPICDRAMA.png",EPICDRAMA
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1448
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/517.png",EUROSPORT 1
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1399
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/518.png",EUROSPORT 2
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1340
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/520.png",FILMBOX PREMIUM
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1824
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/FISHING-AND-HUNTING.png",FISHING AND HUNTING
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1551
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/hwllo-tATE.png",HELLO TASTE
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1994
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/572.png",HGTV
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1759
-#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/impact-manele.png",IMPACT TV MANELE
-http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=2001
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/02/id-investigation.png",ID INVESTIGATION
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1897
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/Impact-dance.png",IMPACT TV DANCE
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1999
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/Informatia-TV.png",INFORMATIA TV
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=2003
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/JIMJAM.png",JIM JAM
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1475
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/jobtv.png",JOB TV
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=2005
-#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/a/-p/245931/logo.png",KANAL D
-http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1376
-#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/Kanal-D2-fin.png",KANAL D2
-http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1321
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/magictv.png",MAGIC TV
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1517
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/medocool.jpg",MEDICOOL TV
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=2007
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/MINIMAX.png",MINIMAX
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1478
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/mireasa.jpeg",MIREASA TV
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=2009
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="http://sarkor.tv/static/images/channels/MTV.png",MTV
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1323
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/musceltv.png",MUSCEL TV
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=2016
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/02/nat-geo-people.png",NATIONAL GEOGRAPHIC PEOPLE
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1894
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/NCNTV.png",NCN
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1312
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/NICKJR.png",NICK JR.
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1474
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/NICKTOONS.png",NICK TOONS
@@ -1025,6 +1057,10 @@ http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1921
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1922
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/PROARENA.png",PRO ARENA
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1386
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/PROCINEMA.png",PRO CINEMA
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1335
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/10/profi24.jpeg",PROFI 24 TV
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=2022
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2024/05/rai-1.png",RAI 1
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1757
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/REALITATEAPLUS.png",REALITATEA TV
@@ -1033,16 +1069,24 @@ http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1424
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1504
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/telestar-1.png",TELESTAR 1
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1316
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/U/Wm/246069/logo.png",TLC
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1317
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/TRALALA.png",TRALALA
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1457
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/TRINITAS.png",TRINITAS TV
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1329
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2024/11/1000.png",TV 1000
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1817
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/FAVORITTV.png",TV FAVORIT
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1505
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2024/05/tv-paprika.png",TV PAPRIKA
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1765
-#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2023/01/TVR2HD.png",TVR 2
-http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1379
-#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2025/02/tvri.png",TVR INTERNATIONAL
-http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1857
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2024/10/tvr-folclor-1920x1080px_68992300.jpg",TVR FOLCLOR
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1789
 #EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://rds.live/wp-content/uploads/2024/07/sigla-tvr-sport-1920x1080px_40674600.jpg",TVR SPORT
 http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1778
+#EXTINF:-1 group-title="Romania Rds Tv" tvg-logo="https://www.polskie.tv/play/images/logos/586.png",VIASAT NATURE
+http://schedule-statutory-latex-colored.trycloudflare.com/Rds.php?ID=1546
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/24 техно.png",24 ТЕХНО
 http://live.sarkortv.workers.dev/?ID=45
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/365 дней ТВ.png",365 ДНЕЙ ТВ
@@ -1147,16 +1191,12 @@ http://live.sarkortv.workers.dev/?ID=182
 http://live.sarkortv.workers.dev/?ID=183
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/NurafshonTV.png",NURAFSHONTV
 http://live.sarkortv.workers.dev/?ID=87
-#EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Ozbekiston.png",OZBEKISTON
-http://live.sarkortv.workers.dev/?ID=8
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Ozbekiston 24 HD.png",OZBEKISTON 24
 http://live.sarkortv.workers.dev/?ID=20
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Renessans TV.png",RENESSANS TV
 http://live.sarkortv.workers.dev/?ID=88
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/RU.TV.png",RU.TV
 http://live.sarkortv.workers.dev/?ID=72
-#EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/S Iqbol SD.png",S IQBOL
-http://live.sarkortv.workers.dev/?ID=157
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Sevimli HD.png",SEVIMLI
 http://live.sarkortv.workers.dev/?ID=25
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Sport TV HD.png",SPORT TV
@@ -1309,8 +1349,6 @@ http://live.sarkortv.workers.dev/?ID=100
 http://live.sarkortv.workers.dev/?ID=111
 #EXTINF:-1 group-title="Sarkortv" tvg-logo="http://sarkor.tv/static/images/channels/Хабар24 SD.png",ХАБАР24
 http://live.sarkortv.workers.dev/?ID=131
-#EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17776.jpg",13. BÖLGEYE SALDIRI▪ASSAULT ON PRECINCT 13 ➱ 1976 TRALTYAZI
-http://movie.okru.workers.dev/?ID=10149725219228&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://i.ebayimg.com/images/g/Lg0AAOSw-uVfJHru/s-l1200.jpg",194. JUMANJI 3
 https://vidmody.com/vs/tt7975244
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://www.hdfilmcehennemi.nl/images/list/poster/gladyator-izle-hd.webp",198. GLADYATOR
@@ -1333,10 +1371,10 @@ https://vidmody.com/vs/tt1587310
 http://movie.okru.workers.dev/?ID=10069419698588&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17880.jpg",ALTERED ➱ 2025 TRALTYAZI
 http://movie.okru.workers.dev/?ID=9989365115292&video.mp4
-#EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a16422.jpg",ARMAND ➱ 2024 TRDUB
-http://movie.okru.workers.dev/?ID=9754493266332&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17840.jpg",ASKERIN BABASI▪FATHER OF A SOLDIER ➱ 1964 TRALTYAZI
 http://movie.okru.workers.dev/?ID=10018486495644&video.mp4
+#EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17699.jpg",ATEŞLI YOL▪AGNEEPATH ➱ 2012 TRALTYAZI
+http://movie.okru.workers.dev/?ID=9682827291036&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17840.jpg",AVANAKLAR MANGASI▪DELTA FARCE ➱ 2007 TRALTYAZI
 http://movie.okru.workers.dev/?ID=10023007037852&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17845.jpg",BIN BABANIN OĞLU▪O FILHO DE MIL HOMENS ➱ 2025 TRDUB
@@ -1349,10 +1387,8 @@ http://movie.okru.workers.dev/?ID=9935158585756&video.mp4
 http://movie.okru.workers.dev/?ID=10135196871068&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17803.jpg",CEHENNEM: ÖLÜM NEREDE YAŞIYOR▪GEHENNA: WHERE DEATH LIVES ➱ 2016 TRALTYAZI
 http://movie.okru.workers.dev/?ID=10095787387292&video.mp4
-#EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17640.jpg",CEZALANDIRICI▪MISSIONARY MAN ➱ 2007 TRALTYAZI
-http://movie.okru.workers.dev/?ID=9750541248924&video.mp4
-#EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a14181.jpg",DRAKULA: SON YOLCULUK▪THE LAST VOYAGE OF THE DEMETER ➱ 2023 TRDUB
-http://movie.okru.workers.dev/?ID=9702407416220&video.mp4
+#EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a14600.jpg",DAMPYR
+http://movie.okru.workers.dev/?ID=7191400294820&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17875.jpg",DURGUN HAYAT▪STILL LIFE ➱ 2013 TRALTYAZI
 http://movie.okru.workers.dev/?ID=10008000801180&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17869.jpg",EN FRYGTELIG KVINDE ➱ 2017 TRALTYAZI
@@ -1385,6 +1421,8 @@ http://movie.okru.workers.dev/?ID=10041661073820&video.mp4
 http://movie.okru.workers.dev/?ID=10033591036316&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17828.jpg",HALKA▪RINGU ➱ 1998 TRALTYAZI
 http://movie.okru.workers.dev/?ID=10033591298460&video.mp4
+#EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a13369.jpg",HOUNDED
+http://movie.okru.workers.dev/?ID=5436164483492&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17863.jpg",HOUSE ➱ 2008 TRALTYAZI
 http://movie.okru.workers.dev/?ID=10013657606556&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17925.jpg",HZ. MUHAMMED SON PEYGAMBER▪MUHAMMAD: THE LAST PROPHET ➱ 2002 TRDUB
@@ -1395,14 +1433,14 @@ http://movie.okru.workers.dev/?ID=10128162630044&video.mp4
 http://movie.okru.workers.dev/?ID=10124503034268&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17928.jpg",INVITATION TO HELL ➱ 1984 TRALTYAZI
 http://movie.okru.workers.dev/?ID=9944375044508&video.mp4
+#EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17706.jpg",JESTER: İNTIKAM GECESI▪THE JESTER ➱ 2023 TRDUB
+http://movie.okru.workers.dev/?ID=9656496368028&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17898.jpg",JUTLAND PRENSI▪PRINCE OF JUTLAND ➱ 1994 TRDUB
 http://movie.okru.workers.dev/?ID=9969837287836&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17862.jpg",KAHRAMAN KAN▪THE BLOOD OF HEROES ➱ 1989 TRALTYAZI
 http://movie.okru.workers.dev/?ID=10013657541020&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17895.jpg",KALBIMDEKI SESLER▪MUSIC WITHIN ➱ 2007 TRALTYAZI
 http://movie.okru.workers.dev/?ID=9997600958876&video.mp4
-#EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a15923.jpg",KAN VE ET▪FLESH + BLOOD ➱ 1985 TRDUB
-http://movie.okru.workers.dev/?ID=9704195041692&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17833.jpg",KANADA SALAMI▪CANADIAN BACON ➱ 1995 TRDUB
 http://movie.okru.workers.dev/?ID=10041661794716&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17842.jpg",KARA BÜYÜ▪NEEDLE ➱ 2010 TRDUB
@@ -1455,8 +1493,6 @@ http://movie.okru.workers.dev/?ID=10106295167388&video.mp4
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_1080p.m3u8?sid=IUlyczhCBES7nvvwJSIycw&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=2800000
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17831.jpg",TANU VE MANU'NUN DÜĞÜNÜ DÖNÜŞ▪TANU WEDS MANU: RETURNS ➱ 2015 TRALTYAZI
 http://movie.okru.workers.dev/?ID=10050164173212&video.mp4
-#EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17779.jpg",THE COFFEE TABLE▪LA MESITA DEL COMEDOR ➱ 2022 TRALTYAZI
-http://movie.okru.workers.dev/?ID=10149725153692&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17903.jpg",THE DRILLER KILLER ➱ 1979 TRALTYAZI
 http://movie.okru.workers.dev/?ID=9978797631900&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17784.jpg",TIME OUT OF MIND ➱ 2014 TRDUB
@@ -1473,8 +1509,6 @@ http://movie.okru.workers.dev/?ID=10116712376732&video.mp4
 http://movie.okru.workers.dev/?ID=10008923351452&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17907.jpg",WILDCAT ➱ 2025 TRALTYAZI
 http://movie.okru.workers.dev/?ID=9978797959580&video.mp4
-#EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a10799.jpg",XTREMO
-http://movie.okru.workers.dev/?ID=3549795789220&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a830.jpg",ZOMBIELAND ➱ 2009 TRDUB
 http://movie.okru.workers.dev/?ID=10115999279516&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a5514.jpg",ZOR GECE▪ROUGH NIGHT ➱ 2017 TRDUB
@@ -1483,6 +1517,10 @@ http://movie.okru.workers.dev/?ID=10115999345052&video.mp4
 http://movie.okru.workers.dev/?ID=241368443263&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a12171.jpg",ÇATI KATI▪LOFT ➱ 2010 TRALTYAZI
 http://movie.okru.workers.dev/?ID=10094976051612&video.mp4
+#EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17704.jpg",ÇIFTLIĞIN ESRARI▪GRANDMOTHER'S HOUSE ➱ 1988 TRALTYAZI
+http://movie.okru.workers.dev/?ID=9656496564636&video.mp4
+#EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17778.jpg",ÖDÜLE YOLCULUK▪DUETS ➱ 2000 TRDUB
+http://movie.okru.workers.dev/?ID=10148147833244&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17866.jpg",ÖLÜM TRENI▪DEATH TRAIN ➱ 1993 TRDUB
 http://movie.okru.workers.dev/?ID=10008923482524&video.mp4
 #EXTINF:-1 group-title="Sinema" tvg-logo="https://webteizle.info/i/afis/b/a17786.jpg",ÖLÜMSÜZLÜK İKSIRI▪ABADI NAN JAYA ➱ 2025 TRDUB
@@ -1565,6 +1603,8 @@ http://schedule-statutory-latex-colored.trycloudflare.com/Tivizon.php?ID=tv8
 http://schedule-statutory-latex-colored.trycloudflare.com/Tivizon.php?ID=tv8bucuk
 #EXTINF:-1 group-title="Turk Hd+ Line" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kZVDU4urtdSMj-Ubv76W22JRs-GiLQN1UA29bzu4aa6uk",360
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
+#EXTINF:-1 group-title="Turk Hd+ Line" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/Js/246030/logo.png",ATV
+http://89.187.191.41/ATV-HD-TR/video.m3u8
 #EXTINF:-1 group-title="Turk Hd+ Line" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/z/s0/246105/logo.png",BEYAZ TV
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
 #EXTINF:-1 group-title="Turk Hd+ Line" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/dost_tv_9Qk.png",DOST TV
@@ -1589,26 +1629,36 @@ https://tv-trtworld.medya.trt.com.tr/master.m3u8
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #EXTINF:-1 group-title="Turk Hd+ Line" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tv100-tr.png",TV100
 https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",24 KITCHEN |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4285350247d9108523af16
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",24 KITCHEN |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=329569928743df0cdba03a
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",360 RAW |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=170264519118ae819835cf
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",24 TV |E
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3822901239bd6be40caf9f
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",360 |H
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=16514551990e3d8db6f32c
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",A HABER |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=5352726017e63108dd805
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",A HABER |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1596095882fdd4026d36d3
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",A PARA RAW |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4202445834465d29da6f7d
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",A SPOR RAW |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2777121053d08600063c17
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",A SPOR |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=25567110304fffde3b8356
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",A SPOR |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=15619589718ca092723846
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",A2 TV |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=18358479662c858232ad42
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",A2 |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1289576145f4a30966b62f
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ADA TV |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2134735285eb4e9477400e
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ADIBESA MASALLARI |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=832790897b403ddd1fe12
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",AFYON T RK TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=14575589141907d1e6cec
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",AGRO TV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1633587820a5082dd564ac
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",AKSARAY KANAL 68 |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=955806672ab490c782ba4
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ALEM RADYO |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=809445873adc87cc8e714
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ANADOLU DERNEK TV |E
@@ -1623,12 +1673,18 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4063596417
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3913298991992a791b01df
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ANIMAUX |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2103702130bead160c7ffd
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ANKARA T RKIYEM TV |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=144335536316f4282a128f
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ANTALYA KANAL V |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1940767005c748bebdc2f3
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ARTI TV |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=25937003239fee2c1fbe0
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ATV ALANYA |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=930209556b3bf862e5da2
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ATV EUROPA |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=90085139cba3d56bee4d
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ATV RAW |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=962169494a29c41c35a92
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ATV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=129909794f57787e5c036
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ATV |D
@@ -1639,30 +1695,16 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=455930425a
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=33432306912dbd210ac6e0
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BABY TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2751658995d49a2cc80459
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BARBIE ANIMATION 2 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2805731236e2a2f0b202f
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BBC EARTH |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=222849685684ff542877de
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BBC EARTH |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2618455562b77b2a0d88a2
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN 1 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2919229346e755c71b26ac
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN BOX OFFICE 2 |H
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1522640908b912c57f8d1
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN GURME |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=358323085863cb2e070a61
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN MOVIES ACTION |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=18734781318dbae7eb6421
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN MOVIES TURK |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=33905759482053e27c9b0f
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SERIES 1 |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=21909222989587d08289a0
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SERIES 3 |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=41664187788b1f13619a77
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN MOVIES FAMILY |E
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=24851991523ab5180680ed
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SERIES COMEDY |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1668144911c47a13aa17a9
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SERIES SCI-FI |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3016529666dac6c6cef893
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPORTS 1 FEED |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=27290886061b49e95702e6
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPORTS 1 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3840475653430b3726024b
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPORTS 1 |D
@@ -1673,20 +1715,16 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3001133946
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3428984703931537ad5cb4
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPORTS 2 |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=144724150649fb3ed7eec1
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPORTS 3 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2063713299b05d8f73388
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPORTS 5 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=273796348642fb87ac24d5
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPORTS 5 |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=383175761899a7add480e9
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPORTS 8K FEED |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=21134623980ed579742af1
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPORTS MAX 1 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4071474743f02bc2c5b4b9
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPORTS FEED |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=267105889df7eebc2e471
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPORTS HABER |E
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=11973360003055e9177b38
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPORTS MAX 2 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=34079362426e8ca1ffedf7
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPORTS MAX 2 |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=258968235d93582b6e753
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEIN SPOTS1 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=143239535a961ef23c37f
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEST AKSIYON |D
@@ -1695,8 +1733,6 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4008602928
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1566323467ccef4e6ddc18
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEST HABABAM SINIFI |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=42284818719423bec0b23
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEST KOMEDI |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1723326598d033f0c3e481
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEST LOCA 1 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1063857052093162e8245a
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEST LOCA 3 |D
@@ -1708,19 +1744,17 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1196198280
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEST YESILCAM |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3652347263f7e4f6518946
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEYAZ TV |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=16003488113c5e919349c9
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BEYAZ TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=15107839014610fcbccfd7
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BILGILENDIRME |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2224047651e81fecfc9897
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BLOOMBERG |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2603224141c3d864520670
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BLOOMBERGHT |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=858568307ad4d92a1bc0d
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BOOMERANG |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2943974208378fb9a4abaf
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BLOOMBERG HT |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=236989031fa418a7e8a17
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BONUS MASAL DIYARI |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=175359008639f967676850
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BRT 3 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1840145851a9323f9f8110
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",BULMACA KULESI |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=910953672f1ed54c31523
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",CAN TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=18225257419cc3da60a3d6
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",CARTOON NETWORK |D
@@ -1729,24 +1763,14 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1313600851
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1696573723f2316554346f
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",CBEEBIES |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=28230446677844695f0146
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",CHICKY TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=940839479788f5980240d
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",CNN T RK + |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2868318534236d538f07e7
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",COCUK 1 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=204606561923fb3174a78
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",COCUK 3 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=131013302096696db4faf0
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",COSMOSPORTS |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2725898415bbefe10e1b80
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DA VINC KIDS |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=398306753261d8462be393
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DEHA TV |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=574697523d272c6496fc8
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DIM TV |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1072972009a43561689b4d
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DINAMIK ANIMASYON |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2317648269a30266e800a4
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DINAMIK IMBD |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=5414064316b3bc2061c18
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DINAMIK LOCA-1 |D
@@ -1755,32 +1779,24 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2355556378
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=41381159624aed92acf6bf
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DINAMIK SALON 1 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=42890782838216fb050155
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DINAMIK SALON 2 |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3087425243c5d1842b585e
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DINAMIK SALON 4 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=927378299eafba925a9bf
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DINAMIK SALON 6 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=130069097167bf55bf20b8
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DINAMIK SALON 9 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3486937034df500d704137
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DINAMIK UZAKDOGU |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2571812208f67a8f26b74f
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DINAMIK SENER SEN |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2809722762af7462c75e6d
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DINAMIK WESTERN |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=726915072d8a227d2465c
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DISCOVERY ID |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=209540406020f62c57175e
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DISCOVERY WORLD |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=36240023073d7c66c2eda6
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DISNEY CHANNEL |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3578544716a0b6cf810700
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DISCOVERY IDX |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=97009866213fd3e65b32c
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DISNEY JR |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4108765291d67c173d5e4d
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DIYANET TV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2131958841b005778d798f
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DIZISMART MAX |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=11652018072c8d76645760
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DOCUBOX |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=26690245100d4557f6589f
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DORU TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=999352745ea6c33f2c586
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DREAM AKSIYON |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=15146435363810ffcd2c36
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DREAM BEIN OFFICE 1 |D
@@ -1791,20 +1807,20 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3822393211
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1821762267cb0ff92b0270
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DREAM BEIN OFFICE 6 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3747148117c6a4024e779
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DREAM BEIN OFFICE 8 |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=28419726982c4382922825
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DREAM BOX-SET |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=855745980afcdb5415872
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DREAM KEMAL SUNAL |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=95010505a8faf3afb8b1
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DREAM KORKU |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2631555564c539903b65f3
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DREAM LOCA 2 |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=36696244961605d125113f
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DREAM NETFLIX |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=171390799018336090c611
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DREAM TURK |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=255709069548a545ce69a5
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DREAM TURK |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=678794615d71234f11930
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",DREAM TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=138347343566e8f7897a45
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EBA TV LISE |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=36145654103b8f9b03e306
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EFKAR FM CANLI RADYO |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2156922182a6925a998096
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EKIN T RK TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=6574952728c4a41444bbe
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EKOL TV |D
@@ -1821,34 +1837,26 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=865520859c
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1145503178c2e0573bf522
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ERCIS TV |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=290145755051912f0f7459
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ERZURUM WEB TV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1736962708a0cea37d166c
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ETV KAYSERI |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1218353983192e97d77233
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EURO STAR |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3814521935039079f00e5f
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EUROSPORT 2 |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2307325429e912059d1333
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EXXEN SPOR 1 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2024568982e1fb7ea47473
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EXXEN TV SPOR 1 720P |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=33339028670873b7a29a3a
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EXXEN TV SPOR 1 |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1204200801a5104d5fd3ea
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EXXEN TV SPOR 2 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=33770461468efc53313930
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EXXEN TV SPOR 3 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=8518410671a522ff96de7
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EXXEN TV SPOR 5 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3179734411e2516e701706
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EXXEN TV SPOR 7 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3343300331690f5fcd57ae
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",EXXEN TV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=24260976594a516505ed9f
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",FB TV |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1540748539acbea3b2fbdd
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",FILBOX SPOR 2 MACZAMANI |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1545833147d717f30e56c
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",FILMBOX AKSIYON |H
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=113035273070ea4436589b
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",FILMBOX FANTASTIC |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2267707661b1b04087783f
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",FILMBOX+ |H
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2600387615aacd3bbef313
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",FIX CINEMA ACTION |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=140294889ef11a15f32eb
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",FIX CINEMA COMEDY |D
@@ -1859,110 +1867,84 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2958075443
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=239201347d26be003c3b2
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",FLASH HABER TV |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3806979011776dd4d8791d
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",FOX TV RAW |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=38396214641735d866e96e
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",FOX TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1345288490cd7c70969406
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",FOX |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=14984590949a6e51765af0
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",GABBY |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1203601013e801ba3b5536
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",GIZEMLER DIYARI |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=13761803136cbe80854f71
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",GLOBAL BOX COMEDY |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=18280597359e58885657fd
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",GAZIANTEP GRT TV |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2843011698c9ca8d3f44e8
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",GLOBAL BOX KORKU |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=5626810304db51b83f9fd
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",GONCA TV |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2078775973b5ce2ace0c93
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",GS TV |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=42404293258fa1e59ecb5d
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",HABER GLOBAL + |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=41446680314e419037ea4e
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",HABER TURK |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=46437817002d8ef78b85e
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",HABITAT |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=12812705688879e2f215a2
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",HALK TV |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=398644410658a660ba5f49
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",HISTORY |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=42074875629bf0c44079e4
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",HORROR 4 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=26787391883a74b37ce970
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",HABERTURK |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1470199900ebbdb4fbabf0
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",HRT AKDENIZ TV |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=42234305097be8cf461e72
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",HRT |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2826493312c95ab0c635be
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",HUNAT TV |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1602719314712c3c47f988
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",IDMAN TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2368422760edb7d5fc79c6
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",INVESTIGATION DISCOVERY |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=137245523361385639c2d5
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",IZMIR TV 35 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=6661893236e9fc7e68d7f
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KABE TV CANLI |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4164346550c6d8bc29f899
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KADIRGA TV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=209394082605cd10854e4e
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL 24 |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2146960844328415ec7a89
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL 3 |E
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1558612099f0fac268b8b5
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL 32 |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=37609264903f5181c39c19
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL 34 |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1869339322063c9a563ace
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL 360 UHD |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=348853224442ba5da0409c
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL 58 |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=20931432068fc774ede8f0
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL 7 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2736723250e9bfebc0a4fe
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL 7 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=38974128020a45ffec37c4
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL 7 |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=30156499821c08abdc76b8
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL AVRUPA |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=109679144477d9b3ec4db1
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL B |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2555658748c9612bd60fdf
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL D RAW |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4193250917cf3df9465a1d
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL D |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=17816560980c2d2941af7c
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL D |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1130441933bd5f93081361
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL D |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=38723286003580143700a
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KANAL FIRAT |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=744021843277854df9f27
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KARDELEN TV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=127011060700387f5632e5
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KARE TV |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3390708983dc5f5b7a4252
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KAYSERI KAY TV |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=168048388cf1beab33d86
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KAYSERI LIFE TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=8292049462734a10df507
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KENT TÜRK |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=396258282955ae0ff288c1
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KIBRIS TV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=631930666922fbf2eb369
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KOCAELI TV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=37025289857ca5c571f198
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KOSTEBEKGILLER TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=27787812970f58076154f3
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KIBRIS GENÇ TV |E
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3115477419e9eda79ce327
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KONYA KON TV |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=375936427352bc00efb0b5
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KRAL FM |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=358503385601ac1ae283df
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KRAL POP |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=416983899310ffe900395b
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KRAL TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=287981283076ce27f5bc8d
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KRT TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=535260022d4e83831ba4d
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KUDÜS TV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=30359517978a14122a81fe
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KUKILI TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=28052256349162fc55e21f
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",LEYLEK KARDES |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=52802139988d847068537
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KRAL TV |E
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=15050324675fb81368c49f
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",KRT + |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=143285302577b2d70e0182
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",LIFE TV |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=357249034999b94ce7c5a9
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MASA KOCAAYI |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3836687525e6ef53e3c5ae
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MAX AKSIYON |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=32074869340af2823ddca0
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MAX TURK |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1222272481dbf0bf42474b
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MBAT FM ARABESK |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2719293629cb5187d558b3
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MEDYA HABER |E
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2230968262c289d44b280a
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MELTEM TV |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=362884658515a52a010eb6
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MERCAN TV |E
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=31327041375c0b481cf313
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MESAJ TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=17515935883fb04314d3d2
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MGC TV |D
@@ -1973,22 +1955,16 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3036231687
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4058432171efd0c87fdcfd
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MINIKA GO |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2937701421e34039eb6e01
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MOVIE SMART ACTION |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=12374609486f1b3394a39c
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MOVIE SMART PLATIN 2 |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1800204159cdab71fc03fc
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MOVIE SMART PREMIUM 2 |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=11940097825636a8e31338
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",MOVIEMAX TURK |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2178364300e5ef562dfb4d
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",NASREDDIN HOCA |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2930757080ac07112f74d6
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",NBA TV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=42475427061982b36011d2
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",NILOYA + |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=69281157905238f31ccc8
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",NILOYA TV |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=757435988caabc9257263
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",NICK JR |H
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=85708551c9b3f71987bd
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",NICKELODEON |H
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3092562301bc2d5c2b2955
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",NOW TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=919108696c5e1f69646dd
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",NR 1 |D
@@ -1998,9 +1974,9 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3548270931
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",NTV HABER |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=122041765980b4c4ddf8d3
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",NTV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3194104127b06496d2f414
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",NTV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=361469424703c4c69abbf4
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",NUMBER 1 ASK |E
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=30987911722a7f647a526d
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",NUMBER ONE FM YABANCI M ZIK BURDA |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=391696630010f75c930fdd
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ON 4 |D
@@ -2009,34 +1985,26 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2257593699
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=7609816682cda99513811
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",OUTDOOR |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=173629287d81d65f69012
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",PAL STATION YABANCI M ZIK |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4201548536518fc31815b3
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",PATRON BEBEK |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=248028480624695996920a
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",PEPE TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1624299396ea987b56e7bd
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",PEPEE TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2502633157b70e67b0b401
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",PIJAMA MASKE |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=34139150582f39f09c330e
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",PIRIL TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=165672038465096ab452a4
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",PISI TV |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2015471238be3a709d3e3a
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",POWER FM YABANCI M ZIK |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=12994172919e23c554eff8
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",POWER LOVE |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=17835088090e40157259a1
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",POWER TURK TV |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=176662368cb439cff75e5
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",POWER TURK |H
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=5386683482fabf774253a
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",POWER |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=19813261850a20078dfa0
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",RADIO ROCK |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=536559220a4160e104d5b
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",REDBOX ARABESK TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1149613711f0a59ef77e09
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",REDBULL TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3839151666ea64584a358e
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",REHBER TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=195966559619e8ce5586d5
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",RETRO T RK T RK E KLASIK |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3415299258dd33da3254b2
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",RUMELI TV |H
@@ -2045,34 +2013,28 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3918815882
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=46041071050d7dbe72202
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",S SPORT 2 |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1234604880c7638b38f698
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",S SPORT |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3718336295df22a5d5825d
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",S SPORT+5 MAC SAATI |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3760487764c074d54cba2f
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",S-SPORT 1 UHD |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=35317621955a43bd93b947
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",S-SPORT PLUS |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=40360462190582d8e63fd1
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",S-SPORT+2 MAC SAATI |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=231418356625d245c7276a
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",S-SPORTS 2 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=26439990321d0bfd8e6bd9
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SAT 7 TÜRK |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4228046562be8bd43d51af
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SALON 2 |H
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3280579549326d30fe3c8f
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SCIENCE & VICE |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4188119721d861a9d2bc90
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SEMERKAND RAW |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=37262389577f70c04cb584
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SEMERKAND TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=40962688833cbe29c176a8
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SHOW MAX |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2196278652f048f055c5f6
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SHOW RADYO T RK E POP |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=125230683550bdb5b0b742
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SHOW TV |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1449499865e512ccb4b2a4
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SHOW TV |E
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2485009235c919fab17395
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SHOW |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=35372329788c32de5c3f57
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SINEMA AILE 1 |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=42455084435361ea6a3e24
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SINEMAX TURK |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4201568953f743e59fe073
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SINEVIZYON 15 |H
@@ -2081,80 +2043,32 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1434492924
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1349345581b48807426049
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SINEVIZYON TURK 9 |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=10457659880614beb47200
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SIRINLER TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=383348303ae57cd8450b5
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SIVAS |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=9857690713340dcb17c14
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SMART COCUK |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=42777502751a23f548905f
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SMART SPOR 1 |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=413796206217640fde932f
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SOZCU SZC TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=10981729539aae9f7be4f1
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SPOR SMART 2 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=272649667189ca618b88f8
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SPOR SMART |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=13135633501f1e0a8d6240
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SPOR SMART |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=17715113975f060784afc6
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SPORTSTV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2611296981e9c116a4d8c6
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",STAR TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2020035128e10d131b945f
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",STAR TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1386325790cab5a5c35c4
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",STAR |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1134124382940ce4000e0c
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SUN RTV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2354543811324c33f7ad78
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",SURELER VE T RKCE MEALI |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3430890461fd23ded0781d
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",T RK E POP |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=27868531048b1a36aba06a
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TABII SPOR 1 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=38306913162ac200b131a5
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TABII SPOR 3 UHD |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2546857708f061484420d9
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TABII SPOR 4 UHD |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=408817539759a3aa8e5f48
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TABII SPOR 6 UHD |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3713708963f83edc3e8561
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TABII SPOR |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=40221481753301321746ce
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TABII SPOR |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=184486327bb2598616495
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TAY TV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1534287048b21be7bbcacc
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TBMM TV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1770699644de82c2c55eed
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TELE 1 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=35602928694eb67cb388ed
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TELEGRAM GRUP LINKI |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1110088936e15472631f44
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TEMPO TV |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2302552744b0bbd860a5ea
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TGRT BELGESEL |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3925938631692f35e646b2
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TGRT BELGESEL |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=17439935461e52f6f0d6f4
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TGRT HABER UHD |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=356274005402631275363e
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TGRT HABER |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=281439245836a9660eb163
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TGRT HABER |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1718429323dc1a3bb6a158
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TIVI 6 |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=774168016f76a5952d456
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TIVI TURK |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2048436163cde968d7454b
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TIVIBU SPOR 1 |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=25659723381aec03f8669e
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TIVIBU SPOR 2 |E
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3746683810108e0d3fdd02
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TIVIBU SPOR 5 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=16303851075d8c1b90600
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TIVIBUSPOR 1 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2896658744981ea6955dee
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TIVIBUSPOR SPOR |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=365351585881372903c14e
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TIVIBUSPOR 2 |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2502606333f4d2aaf7c591
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TLC TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3281641786083002348dae
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TON TV |E
@@ -2163,38 +2077,50 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3855597416
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4733005734f00de856f2a
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: A SPOR |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=17711375392d6892b04f39
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: AK T TV |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3445585687ff1b781a9c66
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: BEYAZ TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=805689873d1f86dda0ea7
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: CNN T RK |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2056768647b3cd3bee1ca9
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: DISCOVERY CHANNEL |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=4017734592ca62e60551e2
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: DMAX |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=869937351a88d2213b307
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: DUCK TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=170912918959ad96b3ea7b
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: ENGLISH CLUB TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=925055356bf38eb3da4fd
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: FLASH TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=26870178411ec494ca52e7
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: EUROSPORT 1 |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2078862937dc11f33ed82b
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: EXXEN TV |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=194469526890e8a6e97e7
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: HABER GLOBAL |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=119662638752f4a2975591
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: HALK TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1320391955dfdc732d6056
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: KANAL D |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=167767968435d22ec4e572
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: NATIONAL GEOGRAPHIC WILD |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=132416616ac620ec2effb
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: NICKTOONS |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=9886913740c93609273d6
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: S NEMA A LE 2 |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=300059476388b72e860936
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: S NEMA AKS YON 2 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=34407115801c767459d612
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: S SPORT |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=21232735982e32865f30ff
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: SHOW TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=879588960b94fb8fa2dd0
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: STAR TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2192971293c97637353600
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: TEVE2 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1917502631f13fff05089a
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: TJK TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2794936913f4021be82bb1
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: TRT 3 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=41874035123d237233ea9c
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: TRT SPOR YILDIZ |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2750507083bc98671bc83c
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: TV 4 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3574429625133873ea3f7
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TR: TV8 |D
@@ -2202,27 +2128,15 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2693299013
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRANSFORMERS |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3939293866bf2abeffee93
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT 1 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3059837792736a008887e6
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT 1 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1221669131537ab85f5399
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT 2 UHD |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=20053051322d77715d98eb
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT AVAZ |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=24813398092263fa76c17d
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT BELGESEL |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3340997026dbb4b6b3c629
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT COCUK |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=6857948303970e32d15c1
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT EBA ILKOKUL |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2287658033dea14df2e2e1
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT HABER RAW |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=93108665288dea3ee17f
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT HABER |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=257940187878c62c1d23e4
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT HABER |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2003703357892c5750a720
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT KURDI RAW |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3640225965e610db9c8f95
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT MUZIK |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2362678422b589617c3df4
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT SPOR YILDIZ |H
@@ -2233,30 +2147,20 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2952828245
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=21143354249278653ec9e2
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT TURK |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=409809325673bc04ced081
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT WORLD |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=398561511715bbe03b15c6
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TRT WORLD |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3203147403dc5d2bea1775
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TV 100 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=37694889828caa84090c5f
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TV 5 |E
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1221353841149cdbbad88
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TV 8 |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1662562034cfa73c7adbaa
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TV 8 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3695389987790f79654fa3
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TV 8.5 |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1908265816ef4c9a0e07d3
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TV 85 |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2159436641143e2402b452
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TV 8 |H
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=2196709234a54a76672d16
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TV8 5 RAW |D
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=241220593792818a4b428c
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TV8 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1702470161aaf1333bbf58
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TV8 |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=208162889f99cd490add0
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TVNET |H
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=12216617554191402f711d
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",TVO TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=29166296589dcbd4dc3af3
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ULKE TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3641991612d2db7fa0fa5f
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ULTRA AKSIYON |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1910890160d94faaee5cf5
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ULTRA BILIMKURGU |D
@@ -2265,40 +2169,56 @@ http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3830648039
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3174342016e92c6e77a585
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ULTRA KORKU |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=35635625476853015988e8
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ULUSAL KANAL |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=19100488173d71423ca7a3
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",VIASAT HISTORY + |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=34804689620470b58c1c2f
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",VIKINGLER TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1253937530b60aaf81d42d
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",VATAN TV |H
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=27300474645e58157b9bc1
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",VIYANA TV |E
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=344251480562c65b2c2bc4
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",VIZYON 58 |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1264201556eb7a1f70c61d
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",WM TV WOMAN KADIN |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=3259520726844210ab74bc
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",YABAN TV |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=17885039351c239343b6b1
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",YABAN |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=33381595819f5564d9db18
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",YESILCAM 2 |H
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=868586058322681e81fbd
+#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",YESILCAM |E
+http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=15843353836ad485e317d1
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",YILDIZ EN TV |D
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=394501159bb5cd1b48488
 #EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",YILDIZ TV EN |E
 http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1824316016c79da65b01ad
-#EXTINF:-1 group-title="Vavo Tv" tvg-logo="https://i.ytimg.com/vi/9KsR81OJa1A/hqdefault.jpg",ZONGULDAK KANAL Z |D
-http://schedule-statutory-latex-colored.trycloudflare.com/vavo.php?ID=1467834090a5e2f1f6f2af
+#EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/a_haber_Evs.png",A HABER
+http://live.cdn-vizi.workers.dev/?ID=14
 #EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/Js/246030/logo.png",ATV
 http://live.cdn-vizi.workers.dev/?ID=2
+#EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/z/s0/246105/logo.png",BEYAZ TV
+http://live.cdn-vizi.workers.dev/?ID=9
+#EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/cnn_turk_Zrw.png",CNN TURK
+http://live.cdn-vizi.workers.dev/?ID=12
 #EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/euro_d_QNy.png",EURO D
 http://live.cdn-vizi.workers.dev/?ID=6
 #EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/now_tv_dGf.png",FOX TV
 http://live.cdn-vizi.workers.dev/?ID=4
+#EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/haber_turk_nEH.png",HABER TURK
+http://live.cdn-vizi.workers.dev/?ID=13
+#EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/E/ON/246138/logo.png",KANAL 7
+http://live.cdn-vizi.workers.dev/?ID=7
 #EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/X/rT/245949/logo.png",SHOW TV
 http://live.cdn-vizi.workers.dev/?ID=3
 #EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/star_tv_3ey.png",STAR TV
 http://live.cdn-vizi.workers.dev/?ID=5
 #EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/tg/245943/logo.png",TRT 1
 http://live.cdn-vizi.workers.dev/?ID=1
+#EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/c/Bc/246024/logo.png",TRT HABER
+http://live.cdn-vizi.workers.dev/?ID=15
+#EXTINF:-1 group-title="Vizitv" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/M/NO/246132/logo.png",TV8
+http://live.cdn-vizi.workers.dev/?ID=8
+#EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/viziturk_klasik_eQm.png",VIZITÜRK KLASIK
+http://live.cdn-vizi.workers.dev/?ID=11
+#EXTINF:-1 group-title="Vizitv" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/viziturk_komedi_TmR.png",VIZITÜRK KOMEDI
+http://live.cdn-vizi.workers.dev/?ID=10
+#EXTINF:-1 group-title="Çocuk & Aile" tvg-logo="https://i.ibb.co/7WTsG83/a2.png",A2
+http://89.187.191.41/A2-HD-TR/video.m3u8
 #EXTINF:-1 group-title="Çocuk & Aile" tvg-logo="",TRT DİYANET ÇOCUK
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Çocuk & Aile" tvg-logo="http://assets.tvcdn.net/15e32d50-4058-4fa6-a6e2-3e1dbc35c70c.jpeg",ZAROK TV KÜRTÇE
