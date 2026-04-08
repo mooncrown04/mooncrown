@@ -13,7 +13,6 @@ TIMEOUT = 7
 MAX_CONCURRENT_REQUESTS = 30 
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
 
-# Buraya istediğin kadar M3U kaynağı ekleyebilirsin
 M3U_SOURCES = [
     'https://raw.githubusercontent.com/smartgmr/cdn/refs/heads/main/Perfect.m3u',
     'https://raw.githubusercontent.com/Mertcantv/Mertcan/refs/heads/main/%C4%B0zle2.m3u',
@@ -22,7 +21,6 @@ M3U_SOURCES = [
 ]
 
 # --- SIRALAMA ÖNCELİĞİ ---
-# M3U dosyasında en üstte görünecek gruplar.
 PRIORITY_GROUPS = [
     "Ulusal Kanallar",
     "Haberler",
@@ -124,7 +122,7 @@ async def main():
                 logging.error(f"Hata: {e}")
 
         if not all_channels:
-            logging.warning("Hiç kanal bulunamadı!")
+            logging.warning("Kanal bulunamadı.")
             return
 
         sem = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
@@ -133,20 +131,17 @@ async def main():
         alive_channels = [c for c in results if c]
 
         if alive_channels:
-            # Kategorilere ve isme göre sırala
             alive_channels.sort(key=lambda x: (get_group_priority(x.category), x.category, x.name))
             
-            # --- DOSYA YAZMA VE EPG EKLEME ---
             with open("guncel_liste.m3u", "w", encoding="utf-8") as f:
-                # EPG Linkini buraya ekledik
+                # EPG linki buraya eklendi
                 f.write('#EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-tr.xml"\n')
-                
                 for ch in alive_channels:
                     final_logo = logo_map.get(ch.name, ch.logo)
                     f.write(f'#EXTINF:-1 group-title="{ch.category}" tvg-logo="{final_logo}",{ch.name}\n')
                     f.write(f"{ch.url}\n")
             
-            logging.info(f"BİTTİ! {len(alive_channels)} kanal 'guncel_liste.m3u' dosyasına kaydedildi.")
+            logging.info(f"BİTTİ! {len(alive_channels)} kanal kaydedildi.")
 
 if __name__ == "__main__":
-    async asyncio.run(main())
+    asyncio.run(main())
