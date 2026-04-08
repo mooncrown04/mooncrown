@@ -40,12 +40,12 @@ class Channel:
     tvg_name: str = ""
 
 def normalize_name_for_matching(name: str) -> str:
-    """Kanal isimlerini karşılaştırma için temizler (örn: 'TR - SHOW TV' -> 'SHOWTV')"""
+    """Kanal isimlerini (örn: 'TR - SHOW TV' -> 'SHOWTV') eşleşme için temizler."""
     if not name: return ""
     name = name.upper()
-    # 'TR - ', 'TR:', 'HD', 'SD' gibi ekleri ve boşlukları temizle
-    name = re.sub(r'TR\s?-\s?|TR:|HD|SD|FHD|4K|BACKUP|YEDEK', '', name)
-    name = re.sub(r'[^A-Z0-9]', '', name) # Sadece harf ve rakam bırak
+    # TR eklerini, HD/SD takılarını ve gereksiz boşlukları sil
+    name = re.sub(r'TR\s?-\s?|TR:|HD|SD|FHD|4K|BACKUP|YEDEK|HEVC', '', name)
+    name = re.sub(r'[^A-Z0-9]', '', name)
     return name.strip()
 
 async def fetch_epg_data(session: aiohttp.ClientSession) -> Dict[str, str]:
@@ -60,19 +60,17 @@ async def fetch_epg_data(session: aiohttp.ClientSession) -> Dict[str, str]:
                     channel_id = channel.get('id')
                     display_node = channel.find('display-name')
                     if channel_id and display_node is not None:
-                        # Hem orijinal ismi hem de normalize edilmiş ismi haritala
-                        raw_name = display_node.text.strip()
-                        norm_name = normalize_name_for_matching(raw_name)
+                        norm_name = normalize_name_for_matching(display_node.text)
                         epg_map[norm_name] = channel_id
-                logging.info(f"EPG'den {len(epg_map)} benzersiz kanal eşleşmesi yüklendi.")
+                logging.info(f"EPG'den {len(epg_map)} kanal yüklendi.")
                 return epg_map
     except Exception as e:
         logging.error(f"EPG çekme hatası: {e}")
     return {}
 
-def clean_category(raw_cat: str) -> str:
-    if not raw_cat: return "Genel"
-    clean = re.sub(r'[|\[\(].*?[|\]\)]', '', raw_cat).replace(':', '').strip().lower()
+def clean_category(raw_group: str) -> str:
+    if not raw_group: return "Genel"
+    clean = re.sub(r'[|\[\(].*?[|\]\)]', '', raw_group).replace(':', '').strip().lower()
     clean = clean.replace('ı', 'i').replace('ü', 'u').replace('ö', 'o').replace('ş', 's').replace('ç', 'c').replace('ğ', 'g')
     for key, target in CATEGORY_MAPPING.items():
         if key in clean: return target
@@ -87,7 +85,6 @@ def normalize_channel_identity(name: str):
 
 def parse_m3u(m3u_content: str, epg_map: Dict[str, str]) -> List[Channel]:
     channels = []
-    # Regex'i tvg-id ve tvg-name olsa da olmasa da çalışacak şekilde esnettik
     pattern = re.compile(
         r'#EXTINF:.*?(?:group-title|tvg-group)="([^"]*)".*?(?:tvg-logo)="([^"]*)".*?,([^\n\r]+)[\s\n\r]+(http[^\s\n\r]+)', 
         re.IGNORECASE | re.DOTALL
@@ -103,7 +100,7 @@ def parse_m3u(m3u_content: str, epg_map: Dict[str, str]) -> List[Channel]:
         std_name = normalize_channel_identity(raw_name)
         std_category = clean_category(raw_group)
         
-        # --- EPG EŞLEŞTİRME MANTIĞI ---
+        # Normalize edilmiş isimle EPG haritasından ID ara
         norm_name = normalize_name_for_matching(std_name)
         tvg_id = epg_map.get(norm_name, "")
         
@@ -137,7 +134,7 @@ async def main():
         logo_map = {} 
         
         for url in M3U_SOURCES:
-            logging.info(f"İndiriliyor: {url}")
+            logging.info(f"Kaynak indiriliyor: {url}")
             try:
                 async with session.get(url, timeout=15) as resp:
                     if resp.status == 200:
@@ -149,13 +146,11 @@ async def main():
                                     logo_map[ch.name] = ch.logo
                                 all_channels.append(ch)
                                 global_seen_urls.add(ch.url)
-            except Exception as e: logging.error(f"Hata: {e}")
+            except Exception as e: logging.error(f"İndirme hatası: {e}")
 
-        if not all_channels: 
-            logging.warning("Hiç kanal bulunamadı!")
-            return
+        if not all_channels: return
 
-        logging.info(f"Toplam {len(all_channels)} kanal kontrol ediliyor...")
+        logging.info(f"{len(all_channels)} kanal kontrol ediliyor...")
         sem = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
         tasks = [check_url(sem, session, ch) for ch in all_channels]
         results = await asyncio.gather(*tasks)
@@ -168,14 +163,15 @@ async def main():
                 f.write(f'#EXTM3U x-tvg-url="{EPG_URL}"\n')
                 for ch in alive_channels:
                     final_logo = logo_map.get(ch.name, ch.logo)
-                    # ID varsa ekle, yoksa boş bırakma (oynatıcılar için daha sağlıklı)
-                    tvg_id_str = f'tvg-id="{ch.tvg_id}" ' if ch.tvg_id else ''
-                    tvg_name_str = f'tvg-name="{ch.name}" ' if ch.tvg_id else ''
+                    # tvg-id varsa satıra ekle
+                    tvg_id_part = f'tvg-id="{ch.tvg_id}" ' if ch.tvg_id else ''
+                    tvg_name_part = f'tvg-name="{ch.name}" ' if ch.tvg_id else ''
                     
-                    f.write(f'#EXTINF:-1 {tvg_id_str}{tvg_name_str}group-title="{ch.category}" tvg-logo="{final_logo}",{ch.name}\n')
+                    f.write(f'#EXTINF:-1 {tvg_id_part}{tvg_name_part}group-title="{ch.category}" tvg-logo="{final_logo}",{ch.name}\n')
                     f.write(f"{ch.url}\n")
             
-            logging.info(f"BİTTİ! {len(alive_channels)} kanal 'guncel_liste.m3u' dosyasına kaydedildi.")
+            logging.info(f"Bitti! {len(alive_channels)} canlı kanal kaydedildi.")
 
 if __name__ == "__main__":
-    async main()
+    # Syntax hatasını önlemek için doğru çalıştırma yöntemi
+    asyncio.run(main())
