@@ -13,6 +13,7 @@ TIMEOUT = 7
 MAX_CONCURRENT_REQUESTS = 30 
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
 
+# Buraya istediğin kadar M3U kaynağı ekleyebilirsin
 M3U_SOURCES = [
     'https://raw.githubusercontent.com/smartgmr/cdn/refs/heads/main/Perfect.m3u',
     'https://raw.githubusercontent.com/Mertcantv/Mertcan/refs/heads/main/%C4%B0zle2.m3u',
@@ -21,8 +22,7 @@ M3U_SOURCES = [
 ]
 
 # --- SIRALAMA ÖNCELİĞİ ---
-# Buradaki sıraya göre M3U dosyasında en üstte görünecekler.
-# İstediğin zaman buraya yeni gruplar ekleyebilirsin.
+# M3U dosyasında en üstte görünecek gruplar.
 PRIORITY_GROUPS = [
     "Ulusal Kanallar",
     "Haberler",
@@ -96,12 +96,9 @@ async def check_url(sem, session, ch):
         return None
 
 def get_group_priority(category_name: str) -> int:
-    """Kategorinin öncelik sırasını döndürür."""
     try:
-        # Eğer kategori PRIORITY_GROUPS içindeyse index numarasını döner (0, 1, 2...)
         return PRIORITY_GROUPS.index(category_name)
     except ValueError:
-        # Eğer listede yoksa çok büyük bir numara döner ki en sona kalsın
         return 999
 
 async def main():
@@ -126,7 +123,9 @@ async def main():
             except Exception as e:
                 logging.error(f"Hata: {e}")
 
-        if not all_channels: return
+        if not all_channels:
+            logging.warning("Hiç kanal bulunamadı!")
+            return
 
         sem = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
         tasks = [check_url(sem, session, ch) for ch in all_channels]
@@ -134,19 +133,20 @@ async def main():
         alive_channels = [c for c in results if c]
 
         if alive_channels:
-            # --- ÖZEL SIRALAMA MANTIĞI ---
-            # 1. Önce get_group_priority ile kategori sırasına bakılır.
-            # 2. Kategoriler aynıysa isme göre alfabetik dizilir.
+            # Kategorilere ve isme göre sırala
             alive_channels.sort(key=lambda x: (get_group_priority(x.category), x.category, x.name))
             
+            # --- DOSYA YAZMA VE EPG EKLEME ---
             with open("guncel_liste.m3u", "w", encoding="utf-8") as f:
-                f.write("#EXTM3U\n")
+                # EPG Linkini buraya ekledik
+                f.write('#EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-tr.xml"\n')
+                
                 for ch in alive_channels:
                     final_logo = logo_map.get(ch.name, ch.logo)
                     f.write(f'#EXTINF:-1 group-title="{ch.category}" tvg-logo="{final_logo}",{ch.name}\n')
                     f.write(f"{ch.url}\n")
             
-            logging.info(f"BİTTİ! {len(alive_channels)} kanal sıralı şekilde kaydedildi.")
+            logging.info(f"BİTTİ! {len(alive_channels)} kanal 'guncel_liste.m3u' dosyasına kaydedildi.")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    async asyncio.run(main())
