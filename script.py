@@ -118,7 +118,7 @@ def parse_m3u(m3u_content: str, epg_map: Dict[str, str]) -> List[Channel]:
             for target in ULUSAL_ORDER:
                 if is_strict_match(target, temp_name):
                     final_category = "Ulusal Kanallar"
-                    final_name = target # "atv hd" yerine listemizdeki "ATV" ismini kullan
+                    final_name = target 
                     is_priority = True
                     break
             
@@ -194,7 +194,7 @@ async def main():
             try:
                 name_rank = 999
                 for i, target in enumerate(order_list):
-                    if target == ch.name: # Artık isimler standart olduğu için direkt eşleşir
+                    if target == ch.name: 
                         name_rank = i
                         break
             except: name_rank = 999
@@ -202,21 +202,20 @@ async def main():
 
         alive_channels.sort(key=sorting_key)
 
-        # Yazma işlemi (Hatalı çift virgül düzeltildi)
+        # Yazma işlemi
         with open("guncel_liste.m3u", "w", encoding="utf-8") as f:
             f.write(f'#EXTM3U x-tvg-url="{EPG_URL}"\n')
             for ch in alive_channels:
-                # Parametreleri tek tek oluşturup araya tek boşluk koyuyoruz
                 tvg_id_part = f'tvg-id="{ch.tvg_id}" ' if ch.tvg_id else ''
                 tvg_name_part = f'tvg-name="{ch.name}" '
                 logo_part = f'tvg-logo="{ch.logo}" ' if ch.logo else ''
                 group_part = f'group-title="{ch.category}"'
                 
-                # Format: #EXTINF:-1 tvg-id=".." tvg-name=".." tvg-logo=".." group-title="..",KANAL_ISMI
+                # Tek virgül kuralına uygun yazım
                 f.write(f'#EXTINF:-1 {tvg_id_part}{tvg_name_part}{logo_part}{group_part},{ch.name}\n')
                 f.write(f"{ch.url}\n")
         
         logging.info(f"Bitti! {len(alive_channels)} kanal aktif.")
 
 if __name__ == "__main__":
-    async run_main = asyncio.run(main())
+    asyncio.run(main())
