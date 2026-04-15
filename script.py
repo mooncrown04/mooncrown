@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from typing import List, Dict, Optional
 
+# Log ayarları
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # --- AYARLAR ---
@@ -21,7 +22,7 @@ M3U_SOURCES = [
     'https://tinyurl.com/TVCANLI'
 ]
 
-# ÖZEL SIRALAMA VE KATEGORİ LİSTELERİ
+# ÖZEL SIRALAMA VE STANDART İSİM LİSTELERİ
 ULUSAL_ORDER = ["TRT 1", "SHOW TV", "ATV", "KANAL D", "STAR", "NOW", "KANAL 7", "TV 8", "TV 8.5", "BEYAZ", "TEVE 2"]
 HABER_ORDER = ["HALK TV", "SÖZCÜ TV", "CNN TÜRK", "TV 100", "NTV", "Flash Haber TV", "HABER GLOBAL", "TGRT HABER", "TV 24", "ÜLKE TV"]
 
@@ -36,21 +37,32 @@ class Channel:
     logo: str = ""
     tvg_id: str = ""
 
+def clean_display_name(name: str) -> str:
+    """Kanal ismindeki teknik ekleri (HD, FHD, 1080p vb.) tamamen temizler."""
+    # Parantez içindeki her şeyi siler: [HD] veya (SD) gibi
+    name = re.sub(r'[\[\(].*?[\]\)]', '', name)
+    # Teknik terimleri temizle (Büyük/Küçük harf duyarsız)
+    patterns = [
+        r'\bHD\b', r'\bSD\b', r'\bFHD\b', r'\b4K\b', r'\bUHD\b', 
+        r'\b1080P?\b', r'\b720P?\b', r'\bHEVC\b', r'\bBACKUP\b', r'\bYEDEK\b'
+    ]
+    for p in patterns:
+        name = re.compile(p, re.IGNORECASE).sub('', name)
+    
+    # Fazla boşlukları temizle
+    name = " ".join(name.split()).strip()
+    return name
+
 def is_strict_match(target_name: str, candidate_name: str) -> bool:
-    """Kanal isminin 'Alanya ATV' gibi alakasız olup olmadığını kontrol eder."""
     candidate_upper = candidate_name.upper()
     target_upper = target_name.upper()
     
-    # 1. Kara listedeki kelimeler geçiyorsa direkt ele
     if any(word in candidate_upper for word in BLACKLIST):
         return False
         
-    # 2. 'ATV' arıyorsak, 'ALANYA ATV'yi ele ama 'ATV HD'yi kabul et
-    # Mantık: Eğer kanal ismi hedef isimden uzunsa, ek kelimenin sadece 'HD', '1080', 'FHD' gibi teknik terim olması lazım.
     if target_upper in candidate_upper:
         suffix = candidate_upper.replace(target_upper, "").strip()
-        # Eğer kalan kısım boşsa veya teknik bir terimse kabul et
-        valid_suffixes = ["", "HD", "FHD", "SD", "4K", "1080", "1080P", "720P", "HEVC"]
+        valid_suffixes = ["", "HD", "FHD", "SD", "4K", "1080", "1080P", "720P", "HEVC", "TV"]
         if suffix in valid_suffixes or all(word in valid_suffixes for word in suffix.split()):
             return True
             
@@ -76,7 +88,6 @@ async def fetch_epg_data(session: aiohttp.ClientSession) -> Dict[str, str]:
                     channel_id = channel.get('id')
                     display_node = channel.find('display-name')
                     if channel_id and display_node is not None:
-                        # EPG'deki 'TR - ATV' gibi isimleri normalize et
                         variants = get_norm_variants(display_node.text)
                         for v in variants:
                             if v: epg_map[v] = channel_id
@@ -96,44 +107,47 @@ def parse_m3u(m3u_content: str, epg_map: Dict[str, str]) -> List[Channel]:
             raw_name = current_inf.split(',')[-1].strip()
             logo = re.search(r'tvg-logo="([^"]*)"', current_inf, re.I).group(1) if 'tvg-logo="' in current_inf else ""
             
-            clean_name = re.sub(r'[\[\(].*?[\]\)]', '', raw_name).strip()
+            # İsmi temizle (Teknik eklerden arındır)
+            temp_name = clean_display_name(raw_name)
             
-            # --- SIRALAMA VE KATEGORİ ZORLAMASI ---
             final_category = "Diğer"
             is_priority = False
+            final_name = temp_name 
             
-            # Ulusal Kanal Kontrolü
+            # Ulusal Kanal Kontrolü ve İsim Sabitleme
             for target in ULUSAL_ORDER:
-                if is_strict_match(target, clean_name):
+                if is_strict_match(target, temp_name):
                     final_category = "Ulusal Kanallar"
+                    final_name = target # "atv hd" yerine listemizdeki "ATV" ismini kullan
                     is_priority = True
                     break
             
-            # Haber Kanalı Kontrolü (Eğer hala bulunamadıysa)
+            # Haber Kanalı Kontrolü
             if not is_priority:
                 for target in HABER_ORDER:
-                    if is_strict_match(target, clean_name):
+                    if is_strict_match(target, temp_name):
                         final_category = "Haberler"
+                        final_name = target
                         is_priority = True
                         break
             
-            # Eğer bizim listemizde yoksa standart kategori ata
+            # Standart Kategori Belirleme
             if not is_priority:
-                raw_group = re.search(r'group-title="([^"]*)"', current_inf, re.I).group(1) if 'group-title="' in current_inf else ""
-                clean_raw = raw_group.lower()
+                group_match = re.search(r'group-title="([^"]*)"', current_inf, re.I)
+                clean_raw = group_match.group(1).lower() if group_match else ""
                 if "spor" in clean_raw: final_category = "Spor"
                 elif "sinema" in clean_raw or "film" in clean_raw: final_category = "Sinema"
                 elif "belgesel" in clean_raw: final_category = "Belgesel"
 
             # EPG ID Atama
-            variants = get_norm_variants(clean_name)
+            variants = get_norm_variants(final_name)
             tvg_id = ""
             for v in variants:
                 if v in epg_map:
                     tvg_id = epg_map[v]
                     break
             
-            channels.append(Channel(name=clean_name, category=final_category, url=line, logo=logo, tvg_id=tvg_id))
+            channels.append(Channel(name=final_name, category=final_category, url=line, logo=logo, tvg_id=tvg_id))
             current_inf = None
     return channels
 
@@ -173,35 +187,36 @@ async def main():
         results = await asyncio.gather(*tasks)
         alive_channels = [c for c in results if c]
 
-        # --- SIRALAMA MANTIĞI ---
+        # Sıralama Mantığı
         def sorting_key(ch: Channel):
-            # Kategori sırası: Ulusal(1), Haber(2), Diğer(3)
             cat_rank = 1 if ch.category == "Ulusal Kanallar" else (2 if ch.category == "Haberler" else 3)
-            
-            # Kanalın kendi sırası
             order_list = ULUSAL_ORDER if ch.category == "Ulusal Kanallar" else (HABER_ORDER if ch.category == "Haberler" else [])
             try:
-                # İsim eşleşmesine göre listedeki index'i bul
                 name_rank = 999
                 for i, target in enumerate(order_list):
-                    if is_strict_match(target, ch.name):
+                    if target == ch.name: # Artık isimler standart olduğu için direkt eşleşir
                         name_rank = i
                         break
             except: name_rank = 999
-            
             return (cat_rank, name_rank, ch.name)
 
         alive_channels.sort(key=sorting_key)
 
-        # Yazma işlemi
+        # Yazma işlemi (Hatalı çift virgül düzeltildi)
         with open("guncel_liste.m3u", "w", encoding="utf-8") as f:
             f.write(f'#EXTM3U x-tvg-url="{EPG_URL}"\n')
             for ch in alive_channels:
-                tvg_part = f'tvg-id="{ch.tvg_id}" tvg-name="{ch.name}" ' if ch.tvg_id else ''
-                f.write(f'#EXTINF:-1 {tvg_part}group-title="{ch.category}" tvg-logo="{ch.logo}",{ch.name}\n')
+                # Parametreleri tek tek oluşturup araya tek boşluk koyuyoruz
+                tvg_id_part = f'tvg-id="{ch.tvg_id}" ' if ch.tvg_id else ''
+                tvg_name_part = f'tvg-name="{ch.name}" '
+                logo_part = f'tvg-logo="{ch.logo}" ' if ch.logo else ''
+                group_part = f'group-title="{ch.category}"'
+                
+                # Format: #EXTINF:-1 tvg-id=".." tvg-name=".." tvg-logo=".." group-title="..",KANAL_ISMI
+                f.write(f'#EXTINF:-1 {tvg_id_part}{tvg_name_part}{logo_part}{group_part},{ch.name}\n')
                 f.write(f"{ch.url}\n")
         
         logging.info(f"Bitti! {len(alive_channels)} kanal aktif.")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    async run_main = asyncio.run(main())
