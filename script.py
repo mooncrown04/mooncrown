@@ -6,7 +6,6 @@ import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from typing import List, Dict, Optional
 
-# --- LOG AYARLARI ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # --- AYARLAR ---
@@ -23,31 +22,23 @@ M3U_SOURCES = [
 ]
 
 PRIORITY_GROUPS = ["Ulusal Kanallar", "Haberler", "Spor"]
-CATEGORY_MAPPING = {
-    "haber": "Haberler", "ulusal": "Ulusal Kanallar", "sport": "Spor", 
-    "spor": "Spor", "movie": "Sinema", "film": "Sinema", 
-    "belgesel": "Belgesel", "cocuk": "Çocuk & Aile", "kids": "Çocuk & Aile"
-}
-
-@dataclass
-class Channel:
-    name: str
-    category: str
-    url: str
-    logo: str = ""
-    tvg_id: str = ""
 
 def get_norm_variants(name: str):
-    """Kanal isminin hem boşluklu hem bitişik halini döndürür."""
-    if not name: return "", ""
+    """Kanal ismini eşleşme için en yalın haline getirir."""
+    if not name: return []
     name = name.upper()
-    # TR eklerini ve kalite takılarını temizle
-    name = re.sub(r'TR\s?-\s?|TR:|HD|SD|FHD|4K|BACKUP|YEDEK|HEVC', '', name)
-    # Sadece harf ve rakamları tut
+    
+    # 1. Gereksiz ekleri temizle (TV kelimesi dahil)
+    # Örn: "TR - STAR TV" -> "STAR"
+    name = re.sub(r'TR\s?-\s?|TR:|HD|SD|FHD|4K|BACKUP|YEDEK|HEVC|\bTV\b', '', name)
+    
+    # 2. Özel karakterleri sil ve boşlukları düzenle
     clean = re.sub(r'[^A-Z0-9]', ' ', name)
-    spaced = " ".join(clean.split()).strip() # "TRT 1"
-    compact = spaced.replace(" ", "")        # "TRT1"
-    return spaced, compact
+    spaced = " ".join(clean.split()).strip() 
+    compact = spaced.replace(" ", "")        
+    
+    # Hem "STAR" hem "STAR" (zaten aynı ama farklı kanallarda işe yarar) dönüyoruz
+    return list(set([spaced, compact]))
 
 async def fetch_epg_data(session: aiohttp.ClientSession) -> Dict[str, str]:
     logging.info("EPG verileri çekiliyor...")
@@ -61,11 +52,10 @@ async def fetch_epg_data(session: aiohttp.ClientSession) -> Dict[str, str]:
                     channel_id = channel.get('id')
                     display_node = channel.find('display-name')
                     if channel_id and display_node is not None:
-                        spaced, compact = get_norm_variants(display_node.text)
-                        # Hem boşluklu hem bitişik ismi ID'ye bağla
-                        if spaced: epg_map[spaced] = channel_id
-                        if compact: epg_map[compact] = channel_id
-                logging.info(f"EPG yüklendi. {len(epg_map)} isim varyasyonu oluşturuldu.")
+                        variants = get_norm_variants(display_node.text)
+                        for v in variants:
+                            if v: epg_map[v] = channel_id
+                logging.info(f"EPG yüklendi. {len(epg_map)} anahtar oluşturuldu.")
                 return epg_map
     except Exception as e:
         logging.error(f"EPG hatası: {e}")
@@ -88,11 +78,16 @@ def parse_m3u(m3u_content: str, epg_map: Dict[str, str]) -> List[Channel]:
             group = extract_attribute(current_inf, "group-title") or extract_attribute(current_inf, "tvg-group")
             logo = extract_attribute(current_inf, "tvg-logo")
             
+            # Parantez içi temizliği (Örn: STAR (Yedek) -> STAR)
             clean_name = re.sub(r'[\[\(].*?[\]\)]', '', raw_name).strip()
-            spaced, compact = get_norm_variants(clean_name)
+            variants = get_norm_variants(clean_name)
             
-            # Önce boşluklu isme bak (TRT 1), yoksa bitişik isme bak (TRT1)
-            tvg_id = epg_map.get(spaced) or epg_map.get(compact, "")
+            # Eşleşme ara
+            tvg_id = ""
+            for v in variants:
+                if v in epg_map:
+                    tvg_id = epg_map[v]
+                    break
             
             channels.append(Channel(
                 name=clean_name,
@@ -107,7 +102,7 @@ def parse_m3u(m3u_content: str, epg_map: Dict[str, str]) -> List[Channel]:
 def clean_category(raw_group: str) -> str:
     if not raw_group: return "Genel"
     clean = raw_group.lower()
-    for key, target in CATEGORY_MAPPING.items():
+    for key, target in {"haber": "Haberler", "ulusal": "Ulusal Kanallar", "spor": "Spor", "movie": "Sinema"}.items():
         if key in clean: return target
     return raw_group.title()
 
@@ -129,7 +124,7 @@ async def main():
         global_seen_urls = set()
         
         for url in M3U_SOURCES:
-            logging.info(f"Kaynak: {url}")
+            logging.info(f"Kaynak işleniyor: {url}")
             try:
                 async with session.get(url, timeout=15) as resp:
                     if resp.status == 200:
@@ -143,7 +138,7 @@ async def main():
 
         if not all_channels: return
 
-        logging.info(f"{len(all_channels)} kanal taranıyor...")
+        logging.info(f"{len(all_channels)} kanal kontrol ediliyor...")
         sem = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
         tasks = [check_url(sem, session, ch) for ch in all_channels]
         results = await asyncio.gather(*tasks)
@@ -161,7 +156,15 @@ async def main():
                 f.write(f'#EXTINF:-1 {tvg_part}group-title="{ch.category}" tvg-logo="{ch.logo}",{ch.name}\n')
                 f.write(f"{ch.url}\n")
         
-        logging.info(f"Bitti! {len(alive_channels)} kanal hazır.")
+        logging.info(f"Tamamlandı: {len(alive_channels)} kanal.")
+
+@dataclass
+class Channel:
+    name: str
+    category: str
+    url: str
+    logo: str = ""
+    tvg_id: str = ""
 
 if __name__ == "__main__":
     asyncio.run(main())
