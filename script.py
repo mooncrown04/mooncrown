@@ -8,7 +8,7 @@ from typing import List, Dict, Optional
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# --- AYARLAR VE ÖZEL SIRALAMA ---
+# --- AYARLAR ---
 TIMEOUT = 10 
 MAX_CONCURRENT_REQUESTS = 30 
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
@@ -21,12 +21,12 @@ M3U_SOURCES = [
     'https://tinyurl.com/TVCANLI'
 ]
 
-# SENİN İSTEDİĞİN SIRALAMA VE KATEGORİLER
+# ÖZEL SIRALAMA VE KATEGORİ LİSTELERİ
 ULUSAL_ORDER = ["TRT 1", "SHOW TV", "ATV", "KANAL D", "STAR", "NOW", "KANAL 7", "TV 8", "TV 8.5", "BEYAZ", "TEVE 2"]
 HABER_ORDER = ["HALK TV", "SÖZCÜ TV", "CNN TÜRK", "TV 100", "NTV", "Flash Haber TV", "HABER GLOBAL", "TGRT HABER", "TV 24", "ÜLKE TV"]
 
-# Öncelik sözlüğü (Sıralama için)
-PRIORITY_MAP = {name.upper(): i for i, name in enumerate(ULUSAL_ORDER + HABER_ORDER)}
+# KARA LİSTE (Hatalı eşleşen yerel/yabancı kanallar)
+BLACKLIST = ["ALANYA", "AZ", "AZER", "KIBRIS", "AVRUPA", "EURO", "ALMANYA", "MAGAZIN"]
 
 @dataclass
 class Channel:
@@ -36,14 +36,33 @@ class Channel:
     logo: str = ""
     tvg_id: str = ""
 
+def is_strict_match(target_name: str, candidate_name: str) -> bool:
+    """Kanal isminin 'Alanya ATV' gibi alakasız olup olmadığını kontrol eder."""
+    candidate_upper = candidate_name.upper()
+    target_upper = target_name.upper()
+    
+    # 1. Kara listedeki kelimeler geçiyorsa direkt ele
+    if any(word in candidate_upper for word in BLACKLIST):
+        return False
+        
+    # 2. 'ATV' arıyorsak, 'ALANYA ATV'yi ele ama 'ATV HD'yi kabul et
+    # Mantık: Eğer kanal ismi hedef isimden uzunsa, ek kelimenin sadece 'HD', '1080', 'FHD' gibi teknik terim olması lazım.
+    if target_upper in candidate_upper:
+        suffix = candidate_upper.replace(target_upper, "").strip()
+        # Eğer kalan kısım boşsa veya teknik bir terimse kabul et
+        valid_suffixes = ["", "HD", "FHD", "SD", "4K", "1080", "1080P", "720P", "HEVC"]
+        if suffix in valid_suffixes or all(word in valid_suffixes for word in suffix.split()):
+            return True
+            
+    return False
+
 def get_norm_variants(name: str):
     if not name: return []
     name = name.upper()
     name = re.sub(r'TR\s?-\s?|TR:|HD|SD|FHD|4K|BACKUP|YEDEK|HEVC|\bTV\b', '', name)
     clean = re.sub(r'[^A-Z0-9]', ' ', name)
     spaced = " ".join(clean.split()).strip() 
-    compact = spaced.replace(" ", "")        
-    return list(set([spaced, compact]))
+    return list(set([spaced, spaced.replace(" ", "")]))
 
 async def fetch_epg_data(session: aiohttp.ClientSession) -> Dict[str, str]:
     logging.info("EPG verileri çekiliyor...")
@@ -57,6 +76,7 @@ async def fetch_epg_data(session: aiohttp.ClientSession) -> Dict[str, str]:
                     channel_id = channel.get('id')
                     display_node = channel.find('display-name')
                     if channel_id and display_node is not None:
+                        # EPG'deki 'TR - ATV' gibi isimleri normalize et
                         variants = get_norm_variants(display_node.text)
                         for v in variants:
                             if v: epg_map[v] = channel_id
@@ -77,20 +97,35 @@ def parse_m3u(m3u_content: str, epg_map: Dict[str, str]) -> List[Channel]:
             logo = re.search(r'tvg-logo="([^"]*)"', current_inf, re.I).group(1) if 'tvg-logo="' in current_inf else ""
             
             clean_name = re.sub(r'[\[\(].*?[\]\)]', '', raw_name).strip()
-            upper_name = clean_name.upper()
             
-            # --- KATEGORİ ZORLAMASI ---
+            # --- SIRALAMA VE KATEGORİ ZORLAMASI ---
             final_category = "Diğer"
-            if any(u_name == upper_name or u_name in upper_name for u_name in [n.upper() for n in ULUSAL_ORDER]):
-                final_category = "Ulusal Kanallar"
-            elif any(h_name == upper_name or h_name in upper_name for h_name in [n.upper() for n in HABER_ORDER]):
-                final_category = "Haberler"
-            else:
-                # Eğer senin listende yoksa eski mantıkla kategori ata
+            is_priority = False
+            
+            # Ulusal Kanal Kontrolü
+            for target in ULUSAL_ORDER:
+                if is_strict_match(target, clean_name):
+                    final_category = "Ulusal Kanallar"
+                    is_priority = True
+                    break
+            
+            # Haber Kanalı Kontrolü (Eğer hala bulunamadıysa)
+            if not is_priority:
+                for target in HABER_ORDER:
+                    if is_strict_match(target, clean_name):
+                        final_category = "Haberler"
+                        is_priority = True
+                        break
+            
+            # Eğer bizim listemizde yoksa standart kategori ata
+            if not is_priority:
                 raw_group = re.search(r'group-title="([^"]*)"', current_inf, re.I).group(1) if 'group-title="' in current_inf else ""
-                final_category = clean_category_manual(raw_group)
+                clean_raw = raw_group.lower()
+                if "spor" in clean_raw: final_category = "Spor"
+                elif "sinema" in clean_raw or "film" in clean_raw: final_category = "Sinema"
+                elif "belgesel" in clean_raw: final_category = "Belgesel"
 
-            # EPG Eşleşme
+            # EPG ID Atama
             variants = get_norm_variants(clean_name)
             tvg_id = ""
             for v in variants:
@@ -102,21 +137,13 @@ def parse_m3u(m3u_content: str, epg_map: Dict[str, str]) -> List[Channel]:
             current_inf = None
     return channels
 
-def clean_category_manual(raw_group: str) -> str:
-    if not raw_group: return "Genel"
-    clean = raw_group.lower()
-    if "spor" in clean or "sport" in clean: return "Spor"
-    if "sinema" in clean or "movie" in clean or "film" in clean: return "Sinema"
-    return "Belgesel" if "belgesel" in clean else "Genel"
-
-async def check_url(sem, session, ch: Channel) -> Optional[Channel]:
+async def check_url(sem, session, ch: Channel):
     async with sem:
         try:
             async with session.get(ch.url, timeout=TIMEOUT, allow_redirects=True) as resp:
                 if resp.status == 200:
-                    ctype = resp.headers.get('Content-Type', '').lower()
-                    if 'text/html' in ctype: return None
-                    return ch
+                    if 'text/html' not in resp.headers.get('Content-Type', '').lower():
+                        return ch
         except: pass
         return None
 
@@ -127,9 +154,9 @@ async def main():
         global_seen_urls = set()
         
         for url in M3U_SOURCES:
-            logging.info(f"İndiriliyor: {url}")
+            logging.info(f"Kaynak işleniyor: {url}")
             try:
-                async with session.get(url) as resp:
+                async with session.get(url, timeout=15) as resp:
                     if resp.status == 200:
                         text = await resp.text()
                         for ch in parse_m3u(text, epg_map):
@@ -140,33 +167,33 @@ async def main():
 
         if not all_channels: return
 
-        logging.info(f"{len(all_channels)} kanal doğrulanıyor...")
+        logging.info(f"{len(all_channels)} kanal taranıyor...")
         sem = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
         tasks = [check_url(sem, session, ch) for ch in all_channels]
         results = await asyncio.gather(*tasks)
         alive_channels = [c for c in results if c]
 
-        # --- ÖZEL SIRALAMA MANTIĞI ---
+        # --- SIRALAMA MANTIĞI ---
         def sorting_key(ch: Channel):
-            # 1. Kategori Önceliği (Ulusal > Haber > Diğer)
-            cat_priority = 0
-            if ch.category == "Ulusal Kanallar": cat_priority = 1
-            elif ch.category == "Haberler": cat_priority = 2
-            else: cat_priority = 3
+            # Kategori sırası: Ulusal(1), Haber(2), Diğer(3)
+            cat_rank = 1 if ch.category == "Ulusal Kanallar" else (2 if ch.category == "Haberler" else 3)
             
-            # 2. Kanalın kendi sırası (Listede varsa sırası, yoksa alfabetik)
-            name_upper = ch.name.upper()
-            # Tam eşleşme veya içerme kontrolü
-            order_val = 999
-            for listed_name, pos in PRIORITY_MAP.items():
-                if listed_name == name_upper or listed_name in name_upper:
-                    order_val = pos
-                    break
+            # Kanalın kendi sırası
+            order_list = ULUSAL_ORDER if ch.category == "Ulusal Kanallar" else (HABER_ORDER if ch.category == "Haberler" else [])
+            try:
+                # İsim eşleşmesine göre listedeki index'i bul
+                name_rank = 999
+                for i, target in enumerate(order_list):
+                    if is_strict_match(target, ch.name):
+                        name_rank = i
+                        break
+            except: name_rank = 999
             
-            return (cat_priority, order_val, ch.name)
+            return (cat_rank, name_rank, ch.name)
 
         alive_channels.sort(key=sorting_key)
 
+        # Yazma işlemi
         with open("guncel_liste.m3u", "w", encoding="utf-8") as f:
             f.write(f'#EXTM3U x-tvg-url="{EPG_URL}"\n')
             for ch in alive_channels:
@@ -174,7 +201,7 @@ async def main():
                 f.write(f'#EXTINF:-1 {tvg_part}group-title="{ch.category}" tvg-logo="{ch.logo}",{ch.name}\n')
                 f.write(f"{ch.url}\n")
         
-        logging.info(f"Bitti! {len(alive_channels)} kanal listelendi.")
+        logging.info(f"Bitti! {len(alive_channels)} kanal aktif.")
 
 if __name__ == "__main__":
     asyncio.run(main())
