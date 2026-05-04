@@ -19,8 +19,6 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv_1080p.m3u8
 https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558
 #EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/atv_5qb.png" group-title="Ulusal Kanallar",ATV
 http://live.cdn-vizi.workers.dev/?ID=2
-#EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV" tvg-logo="https://i.ibb.co/DwFJ0vn/atv.png" group-title="Ulusal Kanallar",ATV
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
 #EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV" tvg-logo="https://mediacms01.digiturkplay.com/channel_logo/atv_250x150_14_07_21_png.png" group-title="Ulusal Kanallar",ATV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://i.ibb.co/hf2mSz5/kanal-d.png" group-title="Ulusal Kanallar",KANAL D
@@ -39,8 +37,6 @@ https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b
 http://tv.smartglwiz.workers.dev/?ID=Now_HD
 #EXTINF:-1 tvg-id="NOWTV.tr" tvg-name="NOW" tvg-logo="https://i.ibb.co/QvTPfhs/now.png" group-title="Ulusal Kanallar",NOW
 https://tinyurl.com/SyndraxicFOX
-#EXTINF:-1 tvg-id="KANAL7.tr" tvg-name="KANAL 7" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/kanal7_avrupa_PSS.png" group-title="Ulusal Kanallar",KANAL 7
-http://live.cdn-vizi.workers.dev/?ID=7
 #EXTINF:-1 tvg-id="KANAL7.tr" tvg-name="KANAL 7" tvg-logo="https://i.ibb.co/dcC9pzY/kanal-7.png" group-title="Ulusal Kanallar",KANAL 7
 https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
 #EXTINF:-1 tvg-name="TV 8" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304475.png" group-title="Ulusal Kanallar",TV 8
@@ -57,8 +53,6 @@ https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
 #EXTINF:-1 tvg-id="Teve2.tr" tvg-name="TEVE 2" tvg-logo="https://i.ibb.co/JRpJc2P/teve2.png" group-title="Ulusal Kanallar",TEVE 2
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8
-#EXTINF:-1 tvg-id="HalkTV.tr" tvg-name="HALK TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/halk_tv_L5s.png" group-title="Haberler",HALK TV
-http://live.cdn-vizi.workers.dev/?ID=16
 #EXTINF:-1 tvg-id="HalkTV.tr" tvg-name="HALK TV" tvg-logo="https://i.ibb.co/DYhmg6k/halk-tv.png" group-title="Haberler",HALK TV
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 #EXTINF:-1 tvg-id="HalkTV.tr" tvg-name="HALK TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/halk-tv-tr.png" group-title="Haberler",HALK TV
@@ -195,8 +189,6 @@ https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 https://tv.ensonhaber.com/tv360/tv360.m3u8
 #EXTINF:-1 tvg-id="360.tr" tvg-name="360" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/360-tr.png" group-title="Diğer",360
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
-#EXTINF:-1 tvg-id="360.tr" tvg-name="360 TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/360_BNa.png" group-title="Diğer",360 TV
-http://live.cdn-vizi.workers.dev/?ID=29
 #EXTINF:-1 tvg-name="365 дней ТВ" tvg-logo="http://sarkor.tv/static/images/channels/365 дней ТВ.png" group-title="Diğer",365 дней ТВ
 http://live.sarkortv.workers.dev/?ID=98
 #EXTINF:-1 tvg-name="4 Kurd" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307602.png" group-title="Diğer",4 Kurd
@@ -209,14 +201,10 @@ http://live.smartglwiz.workers.dev/?ID=4uFamily_HD
 http://live.sarkortv.workers.dev/?ID=94
 #EXTINF:-1 tvg-id="ASpor.tr" tvg-name="A SPOR" tvg-logo="https://i.ibb.co/rwnrgFV/a-spor.png" group-title="Spor",A SPOR
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
-#EXTINF:-1 tvg-id="ASpor.tr" tvg-name="A Spor" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/a_spor_mcm.png" group-title="Diğer",A Spor
-http://live.cdn-vizi.workers.dev/?ID=19
 #EXTINF:-1 tvg-name="A VİVA TV" group-title="Diğer",A VİVA TV
 https://tvsms.club/tv.php?kanal=vivatv&file=.m3u8
 #EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://i.ibb.co/7WTsG83/a2.png" group-title="Diğer",A2
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
-#EXTINF:-1 tvg-id="A2.tr" tvg-name="A2 TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/a2_tv_4s5.png" group-title="Diğer",A2 TV
-http://live.cdn-vizi.workers.dev/?ID=26
 #EXTINF:-1 tvg-name="AFN" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_300578.png" group-title="Diğer",AFN
 http://live.smartglwiz.workers.dev/?ID=AFN_HD
 #EXTINF:-1 tvg-name="AGN SAT" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307401.png" group-title="Diğer",AGN SAT
@@ -277,8 +265,6 @@ http://cdn.tv-rds.workers.dev/AbuDhabiSports1.m3u8
 http://cdn.tv-rds.workers.dev/AbuDhabiSports2.m3u8
 #EXTINF:-1 tvg-name="Ada TV" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304340.png" group-title="Diğer",Ada TV
 http://tv.smartglwiz.workers.dev/?ID=Adatv_HD
-#EXTINF:-1 tvg-name="Adem İle Havva | Tarık Akan - Sibel Turnagöl | Full" tvg-logo="https://i.ytimg.com/vi/rPXlRN_Pu4c/hqdefault.jpg" group-title="Sinema",Adem İle Havva | Tarık Akan - Sibel Turnagöl | Full
-http://movies.yt-hls.workers.dev/rPXlRN_Pu4c.m3u8
 #EXTINF:-1 tvg-name="Aein Jadeed" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_306971.png" group-title="Diğer",Aein Jadeed
 http://live.smartglwiz.workers.dev/?ID=AeinJadeed_HD
 #EXTINF:-1 tvg-name="Afghanistan International" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307414.png" group-title="Diğer",Afghanistan International
@@ -289,14 +275,10 @@ http://live.smartglwiz.workers.dev/?ID=AfgUSA_HD
 http://tv.smartglwiz.workers.dev/?ID=AksuTV_HD
 #EXTINF:-1 tvg-name="AlJazeera" tvg-logo="http://sarkor.tv/static/images/channels/AlJazeera HD.png" group-title="Diğer",AlJazeera
 http://live.sarkortv.workers.dev/?ID=175
-#EXTINF:-1 tvg-name="Ale Kino+" tvg-logo="https://www.polskie.tv/play/images/logos/538.png" group-title="Diğer",Ale Kino+
-http://live.cdn-polskie.workers.dev/?ID=38
 #EXTINF:-1 tvg-name="Altas TV" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304368.png" group-title="Diğer",Altas TV
 http://tv.smartglwiz.workers.dev/?ID=AltasTV_HD
 #EXTINF:-1 tvg-name="Amu" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307586.png" group-title="Diğer",Amu
 http://live.smartglwiz.workers.dev/?ID=Amu_HD
-#EXTINF:-1 tvg-name="Animal Planet" tvg-logo="https://www.polskie.tv/play/images/logos/568.png" group-title="Diğer",Animal Planet
-http://live.cdn-polskie.workers.dev/?ID=68
 #EXTINF:-1 tvg-name="Arezo" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_306194.png" group-title="Diğer",Arezo
 http://live.smartglwiz.workers.dev/?ID=Arezo_HD
 #EXTINF:-1 tvg-name="Ariana Int" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_300346.png" group-title="Diğer",Ariana Int
@@ -341,8 +323,6 @@ https://tv.ensonhaber.com/benguturk/benguturk_720p.m3u8
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTINF:-1 tvg-id="BEYAZTV.tr" tvg-name="BEYAZ TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/beyaz-tv-tr.png" group-title="Diğer",BEYAZ TV
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
-#EXTINF:-1 tvg-name="BIR TV" tvg-logo="https://i.ibb.co/dDdPMWq/birtv.png" group-title="Diğer",BIR TV
-https://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="BOR FM" group-title="Diğer",BOR FM
 https://tinyurl.com/SyndraxicBORfm
 #EXTINF:-1 tvg-name="BRÜKSEL TÜRK" group-title="Diğer",BRÜKSEL TÜRK
@@ -373,8 +353,6 @@ https://andro.1286503.xyz/checklist/androstreamlivebs5.m3u8
 http://live.smartglwiz.workers.dev/?ID=Begum_HD
 #EXTINF:-1 tvg-name="Bengu Turk" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304521.png" group-title="Diğer",Bengu Turk
 http://tv.smartglwiz.workers.dev/?ID=BenguTurk_HD
-#EXTINF:-1 tvg-id="BEYAZTV.tr" tvg-name="Beyaz TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/beyaz_tv_j7S.png" group-title="Diğer",Beyaz TV
-http://live.cdn-vizi.workers.dev/?ID=9
 #EXTINF:-1 tvg-name="Bibel TV" group-title="Diğer",Bibel TV
 https://bibint01.iptv-playoutcenter.de/bibint01/bibint01.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-name="Bibel TV Impuls" group-title="Diğer",Bibel TV Impuls
@@ -397,28 +375,26 @@ http://live.sarkortv.workers.dev/?ID=92
 http://live.sarkortv.workers.dev/?ID=174
 #EXTINF:-1 tvg-name="CNN" tvg-logo="http://sarkor.tv/static/images/channels/CNN.png" group-title="Diğer",CNN
 http://live.sarkortv.workers.dev/?ID=90
-#EXTINF:-1 tvg-name="CNN Turk" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/cnn_turk_Zrw.png" group-title="Diğer",CNN Turk
-http://live.cdn-vizi.workers.dev/?ID=12
 #EXTINF:-1 tvg-name="CNews" tvg-logo="https://freeshot.live/upload/source/CNews-logo.png" group-title="Diğer",CNews
 http://cdn.tv-rds.workers.dev/CNewsFR.m3u8
 #EXTINF:-1 tvg-name="Cafe Trade TV" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307409.png" group-title="Diğer",Cafe Trade TV
 http://live.smartglwiz.workers.dev/?ID=CafeTradeTV_HD
-#EXTINF:-1 tvg-name="Canal+ Extra 1" tvg-logo="https://www.polskie.tv/play/images/logos/622.png" group-title="Diğer",Canal+ Extra 1
-http://live.cdn-polskie.workers.dev/?ID=122
-#EXTINF:-1 tvg-id="CartoonNetwork.tr" tvg-name="Cartoon Network" tvg-logo="https://www.polskie.tv/play/images/logos/528.png" group-title="Diğer",Cartoon Network
-http://live.cdn-polskie.workers.dev/?ID=28
-#EXTINF:-1 tvg-name="Cartoon Networks" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/cartoon_network_L3S.png" group-title="Diğer",Cartoon Networks
-http://live.cdn-vizi.workers.dev/?ID=25
+#EXTINF:-1 tvg-name="Canal + Sport 5" tvg-logo="https://www.polskie.tv/play/images/logos/545.png" group-title="Diğer",Canal + Sport 5
+http://live.cdn-polskie.workers.dev/?ID=45
+#EXTINF:-1 tvg-name="Canal+ 360" tvg-logo="https://www.polskie.tv/play/images/logos/513.png" group-title="Diğer",Canal+ 360
+http://live.cdn-polskie.workers.dev/?ID=13
+#EXTINF:-1 tvg-name="Canal+ Sport" tvg-logo="https://www.polskie.tv/play/images/logos/511.png" group-title="Diğer",Canal+ Sport
+http://live.cdn-polskie.workers.dev/?ID=11
 #EXTINF:-1 tvg-name="Cay TV" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304399.png" group-title="Diğer",Cay TV
 http://tv.smartglwiz.workers.dev/?ID=CayTV_HD
-#EXTINF:-1 tvg-name="Cennetin Çocukları - Tek Parça" tvg-logo="https://i.ytimg.com/vi/KBu0OnLImjA/hqdefault.jpg" group-title="Sinema",Cennetin Çocukları - Tek Parça
-http://movies.yt-hls.workers.dev/KBu0OnLImjA.m3u8
 #EXTINF:-1 tvg-name="Channel One" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307513.png" group-title="Diğer",Channel One
 http://live.smartglwiz.workers.dev/?ID=ChannelOne_HD
 #EXTINF:-1 tvg-name="Chemnitz Fernsehen" group-title="Diğer",Chemnitz Fernsehen
 https://chemnitz.iptv-playoutcenter.de/chemnitz/chemnitzfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-name="Cinema" tvg-logo="http://sarkor.tv/static/images/channels/Cinema SD.png" group-title="Diğer",Cinema
 http://live.sarkortv.workers.dev/?ID=155
+#EXTINF:-1 tvg-name="Cinemax 2" tvg-logo="https://www.polskie.tv/play/images/logos/626.png" group-title="Diğer",Cinemax 2
+http://live.cdn-polskie.workers.dev/?ID=126
 #EXTINF:-1 tvg-name="Cira" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_306169.png" group-title="Diğer",Cira
 http://live.smartglwiz.workers.dev/?ID=Cira_HD
 #EXTINF:-1 tvg-name="City Tv" tvg-logo="https://www.bg-gledai.video/wp-content/uploads/citytv.png" group-title="Diğer",City Tv
@@ -453,8 +429,6 @@ https://tinyurl.com/SyndraxicDAMARfm
 https://tvsms.club/tv.php?kanal=damar&file=.m3u8
 #EXTINF:-1 tvg-name="DASDING 90.8" group-title="Diğer",DASDING 90.8
 https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
-#EXTINF:-1 tvg-name="DAZN 1 ES" tvg-logo="https://freeshot.live/upload/source/DAZN-logo.png" group-title="Diğer",DAZN 1 ES
-http://cdn.tv-rds.workers.dev/DAZN1ES.m3u8
 #EXTINF:-1 tvg-name="DAZN 2 DE" tvg-logo="https://freeshot.live/upload/source/DAZN-logo.png" group-title="Diğer",DAZN 2 DE
 http://cdn.tv-rds.workers.dev/DAZN2DE.m3u8
 #EXTINF:-1 tvg-name="DAZN 2 ES" tvg-logo="https://freeshot.live/upload/source/DAZN-logo.png" group-title="Diğer",DAZN 2 ES
@@ -517,14 +491,10 @@ http://live.sarkortv.workers.dev/?ID=107
 http://live.smartglwiz.workers.dev/?ID=DidanihaTV_HD
 #EXTINF:-1 tvg-name="Didgah" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_305198.png" group-title="Diğer",Didgah
 http://live.smartglwiz.workers.dev/?ID=Didgah_HD
-#EXTINF:-1 tvg-name="Dilber Ay | Full" tvg-logo="https://i.ytimg.com/vi/y98vjFWybBY/hqdefault.jpg" group-title="Sinema",Dilber Ay | Full
-http://movies.yt-hls.workers.dev/y98vjFWybBY.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.tr" tvg-name="Discovery Channel" tvg-logo="https://www.polskie.tv/play/images/logos/570.png" group-title="Diğer",Discovery Channel
 http://live.cdn-polskie.workers.dev/?ID=70
-#EXTINF:-1 tvg-name="Discovery Historia" tvg-logo="https://www.polskie.tv/play/images/logos/607.png" group-title="Diğer",Discovery Historia
-http://live.cdn-polskie.workers.dev/?ID=107
-#EXTINF:-1 tvg-name="Disney Channel" tvg-logo="https://www.polskie.tv/play/images/logos/526.png" group-title="Diğer",Disney Channel
-http://live.cdn-polskie.workers.dev/?ID=26
+#EXTINF:-1 tvg-name="Discovery Investigation" tvg-logo="https://www.polskie.tv/play/images/logos/630.png" group-title="Diğer",Discovery Investigation
+http://live.cdn-polskie.workers.dev/?ID=130
 #EXTINF:-1 tvg-id="DisneyJunior.tr" tvg-name="Disney Junior" tvg-logo="https://www.polskie.tv/play/images/logos/529.png" group-title="Diğer",Disney Junior
 http://live.cdn-polskie.workers.dev/?ID=29
 #EXTINF:-1 tvg-name="Doctor" tvg-logo="http://sarkor.tv/static/images/channels/Doctor.png" group-title="Diğer",Doctor
@@ -543,6 +513,8 @@ https://dresden.iptv-playoutcenter.de/dresden/dresdenfernsehen.stream_1/playlist
 http://live.sarkortv.workers.dev/?ID=130
 #EXTINF:-1 tvg-name="Dubai Racing" tvg-logo="https://freeshot.live/upload/source/DubaiSports-logo.png" group-title="Diğer",Dubai Racing
 http://cdn.tv-rds.workers.dev/DubaiRacing.m3u8
+#EXTINF:-1 tvg-name="Dubai Racing 2" tvg-logo="https://freeshot.live/upload/source/DubaiSports-logo.png" group-title="Diğer",Dubai Racing 2
+http://cdn.tv-rds.workers.dev/DubaiRacing2.m3u8
 #EXTINF:-1 tvg-name="Dubai Sports" tvg-logo="https://freeshot.live/upload/source/DubaiSports-logo.png" group-title="Diğer",Dubai Sports
 http://cdn.tv-rds.workers.dev/DubaiSports1.m3u8
 #EXTINF:-1 tvg-name="Dubai Sports 2" tvg-logo="https://freeshot.live/upload/source/DubaiSports-logo.png" group-title="Diğer",Dubai Sports 2
@@ -555,8 +527,6 @@ http://live.smartglwiz.workers.dev/?ID=Dunya_HD
 http://live.sarkortv.workers.dev/?ID=15
 #EXTINF:-1 tvg-name="Dushanbe" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307459.png" group-title="Diğer",Dushanbe
 http://live.smartglwiz.workers.dev/?ID=Dushanbe_HD
-#EXTINF:-1 tvg-name="ELEVEN SPORTS 2 PL" tvg-logo="https://freeshot.live/upload/source/ElevenSports2-logo.png" group-title="Diğer",ELEVEN SPORTS 2 PL
-http://cdn.tv-rds.workers.dev/ElevenSports2PL.m3u8
 #EXTINF:-1 tvg-name="ELEVEN SPORTS 3 PL" tvg-logo="https://freeshot.live/upload/source/ElevenSports3-logo.png" group-title="Diğer",ELEVEN SPORTS 3 PL
 http://cdn.tv-rds.workers.dev/ElevenSports3PL.m3u8
 #EXTINF:-1 tvg-name="ELEVEN SPORTS 4 PL" tvg-logo="https://freeshot.live/upload/source/ElevenSports4-logo.png" group-title="Diğer",ELEVEN SPORTS 4 PL
@@ -573,8 +543,6 @@ http://cdn.tv-rds.workers.dev/ESPN2BR.m3u8
 http://cdn.tv-rds.workers.dev/ESPN3ARG.m3u8
 #EXTINF:-1 tvg-name="ESPN 3 Brasil" tvg-logo="https://freeshot.live/upload/source/ESPN-Brasil-3-logo.png" group-title="Diğer",ESPN 3 Brasil
 http://cdn.tv-rds.workers.dev/ESPN3BR.m3u8
-#EXTINF:-1 tvg-name="ESPN 4 Brasil" tvg-logo="https://freeshot.live/upload/source/Espn_4_logo.png" group-title="Diğer",ESPN 4 Brasil
-http://cdn.tv-rds.workers.dev/ESPN4BR.m3u8
 #EXTINF:-1 tvg-name="ESPN 5 Brasil" tvg-logo="https://freeshot.live/upload/source/ESPN-Brasil-5-logo.png" group-title="Diğer",ESPN 5 Brasil
 http://cdn.tv-rds.workers.dev/ESPN5BR.m3u8
 #EXTINF:-1 tvg-name="ESPN ARG" tvg-logo="https://freeshot.live/upload/source/ESPN-logo.png" group-title="Diğer",ESPN ARG
@@ -617,6 +585,8 @@ http://cdn.tv-rds.workers.dev/EURO2GR.m3u8
 http://cdn.tv-rds.workers.dev/Eurosport2NL.m3u8
 #EXTINF:-1 tvg-name="EUROSPORT 2 PL" tvg-logo="https://freeshot.live/upload/source/Eurosport-2-poland-logo.png" group-title="Diğer",EUROSPORT 2 PL
 http://cdn.tv-rds.workers.dev/Eurosport2PL.m3u8
+#EXTINF:-1 tvg-name="EUROSPORT 2 RO" tvg-logo="https://freeshot.live/upload/source/Eurosport_2_logo.png" group-title="Diğer",EUROSPORT 2 RO
+http://cdn.tv-rds.workers.dev/Eurosport2RO.m3u8
 #EXTINF:-1 tvg-name="EUROSPORT 2 RS" tvg-logo="https://freeshot.live/upload/source/Eurosport_2_logo.png" group-title="Diğer",EUROSPORT 2 RS
 http://cdn.tv-rds.workers.dev/EUROSPORT2RS.m3u8
 #EXTINF:-1 tvg-name="EUROSPORT 2 RU" tvg-logo="https://freeshot.live/upload/source/Eurosport_2_logo.png" group-title="Diğer",EUROSPORT 2 RU
@@ -689,10 +659,10 @@ http://live.smartglwiz.workers.dev/?ID=FarhangeIranZamin_HD
 http://live.sarkortv.workers.dev/?ID=154
 #EXTINF:-1 tvg-name="Faza" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307584.png" group-title="Diğer",Faza
 http://live.smartglwiz.workers.dev/?ID=Faza_HD
+#EXTINF:-1 tvg-name="FiNEST TV" group-title="Diğer",FiNEST TV
+http://media.finest.tv/hls/live.m3u8
 #EXTINF:-1 tvg-name="Film 1" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_300202.png" group-title="Diğer",Film 1
 http://live.smartglwiz.workers.dev/?ID=Film1_HD
-#EXTINF:-1 tvg-name="Film Café" tvg-logo="https://www.polskie.tv/play/images/logos/633.png" group-title="Diğer",Film Café
-http://live.cdn-polskie.workers.dev/?ID=133
 #EXTINF:-1 tvg-name="Film Screen" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png" group-title="Sinema",Film Screen
 https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8
 #EXTINF:-1 tvg-id="FOX.tr" tvg-name="Fox TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/now_tv_dGf.png" group-title="Diğer",Fox TV
@@ -709,6 +679,8 @@ http://cdn.tv-rds.workers.dev/France5.m3u8
 http://live.sarkortv.workers.dev/?ID=89
 #EXTINF:-1 tvg-name="Futbol TV" tvg-logo="http://sarkor.tv/static/images/channels/Futbol TV.png" group-title="Diğer",Futbol TV
 http://live.sarkortv.workers.dev/?ID=14
+#EXTINF:-1 tvg-name="FİNEST TV" tvg-logo="http://3.bp.blogspot.com/-qlO8gZZSe6s/WYWU6_5yJeI/AAAAAAAATmg/2fN-shn7Rv4GhTTsnF1xpN5oLBdg0HOagCLcBGAs/s1600/f.jpg" group-title="Diğer",FİNEST TV
+https://media.finest.tv/hls/live.m3u8
 #EXTINF:-1 tvg-name="GEM Academy" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307498.png" group-title="Diğer",GEM Academy
 http://live.smartglwiz.workers.dev/?ID=GEMAcademy_HD
 #EXTINF:-1 tvg-name="GEM Bollywood" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_305101.png" group-title="Diğer",GEM Bollywood
@@ -751,20 +723,18 @@ http://cdn.tv-rds.workers.dev/GoldUK.m3u8
 http://live.smartglwiz.workers.dev/?ID=GrandCinema_HD
 #EXTINF:-1 tvg-name="Gulli Girl" tvg-logo="http://sarkor.tv/static/images/channels/Gulli Girl.png" group-title="Diğer",Gulli Girl
 http://live.sarkortv.workers.dev/?ID=159
-#EXTINF:-1 tvg-name="Gülşen Bubikoğlu | Türk Filmi | Full" tvg-logo="https://i.ytimg.com/vi/ZlUiyY3pQvc/hqdefault.jpg" group-title="Sinema",Gülşen Bubikoğlu | Türk Filmi | Full
-http://movies.yt-hls.workers.dev/ZlUiyY3pQvc.m3u8
 #EXTINF:-1 tvg-id="HABERTURK.tr" tvg-name="HABERTURK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/haberturk-tr.png" group-title="Diğer",HABERTURK
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8
+#EXTINF:-1 tvg-name="HBO 2" tvg-logo="https://www.polskie.tv/play/images/logos/515.png" group-title="Diğer",HBO 2
+http://live.cdn-polskie.workers.dev/?ID=15
+#EXTINF:-1 tvg-name="HBO 3" tvg-logo="https://www.polskie.tv/play/images/logos/523.png" group-title="Diğer",HBO 3
+http://live.cdn-polskie.workers.dev/?ID=23
 #EXTINF:-1 tvg-name="HDL" tvg-logo="http://sarkor.tv/static/images/channels/HDL.png" group-title="Diğer",HDL
 http://live.sarkortv.workers.dev/?ID=113
 #EXTINF:-1 tvg-name="HGTV" tvg-logo="https://www.polskie.tv/play/images/logos/572.png" group-title="Diğer",HGTV
 http://live.cdn-polskie.workers.dev/?ID=72
 #EXTINF:-1 tvg-id="HTSPOR.tr" tvg-name="HT SPOR" group-title="Spor",HT SPOR
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
-#EXTINF:-1 tvg-id="HABERTURK.tr" tvg-name="Haber Turk" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/haber_turk_nEH.png" group-title="Diğer",Haber Turk
-http://live.cdn-vizi.workers.dev/?ID=13
-#EXTINF:-1 tvg-name="Hale Soygazi | Türk Filmi | Full" tvg-logo="https://i.ytimg.com/vi/kVyvF84zEaA/hqdefault.jpg" group-title="Sinema",Hale Soygazi | Türk Filmi | Full
-http://movies.yt-hls.workers.dev/kVyvF84zEaA.m3u8
 #EXTINF:-1 tvg-name="Halk Haber" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304314.png" group-title="Diğer",Halk Haber
 http://tv.smartglwiz.workers.dev/?ID=Halk_HD
 #EXTINF:-1 tvg-name="Hambastegi" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307482.png" group-title="Diğer",Hambastegi
@@ -853,8 +823,6 @@ http://live.smartglwiz.workers.dev/?ID=IranEAryaee_HD
 http://live.smartglwiz.workers.dev/?ID=IslamicMusic_HD
 #EXTINF:-1 tvg-name="Israel Pars TV" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307101.png" group-title="Diğer",Israel Pars TV
 http://live.smartglwiz.workers.dev/?ID=IsraelParsTV_HD
-#EXTINF:-1 tvg-name="Işıklar Sönmesin | Restorasyonlu" tvg-logo="https://i.ytimg.com/vi/ldAO5onF9eQ/hqdefault.jpg" group-title="Sinema",Işıklar Sönmesin | Restorasyonlu
-http://movies.yt-hls.workers.dev/ldAO5onF9eQ.m3u8
 #EXTINF:-1 tvg-name="Jahonnamo" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_300996.png" group-title="Diğer",Jahonnamo
 http://live.smartglwiz.workers.dev/?ID=Jahonnamo_HD
 #EXTINF:-1 tvg-name="Jewish TV" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307316.png" group-title="Diğer",Jewish TV
@@ -871,6 +839,8 @@ https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 #EXTINF:-1 tvg-name="KANAL 3" group-title="Diğer",KANAL 3
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
+#EXTINF:-1 tvg-name="KANAL 33" group-title="Diğer",KANAL 33
+https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="KANAL 34" group-title="Diğer",KANAL 34
 https://live.euromediacenter.com/kanal34/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="KANAL 53" group-title="Diğer",KANAL 53
@@ -903,8 +873,6 @@ http://dygvideo.dygdigital.com/live/hls/kralpop
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 #EXTINF:-1 tvg-name="KTV KONYA" group-title="Diğer",KTV KONYA
 https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/playlist.m3u8
-#EXTINF:-1 tvg-name="Kalbimin Efendisi | Restorasyonlu" tvg-logo="https://i.ytimg.com/vi/luv4hcYqCmg/hqdefault.jpg" group-title="Sinema",Kalbimin Efendisi | Restorasyonlu
-http://movies.yt-hls.workers.dev/luv4hcYqCmg.m3u8
 #EXTINF:-1 tvg-id="KANAL24.tr" tvg-name="Kanal 24" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304357.png" group-title="Diğer",Kanal 24
 http://tv.smartglwiz.workers.dev/?ID=24_HD
 #EXTINF:-1 tvg-name="Kanal 26" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304433.png" group-title="Diğer",Kanal 26
@@ -921,8 +889,6 @@ http://tv.smartglwiz.workers.dev/?ID=KanalFirat_HD
 http://live.smartglwiz.workers.dev/?ID=KanalJadid_HD
 #EXTINF:-1 tvg-name="Kardelen TV" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_305297.png" group-title="Diğer",Kardelen TV
 http://tv.smartglwiz.workers.dev/?ID=KardelenTV_HD
-#EXTINF:-1 tvg-name="Kartal Tibet | Türk Filmi | Full" tvg-logo="https://i.ytimg.com/vi/9uQ0aEVZz4k/hqdefault.jpg" group-title="Sinema",Kartal Tibet | Türk Filmi | Full
-http://movies.yt-hls.workers.dev/9uQ0aEVZz4k.m3u8
 #EXTINF:-1 tvg-name="Kayhan" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307074.png" group-title="Diğer",Kayhan
 http://live.smartglwiz.workers.dev/?ID=Kayhan_HD
 #EXTINF:-1 tvg-name="Kazakhstan" tvg-logo="http://sarkor.tv/static/images/channels/Kazakhstan SD.png" group-title="Diğer",Kazakhstan
@@ -945,8 +911,6 @@ http://live.smartglwiz.workers.dev/?ID=KurdMax_HD
 http://live.smartglwiz.workers.dev/?ID=KurdmaxShow_HD
 #EXTINF:-1 tvg-name="Kurdsat News" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_306761.png" group-title="Diğer",Kurdsat News
 http://live.smartglwiz.workers.dev/?ID=KurdsatNews_HD
-#EXTINF:-1 tvg-name="Köyden İndim Şehire | FULL" tvg-logo="https://i.ytimg.com/vi/IozQHPx2Lk0/hqdefault.jpg" group-title="Sinema",Köyden İndim Şehire | FULL
-http://movies.yt-hls.workers.dev/IozQHPx2Lk0.m3u8
 #EXTINF:-1 tvg-name="LFCTV UK" tvg-logo="https://freeshot.live/upload/source/LFCTV_logo.png" group-title="Diğer",LFCTV UK
 http://cdn.tv-rds.workers.dev/LFCTV.m3u8
 #EXTINF:-1 tvg-name="LIFE TV" tvg-logo="https://i.ibb.co/9hCVNks/life-tv.png" group-title="Diğer",LIFE TV
@@ -971,6 +935,8 @@ http://cdn.tv-rds.workers.dev/MaxSportBG.m3u8
 http://cdn.tv-rds.workers.dev/MaxSport1HR.m3u8
 #EXTINF:-1 tvg-name="MAX SPORT 2 BG" tvg-logo="https://freeshot.live/upload/source/MAX-SPORT-2-BG-logo.png" group-title="Diğer",MAX SPORT 2 BG
 http://cdn.tv-rds.workers.dev/MaxSport2BG.m3u8
+#EXTINF:-1 tvg-name="MAX SPORT 2 HR" tvg-logo="https://freeshot.live/upload/source/MAX-SPORT-2-HR-logo.png" group-title="Diğer",MAX SPORT 2 HR
+http://cdn.tv-rds.workers.dev/MaxSport2HR.m3u8
 #EXTINF:-1 tvg-name="MAX SPORT 3 BG" tvg-logo="https://freeshot.live/upload/source/MAX-SPORT-3-BG-logo.png" group-title="Diğer",MAX SPORT 3 BG
 http://cdn.tv-rds.workers.dev/MaxSport3BG.m3u8
 #EXTINF:-1 tvg-name="MAX SPORT 4 BG" tvg-logo="https://freeshot.live/upload/source/MAX-SPORT-4-BG-logo.png" group-title="Diğer",MAX SPORT 4 BG
@@ -1021,14 +987,12 @@ http://live.smartglwiz.workers.dev/?ID=MihanTV_HD
 http://cdn.tv-rds.workers.dev/MilanTV.m3u8
 #EXTINF:-1 tvg-name="Milliy TV" tvg-logo="http://sarkor.tv/static/images/channels/Milliy TV.png" group-title="Diğer",Milliy TV
 http://live.sarkortv.workers.dev/?ID=23
-#EXTINF:-1 tvg-name="Minika Cocuk" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/minika_cocuk_yet.png" group-title="Diğer",Minika Cocuk
-http://live.cdn-vizi.workers.dev/?ID=22
 #EXTINF:-1 tvg-name="Mohabat" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_300925.png" group-title="Diğer",Mohabat
 http://live.smartglwiz.workers.dev/?ID=Mohabat_HD
-#EXTINF:-1 tvg-name="Motowizja" tvg-logo="https://www.polskie.tv/play/images/logos/632.png" group-title="Diğer",Motowizja
-http://live.cdn-polskie.workers.dev/?ID=132
 #EXTINF:-1 tvg-name="Motowizja" tvg-logo="https://freeshot.live/upload/source/Motowizja-ikona-logo.png" group-title="Diğer",Motowizja
 http://cdn.tv-rds.workers.dev/Motowizja.m3u8
+#EXTINF:-1 tvg-name="Mulokot TV" tvg-logo="http://sarkor.tv/static/images/channels/Mulokot TV.png" group-title="Diğer",Mulokot TV
+http://live.sarkortv.workers.dev/?ID=177
 #EXTINF:-1 tvg-name="NHK WORLD" tvg-logo="http://sarkor.tv/static/images/channels/NHK WORLD.png" group-title="Diğer",NHK WORLD
 http://live.sarkortv.workers.dev/?ID=176
 #EXTINF:-1 tvg-name="NOVA SPORT BG" tvg-logo="https://freeshot.live/upload/source/NOVA-SPORT-BG-logo.png" group-title="Diğer",NOVA SPORT BG
@@ -1065,8 +1029,6 @@ http://live.smartglwiz.workers.dev/?ID=NahadeAzadi_HD
 http://live.sarkortv.workers.dev/?ID=116
 #EXTINF:-1 tvg-name="NatGeo channel" tvg-logo="http://sarkor.tv/static/images/channels/NatGeo channel SD.png" group-title="Diğer",NatGeo channel
 http://live.sarkortv.workers.dev/?ID=150
-#EXTINF:-1 tvg-id="NationalGeographic.tr" tvg-name="National Geographic" tvg-logo="https://www.polskie.tv/play/images/logos/629.png" group-title="Diğer",National Geographic
-http://live.cdn-polskie.workers.dev/?ID=129
 #EXTINF:-1 tvg-name="Navahang" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307616.png" group-title="Diğer",Navahang
 http://live.smartglwiz.workers.dev/?ID=Navahang_HD
 #EXTINF:-1 tvg-name="Navo" tvg-logo="http://sarkor.tv/static/images/channels/Navo.png" group-title="Diğer",Navo
@@ -1101,8 +1063,6 @@ http://live.smartglwiz.workers.dev/?ID=OmideJavedan_HD
 http://live.smartglwiz.workers.dev/?ID=OmmatEWasat_HD
 #EXTINF:-1 tvg-name="Oxir" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307180.png" group-title="Diğer",Oxir
 http://live.smartglwiz.workers.dev/?ID=Oxir_HD
-#EXTINF:-1 tvg-name="Ozbekiston" tvg-logo="http://sarkor.tv/static/images/channels/Ozbekiston.png" group-title="Diğer",Ozbekiston
-http://live.sarkortv.workers.dev/?ID=8
 #EXTINF:-1 tvg-name="Ozbekiston 24" tvg-logo="http://sarkor.tv/static/images/channels/Ozbekiston 24 HD.png" group-title="Diğer",Ozbekiston 24
 http://live.sarkortv.workers.dev/?ID=20
 #EXTINF:-1 tvg-name="PJ TV" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_302563.png" group-title="Diğer",PJ TV
@@ -1177,18 +1137,16 @@ http://live.smartglwiz.workers.dev/?ID=PersianaSport_HD
 http://live.smartglwiz.workers.dev/?ID=PersianaTravel_HD
 #EXTINF:-1 tvg-name="Persiana Turkiye" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307274.png" group-title="Diğer",Persiana Turkiye
 http://live.smartglwiz.workers.dev/?ID=PersianaTurkiye_HD
-#EXTINF:-1 tvg-name="Polsat Film" tvg-logo="https://www.polskie.tv/play/images/logos/524.png" group-title="Diğer",Polsat Film
-http://live.cdn-polskie.workers.dev/?ID=24
-#EXTINF:-1 tvg-name="Polsat Rodzina" tvg-logo="https://www.polskie.tv/play/images/logos/618.png" group-title="Diğer",Polsat Rodzina
-http://live.cdn-polskie.workers.dev/?ID=118
-#EXTINF:-1 tvg-name="Polsat Sport 2" tvg-logo="https://www.polskie.tv/play/images/logos/508.png" group-title="Diğer",Polsat Sport 2
-http://live.cdn-polskie.workers.dev/?ID=8
+#EXTINF:-1 tvg-name="Polsat News" tvg-logo="https://www.polskie.tv/play/images/logos/578.png" group-title="Diğer",Polsat News
+http://live.cdn-polskie.workers.dev/?ID=78
+#EXTINF:-1 tvg-name="Polsat Play" tvg-logo="https://www.polskie.tv/play/images/logos/539.png" group-title="Diğer",Polsat Play
+http://live.cdn-polskie.workers.dev/?ID=39
 #EXTINF:-1 tvg-name="Polsat Sport 2 PL" tvg-logo="https://freeshot.live/upload/source/Polsat-sport-2-logo.png" group-title="Diğer",Polsat Sport 2 PL
 http://cdn.tv-rds.workers.dev/PolsatSportExtra.m3u8
-#EXTINF:-1 tvg-name="Polsat Sport 3" tvg-logo="https://www.polskie.tv/play/images/logos/546.png" group-title="Diğer",Polsat Sport 3
-http://live.cdn-polskie.workers.dev/?ID=46
 #EXTINF:-1 tvg-name="Polsat Sport 3 PL" tvg-logo="https://freeshot.live/upload/source/Polsat-sport-3-logo.png" group-title="Diğer",Polsat Sport 3 PL
 http://cdn.tv-rds.workers.dev/PolsatSportNews.m3u8
+#EXTINF:-1 tvg-name="Polsat Sport Fight" tvg-logo="https://www.polskie.tv/play/images/logos/634.png" group-title="Diğer",Polsat Sport Fight
+http://live.cdn-polskie.workers.dev/?ID=134
 #EXTINF:-1 tvg-name="Polsat Sport Fight PL" tvg-logo="https://freeshot.live/upload/source/polsat-sport-fight-logo.png" group-title="Diğer",Polsat Sport Fight PL
 http://cdn.tv-rds.workers.dev/PolsatSportFight.m3u8
 #EXTINF:-1 tvg-name="Polsat Sport PL" tvg-logo="https://freeshot.live/upload/source/Polsat-sport_logo.png" group-title="Diğer",Polsat Sport PL
@@ -1241,6 +1199,10 @@ http://live.smartglwiz.workers.dev/?ID=Ronix_HD
 http://live.smartglwiz.workers.dev/?ID=RoyalTimeTV_HD
 #EXTINF:-1 tvg-name="Rudaw" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304098.png" group-title="Diğer",Rudaw
 http://live.smartglwiz.workers.dev/?ID=Rudaw_HD
+#EXTINF:-1 tvg-name="Ruxsor" tvg-logo="http://sarkor.tv/static/images/channels/Ruxsor.png" group-title="Diğer",Ruxsor
+http://live.sarkortv.workers.dev/?ID=171
+#EXTINF:-1 tvg-name="S Iqbol" tvg-logo="http://sarkor.tv/static/images/channels/S Iqbol SD.png" group-title="Diğer",S Iqbol
+http://live.sarkortv.workers.dev/?ID=157
 #EXTINF:-1 tvg-name="S Sport Plus" tvg-logo="https://i.hizliresim.com/qioouyh.png" group-title="Spor",S Sport Plus
 https://andro.1286503.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 tvg-name="S4C UK" tvg-logo="https://freeshot.live/upload/source/S4C-logo.png" group-title="Diğer",S4C UK
@@ -1269,8 +1231,6 @@ http://live.sarkortv.workers.dev/?ID=25
 http://live.smartglwiz.workers.dev/?ID=Shabakeh7_HD
 #EXTINF:-1 tvg-name="Shams" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307582.png" group-title="Diğer",Shams
 http://live.smartglwiz.workers.dev/?ID=Shams_HD
-#EXTINF:-1 tvg-name="Show Max" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/show_max_Ke7.png" group-title="Diğer",Show Max
-http://live.cdn-vizi.workers.dev/?ID=30
 #EXTINF:-1 tvg-name="ShowTV" tvg-logo="https://play-lh.googleusercontent.com/0sOPBAP2kN1gvVFLtCVsLhOrcZApUxZG8njmWOj26lRbiVJ723731GtyKJl-LFjd2Q" group-title="Diğer",ShowTV
 http://tv.smartglwiz.workers.dev/?ID=ShowTV_HD
 #EXTINF:-1 tvg-name="ShowTurk" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304556.png" group-title="Diğer",ShowTurk
@@ -1351,8 +1311,6 @@ http://cdn.tv-rds.workers.dev/SkySportsTennisUK.m3u8
 http://live.smartglwiz.workers.dev/?ID=SohailTV_HD
 #EXTINF:-1 tvg-name="SoloCalcio" tvg-logo="https://freeshot.live/upload/source/Sportitalia-logo.png" group-title="Diğer",SoloCalcio
 http://cdn.tv-rds.workers.dev/SoloCalcio.m3u8
-#EXTINF:-1 tvg-name="Sozcu TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/sozcu_tv_QyD.png" group-title="Diğer",Sozcu TV
-http://live.cdn-vizi.workers.dev/?ID=18
 #EXTINF:-1 tvg-name="Speda" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_302230.png" group-title="Diğer",Speda
 http://live.smartglwiz.workers.dev/?ID=Speda_HD
 #EXTINF:-1 tvg-name="SporTV 2 Brasil" tvg-logo="https://freeshot.live/upload/source/Sport_tv_2_brasil.png" group-title="Diğer",SporTV 2 Brasil
@@ -1443,8 +1401,6 @@ https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
 https://trn03.tulix.tv/gt-trtcocuk/index.m3u8
 #EXTINF:-1 tvg-name="TRT COCUK DIYANET" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png" group-title="Diğer",TRT COCUK DIYANET
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-name="TRT Diyanet Çocuk" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt_diyanet_cocuk_czV.png" group-title="Diğer",TRT Diyanet Çocuk
-http://live.cdn-vizi.workers.dev/?ID=24
 #EXTINF:-1 tvg-name="TRT DİYANET ÇOCUK" group-title="Diğer",TRT DİYANET ÇOCUK
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TRT EBA ORTAKUL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/eba-tv-ortaokul-tr.png" group-title="Diğer",TRT EBA ORTAKUL
@@ -1453,8 +1409,6 @@ https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-id="TRTHaber.tr" tvg-name="TRT Haber" tvg-logo="http://sarkor.tv/static/images/channels/TRT Haber SD.png" group-title="Diğer",TRT Haber
 http://live.sarkortv.workers.dev/?ID=142
-#EXTINF:-1 tvg-id="TRTHaber.tr" tvg-name="TRT Haber" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt_haber_AIf.png" group-title="Diğer",TRT Haber
-http://live.cdn-vizi.workers.dev/?ID=15
 #EXTINF:-1 tvg-id="TRTKurdi.tr" tvg-name="TRT KURDI" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-kurdi-tr.png" group-title="Diğer",TRT KURDI
 https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TRT KURDİ" tvg-logo="https://img.dsmartgo.com.tr/content/4/uH/13380/Thumbnail.png" group-title="Diğer",TRT KURDİ
@@ -1471,8 +1425,6 @@ http://tv.smartglwiz.workers.dev/?ID=TRTMuzik_HD
 https://trt.daioncdn.net/trtspor/master.m3u8?app=web
 #EXTINF:-1 tvg-name="TRT SPOR Turkey" tvg-logo="https://freeshot.live/upload/source/TRT_SPOR-logo.png" group-title="Diğer",TRT SPOR Turkey
 http://cdn.tv-rds.workers.dev/TRTSPOR.m3u8
-#EXTINF:-1 tvg-id="TRTSPOR.tr" tvg-name="TRT Spor" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/trt_spor_GlG.png" group-title="Diğer",TRT Spor
-http://live.cdn-vizi.workers.dev/?ID=20
 #EXTINF:-1 tvg-id="TRTSPOR.tr" tvg-name="TRT Spor" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304495.png" group-title="Diğer",TRT Spor
 http://tv.smartglwiz.workers.dev/?ID=TRTSport_HD
 #EXTINF:-1 tvg-id="TRTSPORYILDIZ.tr" tvg-name="TRT Spor Yıldız" tvg-logo="https://cms-tabii-public-image.tabii.com/int/w500/23855_1-0-465-262.jpeg" group-title="Diğer",TRT Spor Yıldız
@@ -1523,6 +1475,8 @@ http://tv.smartglwiz.workers.dev/?ID=TV4_HD
 https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
 #EXTINF:-1 tvg-name="TV 41" group-title="Diğer",TV 41
 https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
+#EXTINF:-1 tvg-name="TV 48" group-title="Diğer",TV 48
+https://ajansplay.com:5443/LiveApp/streams/tv48.m3u8
 #EXTINF:-1 tvg-name="TV 5" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304451.png" group-title="Diğer",TV 5
 http://tv.smartglwiz.workers.dev/?ID=TV5_HD
 #EXTINF:-1 tvg-name="TV 52" group-title="Diğer",TV 52
@@ -1533,16 +1487,14 @@ http://live.smartglwiz.workers.dev/?ID=Bahoriston_HD
 http://tv.smartglwiz.workers.dev/?ID=TVKayseri_HD
 #EXTINF:-1 tvg-name="TV Khatlon" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307461.png" group-title="Diğer",TV Khatlon
 http://live.smartglwiz.workers.dev/?ID=TVKhatlon_HD
-#EXTINF:-1 tvg-name="TV Puls 2" tvg-logo="https://www.polskie.tv/play/images/logos/554.png" group-title="Diğer",TV Puls 2
-http://live.cdn-polskie.workers.dev/?ID=54
+#EXTINF:-1 tvg-name="TV Puls" tvg-logo="https://www.polskie.tv/play/images/logos/553.png" group-title="Diğer",TV Puls
+http://live.cdn-polskie.workers.dev/?ID=53
 #EXTINF:-1 tvg-name="TV Safina" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_300998.png" group-title="Diğer",TV Safina
 http://live.smartglwiz.workers.dev/?ID=TVSafina_HD
 #EXTINF:-1 tvg-name="TV Sayohi" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307612.png" group-title="Diğer",TV Sayohi
 http://live.smartglwiz.workers.dev/?ID=TVSayohi_HD
 #EXTINF:-1 tvg-name="TV100" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tv100-tr.png" group-title="Diğer",TV100
 https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
-#EXTINF:-1 tvg-name="TV2" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/teve2_cNO.png" group-title="Diğer",TV2
-http://live.cdn-vizi.workers.dev/?ID=27
 #EXTINF:-1 tvg-name="TV3 Sport Denmark" tvg-logo="https://freeshot.live/upload/source/TV3Sport-logo.png" group-title="Diğer",TV3 Sport Denmark
 http://cdn.tv-rds.workers.dev/TV3Sport.m3u8
 #EXTINF:-1 tvg-name="TV4" group-title="Diğer",TV4
@@ -1563,20 +1515,20 @@ http://cdn.tv-rds.workers.dev/TV4SportLive4.m3u8
 http://cdn.tv-rds.workers.dev/TV4Sportkanalen.m3u8
 #EXTINF:-1 tvg-name="TV4 Tennis Sweden" tvg-logo="https://freeshot.live/upload/source/TV4-Tennis-logo.png" group-title="Diğer",TV4 Tennis Sweden
 http://cdn.tv-rds.workers.dev/TV4Tennis.m3u8
-#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TV8" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tv8_334.png" group-title="Diğer",TV8
-http://live.cdn-vizi.workers.dev/?ID=8
-#EXTINF:-1 tvg-name="TV8.5" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tv8.5_CZ2.png" group-title="Diğer",TV8.5
-http://live.cdn-vizi.workers.dev/?ID=28
 #EXTINF:-1 tvg-name="TVA Sports" tvg-logo="https://freeshot.live/upload/source/TVASPORTS.png" group-title="Diğer",TVA Sports
 http://cdn.tv-rds.workers.dev/TVASports.m3u8
 #EXTINF:-1 tvg-name="TVC RU" tvg-logo="http://sarkor.tv/static/images/channels/TVC RU.png" group-title="Diğer",TVC RU
 http://live.sarkortv.workers.dev/?ID=168
-#EXTINF:-1 tvg-name="TVN 24 BiS" tvg-logo="https://www.polskie.tv/play/images/logos/551.png" group-title="Diğer",TVN 24 BiS
-http://live.cdn-polskie.workers.dev/?ID=51
-#EXTINF:-1 tvg-name="TVN Turbo" tvg-logo="https://www.polskie.tv/play/images/logos/605.png" group-title="Diğer",TVN Turbo
-http://live.cdn-polskie.workers.dev/?ID=105
 #EXTINF:-1 tvg-id="TVNET.tr" tvg-name="TVNET" tvg-logo="https://i.ibb.co/2jtzN6F/tvnet.png" group-title="Diğer",TVNET
 https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8
+#EXTINF:-1 tvg-name="TVP" tvg-logo="https://www.polskie.tv/play/images/logos/592.png" group-title="Diğer",TVP
+http://live.cdn-polskie.workers.dev/?ID=92
+#EXTINF:-1 tvg-name="TVP 2" tvg-logo="https://www.polskie.tv/play/images/logos/503.png" group-title="Diğer",TVP 2
+http://live.cdn-polskie.workers.dev/?ID=3
+#EXTINF:-1 tvg-name="TVP Kultura" tvg-logo="https://www.polskie.tv/play/images/logos/576.png" group-title="Diğer",TVP Kultura
+http://live.cdn-polskie.workers.dev/?ID=76
+#EXTINF:-1 tvg-name="TVS" tvg-logo="https://www.polskie.tv/play/images/logos/574.png" group-title="Diğer",TVS
+http://live.cdn-polskie.workers.dev/?ID=74
 #EXTINF:-1 tvg-name="Tabii" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="Sinema",Tabii
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor 7" tvg-logo="https://androbjk34.serv00.net/png/tabii6.png" group-title="Spor",Tabii Spor 7
@@ -1649,16 +1601,16 @@ http://live.smartglwiz.workers.dev/?ID=VoA_HD
 https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
 #EXTINF:-1 tvg-name="Velayat" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307594.png" group-title="Diğer",Velayat
 http://live.smartglwiz.workers.dev/?ID=Velayat_HD
+#EXTINF:-1 tvg-name="Viasat History" tvg-logo="https://www.polskie.tv/play/images/logos/603.png" group-title="Diğer",Viasat History
+http://live.cdn-polskie.workers.dev/?ID=103
 #EXTINF:-1 tvg-name="Viasat Sport 1 Sweden" tvg-logo="https://freeshot.live/upload/source/Viasat-Sport-1-Sweden.png" group-title="Diğer",Viasat Sport 1 Sweden
 http://cdn.tv-rds.workers.dev/ViasatSportSE.m3u8
-#EXTINF:-1 tvg-name="ViziTürk Klasik" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/viziturk_klasik_eQm.png" group-title="Diğer",ViziTürk Klasik
-http://live.cdn-vizi.workers.dev/?ID=11
-#EXTINF:-1 tvg-name="ViziTürk Komedi" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/viziturk_komedi_TmR.png" group-title="Diğer",ViziTürk Komedi
-http://live.cdn-vizi.workers.dev/?ID=10
 #EXTINF:-1 tvg-name="VoA Afghanistan" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_307435.png" group-title="Diğer",VoA Afghanistan
 http://live.smartglwiz.workers.dev/?ID=VoAAfghanistan_HD
 #EXTINF:-1 tvg-name="Vuslat" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304425.png" group-title="Diğer",Vuslat
 http://tv.smartglwiz.workers.dev/?ID=Vuslat_HD
+#EXTINF:-1 tvg-name="WP" tvg-logo="https://www.polskie.tv/play/images/logos/557.png" group-title="Diğer",WP
+http://live.cdn-polskie.workers.dev/?ID=57
 #EXTINF:-1 tvg-name="Willow Cricket" tvg-logo="https://freeshot.live/upload/source/Willow_Cricket_logo.png" group-title="Diğer",Willow Cricket
 http://cdn.tv-rds.workers.dev/WillowCricket.m3u8
 #EXTINF:-1 tvg-name="Woman TV" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_306975.png" group-title="Diğer",Woman TV
@@ -1701,6 +1653,8 @@ http://cdn.tv-rds.workers.dev/ZonaDAZN.m3u8
 http://live.sarkortv.workers.dev/?ID=101
 #EXTINF:-1 tvg-name="arte FR" tvg-logo="https://freeshot.live/upload/source/arte-logo.png" group-title="Diğer",arte FR
 http://cdn.tv-rds.workers.dev/artefr.m3u8
+#EXTINF:-1 tvg-name="beIN SPORTS 1 Turkey" tvg-logo="https://freeshot.live/upload/source/bein_sports1-logo.png" group-title="Diğer",beIN SPORTS 1 Turkey
+http://cdn.tv-rds.workers.dev/beINSPORTS1TR.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS 2 Turkey" tvg-logo="https://freeshot.live/upload/source/bein-sports-2-logo.png" group-title="Diğer",beIN SPORTS 2 Turkey
 http://cdn.tv-rds.workers.dev/beINSPORTS2TR.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS 3 Turkey" tvg-logo="https://freeshot.live/upload/source/bein-sports_3-logo.png" group-title="Diğer",beIN SPORTS 3 Turkey
