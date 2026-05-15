@@ -16,10 +16,9 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 EPG_URL = "https://iptv-epg.org/files/epg-tr.xml"
 
 M3U_SOURCES = [
-    'https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_tv.m3u'
-  //  'https://raw.githubusercontent.com/Mertcantv/Mertcan/refs/heads/main/%C4%B0zle2.m3u',
-   // 'https://raw.githubusercontent.com/primatzeka/kurbaga/main/NeonSpor/NeonSpor.m3u',
-//    'https://tinyurl.com/TVCANLI'
+    'https://raw.githubusercontent.com/mooncrown04/m3ubirlestir/refs/heads/main/birlesik_tv.m3u',
+    'https://raw.githubusercontent.com/Mertcantv/Mertcan/refs/heads/main/%C4%B0zle2.m3u'
+
 ]
 
 # ÖZEL SIRALAMA VE STANDART İSİM LİSTELERİ
