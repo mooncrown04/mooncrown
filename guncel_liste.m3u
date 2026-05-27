@@ -89,8 +89,6 @@ https://livetv.radyotvonline.net/kanal7live/ulketv/chunklist.m3u8
 https://streams.uzunmuhalefet.com/stream/b2afa8c0-ab41-4111-a988-38e6db9e0d87.m3u8
 #EXTINF:-1 tvg-name="1TVTR" tvg-logo="https://assets.uzunmuhalefet.com/logos/0bbe8ea1-7fa3-402d-8e96-1836077458d7.png" group-title="Diğer",1TVTR
 https://streams.uzunmuhalefet.com/stream/8067831b-abf7-4cf9-adcb-abea2d1409a1.m3u8
-#EXTINF:-1 tvg-name="24 TV" tvg-logo="https://yt3.ggpht.com/gWxG3v8R74BMB5GWgX0v9HoFKmKLtTl533CgLfoHcRfRXQPTTcAYgvrnplkwqOmq4GZnmOLkbw" group-title="Diğer",24 TV
-https://streams.uzunmuhalefet.com/stream/35b6fa6f-7915-4303-8198-30c2d7b82929.m3u8
 #EXTINF:-1 tvg-name="24 ТЕХНО" tvg-logo="http://sarkor.tv/static/images/channels/24 техно.png" group-title="Diğer",24 ТЕХНО
 http://live.sarkortv.workers.dev/?ID=45
 #EXTINF:-1 tvg-id="360.tr" tvg-name="360" tvg-logo="https://i.ibb.co/s3gJCGL/360.png" group-title="Diğer",360
@@ -139,8 +137,6 @@ https://streams.uzunmuhalefet.com/stream/035e2ee2-fa74-406d-8c5b-073d3fd020a5.m3
 http://live.sarkortv.workers.dev/?ID=175
 #EXTINF:-1 tvg-name="ALTAŞ TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/8e6f44ce-3d5e-4762-9287-f80d41399dfa.png" group-title="Diğer",ALTAŞ TV
 https://streams.uzunmuhalefet.com/stream/ca4c7b79-5810-4478-92a7-025f7a82cb82.m3u8
-#EXTINF:-1 tvg-name="ANADOLU DOST TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/bccb82d4-2df3-41b7-84dc-ef08faf7f83e.png" group-title="Diğer",ANADOLU DOST TV
-https://streams.uzunmuhalefet.com/stream/a13666c2-87a4-402c-824d-eba606e8733c.m3u8
 #EXTINF:-1 tvg-name="ANADOLU NET TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/01f1158f-7cfa-4e73-9484-4709e98ab0ed.png" group-title="Diğer",ANADOLU NET TV
 https://streams.uzunmuhalefet.com/stream/ec7f985d-0867-4ddc-8e52-d0c9ed25f819.m3u8
 #EXTINF:-1 tvg-name="ANADOLUM TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/18c488e6-60e3-410c-bf54-034760ab5b0c.png" group-title="Diğer",ANADOLUM TV
@@ -407,8 +403,6 @@ https://dresden.iptv-playoutcenter.de/dresden/dresdenfernsehen.stream_1/playlist
 https://streams.uzunmuhalefet.com/stream/288404e1-7bf2-40da-8303-75706bccdcb4.m3u8
 #EXTINF:-1 tvg-name="EGE LIVE TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/4a1c798d-6f17-49cb-8d61-bcaddd000138.png" group-title="Diğer",EGE LIVE TV
 https://streams.uzunmuhalefet.com/stream/016a8c68-5bd7-4c6a-8d0c-98f695bd8b57.m3u8
-#EXTINF:-1 tvg-name="EKOL SPORTS" tvg-logo="https://assets.uzunmuhalefet.com/logos/d34e5e05-83e3-41d5-a8a9-fc7b3603aeb7.png" group-title="Spor",EKOL SPORTS
-https://streams.uzunmuhalefet.com/stream/e71f5266-932f-4348-a530-ee3a48520e3e.m3u8
 #EXTINF:-1 tvg-name="EKOL TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/ekol_tv_aHD.png" group-title="Diğer",EKOL TV
 https://streams.uzunmuhalefet.com/stream/0665560a-c8a8-4087-bee6-9af26f226c90.m3u8
 #EXTINF:-1 tvg-name="ELEVEN SPORTS 2 PL" tvg-logo="https://freeshot.live/upload/source/ElevenSports2-logo.png" group-title="Diğer",ELEVEN SPORTS 2 PL
@@ -519,6 +513,8 @@ http://live.sarkortv.workers.dev/?ID=159
 https://streams.uzunmuhalefet.com/stream/2b43d22d-32bf-4aa2-bfa6-35ad48d4dd5d.m3u8
 #EXTINF:-1 tvg-name="GÖPSEN TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/2f95410c-911a-4302-8642-e89bef9e1444.png" group-title="Diğer",GÖPSEN TV
 https://streams.uzunmuhalefet.com/stream/e6dca493-58a7-4f29-a6eb-543dc4b5f933.m3u8
+#EXTINF:-1 tvg-name="GÖZDE TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/7ea773c9-63bb-4a15-b6a2-85d57ad6a096.png" group-title="Diğer",GÖZDE TV
+https://streams.uzunmuhalefet.com/stream/271f4458-3e36-42af-ac2a-9cda5f8ac782.m3u8
 #EXTINF:-1 tvg-name="GÜNEYDOĞU TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/f7a57024-ee57-40bb-a43b-0c5fed572e2a.png" group-title="Diğer",GÜNEYDOĞU TV
 https://streams.uzunmuhalefet.com/stream/963f6691-6c09-405b-944a-95beb7167c67.m3u8
 #EXTINF:-1 tvg-name="HABER 61 TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/ecf3f0ba-00e0-4a78-b779-4dd7acc5f4f3.png" group-title="Diğer",HABER 61 TV
@@ -833,6 +829,8 @@ https://streams.uzunmuhalefet.com/stream/6ba73eec-740e-474a-bc0f-c5f527c4c627.m3
 https://streams.uzunmuhalefet.com/stream/e18990dd-ce05-4bdc-bc32-deb0b485b212.m3u8
 #EXTINF:-1 tvg-name="S SPORT 2" tvg-logo="https://i.hizliresim.com/bcnszq0.png" group-title="Spor",S SPORT 2
 https://zeus324232.cfd/s2/index.txt
+#EXTINF:-1 tvg-name="S4C UK" tvg-logo="https://freeshot.live/upload/source/S4C-logo.png" group-title="Diğer",S4C UK
+http://cdn.tv-rds.workers.dev/S4CUK.m3u8
 #EXTINF:-1 tvg-name="SALIHLI SONSÖZ TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/9d05bb08-a8fc-4f2c-8411-867167a8f6ce.png" group-title="Diğer",SALIHLI SONSÖZ TV
 https://streams.uzunmuhalefet.com/stream/48abbe5f-8d44-46f2-8f74-99cd22ccbe6a.m3u8
 #EXTINF:-1 tvg-name="SAT 7 TÜRK" tvg-logo="https://assets.uzunmuhalefet.com/logos/643d83ac-c463-453c-987c-fd59d13fd71d.png" group-title="Diğer",SAT 7 TÜRK
@@ -881,6 +879,8 @@ http://cdn.tv-rds.workers.dev/SkyArtsUK.m3u8
 http://cdn.tv-rds.workers.dev/SkyAtlanticDE.m3u8
 #EXTINF:-1 tvg-name="SKY CINEMA ACTION UK" tvg-logo="https://freeshot.live/upload/source/Sky-Cinema-Action-logo.png" group-title="Diğer",SKY CINEMA ACTION UK
 http://cdn.tv-rds.workers.dev/SkyCinemaActionUK.m3u8
+#EXTINF:-1 tvg-name="SKY CINEMA GREATS UK" tvg-logo="https://freeshot.live/upload/source/SkyCinemaGreats-logo.png" group-title="Diğer",SKY CINEMA GREATS UK
+http://cdn.tv-rds.workers.dev/SkyCinemaGreatsUK.m3u8
 #EXTINF:-1 tvg-name="SKY CINEMA PREMIERE UK" tvg-logo="https://freeshot.live/upload/source/Sky-Cinema-Premiere-logo.png" group-title="Diğer",SKY CINEMA PREMIERE UK
 http://cdn.tv-rds.workers.dev/SkyCinemaPremiereUK.m3u8
 #EXTINF:-1 tvg-name="SKY CINEMA THRILLER UK" tvg-logo="https://freeshot.live/upload/source/Sky-Cinema-Thriller-logo.png" group-title="Diğer",SKY CINEMA THRILLER UK
