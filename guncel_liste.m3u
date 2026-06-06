@@ -28,6 +28,8 @@ https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b
 #EXTINF:-1 tvg-id="StarTV.tr" tvg-name="STAR" tvg-logo="https://i.ibb.co/hY3Z8zx/star-tv.png" group-title="Ulusal Kanallar",STAR
 http://dygvideo.dygdigital.com/live/hls/startv4puhu?m3u8
 #EXTINF:-1 tvg-id="NOWTV.tr" tvg-name="NOW" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/U/w2/245997/logo.png" group-title="Ulusal Kanallar",NOW
+https://tinyurl.com/SyndraxicFOX
+#EXTINF:-1 tvg-id="NOWTV.tr" tvg-name="NOW" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/U/w2/245997/logo.png" group-title="Ulusal Kanallar",NOW
 https://streams.uzunmuhalefet.com/stream/f9368c57-16e5-44a2-a559-46377a476b04.m3u8
 #EXTINF:-1 tvg-id="KANAL7.tr" tvg-name="KANAL 7" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/E/ON/246138/logo.png" group-title="Ulusal Kanallar",KANAL 7
 https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
@@ -117,8 +119,6 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
 https://streams.uzunmuhalefet.com/stream/0d7bcd25-1301-4ebf-bc8f-ccb7dec31577.m3u8
 #EXTINF:-1 tvg-name="ABN TURKEY" tvg-logo="https://assets.uzunmuhalefet.com/logos/cbd9f19f-efa2-4416-923c-46cda842668a.png" group-title="Diğer",ABN TURKEY
 https://streams.uzunmuhalefet.com/stream/93a58e6e-7324-41da-bbc8-32f530063417.m3u8
-#EXTINF:-1 tvg-name="ABU DHABI SPORTS 1" tvg-logo="https://freeshot.live/upload/source/AbuDhabiSports-logo.png" group-title="Diğer",ABU DHABI SPORTS 1
-http://cdn.tv-rds.workers.dev/AbuDhabiSports1.m3u8
 #EXTINF:-1 tvg-name="ADA TV" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304340.png" group-title="Diğer",ADA TV
 https://streams.uzunmuhalefet.com/stream/975e6a82-279a-4b00-a9b4-85c92f480803.m3u8
 #EXTINF:-1 tvg-name="AHAD TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/3ad1c386-1f55-4d2a-b94e-a9c17dd01912.png" group-title="Diğer",AHAD TV
@@ -321,6 +321,8 @@ https://streams.uzunmuhalefet.com/stream/04019e83-85d9-44fd-8fcf-ca1caf7ca185.m3
 https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
 #EXTINF:-1 tvg-name="DASTARKHAN TV" tvg-logo="http://sarkor.tv/static/images/channels/Dastarkhan TV.png" group-title="Diğer",DASTARKHAN TV
 http://live.sarkortv.workers.dev/?ID=85
+#EXTINF:-1 tvg-name="DAZN 1 ES" tvg-logo="https://freeshot.live/upload/source/DAZN-logo.png" group-title="Diğer",DAZN 1 ES
+http://cdn.tv-rds.workers.dev/DAZN1ES.m3u8
 #EXTINF:-1 tvg-name="DAZN 1 FR" tvg-logo="https://freeshot.live/upload/source/DAZN-1-logo.png" group-title="Diğer",DAZN 1 FR
 http://cdn.tv-rds.workers.dev/DAZN1FR.m3u8
 #EXTINF:-1 tvg-name="DAZN 3 ES" tvg-logo="https://freeshot.live/upload/source/DAZN-logo.png" group-title="Diğer",DAZN 3 ES
@@ -333,8 +335,6 @@ https://wdrmediagroup-defatv-1-eu.rakuten.wurl.tv/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 #EXTINF:-1 tvg-name="DENIZ POSTASI TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/2de47c04-a647-482d-87cb-b19ec577bf15.png" group-title="Diğer",DENIZ POSTASI TV
 https://streams.uzunmuhalefet.com/stream/77f2b78e-2750-4f90-a987-5ed1bdc31761.m3u8
-#EXTINF:-1 tvg-name="DENIZ RADYO TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/a0200571-a064-4599-9ed9-ae1f869add81.png" group-title="Diğer",DENIZ RADYO TV
-https://streams.uzunmuhalefet.com/stream/0043635a-00aa-442d-8862-65f81c5929e2.m3u8
 #EXTINF:-1 tvg-name="DENIZLISPOR TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/f948bb15-bec8-4ba9-b4a2-710f32c214b1.png" group-title="Spor",DENIZLISPOR TV
 https://streams.uzunmuhalefet.com/stream/98623bf2-fbeb-4be0-9a51-c917d7e64245.m3u8
 #EXTINF:-1 tvg-name="DER TV 23" tvg-logo="https://assets.uzunmuhalefet.com/logos/" group-title="Diğer",DER TV 23
@@ -701,6 +701,8 @@ https://streams.uzunmuhalefet.com/stream/3109c9cf-2b67-48b9-bdb0-626e8d9c909b.m3
 https://streams.uzunmuhalefet.com/stream/8e4e0b45-82a0-4517-8a9c-2162111815ea.m3u8
 #EXTINF:-1 tvg-name="MATCH PLANETA" tvg-logo="http://sarkor.tv/static/images/channels/Match Planeta.png" group-title="Diğer",MATCH PLANETA
 http://live.sarkortv.workers.dev/?ID=170
+#EXTINF:-1 tvg-name="MAX SPORT 2 BG" tvg-logo="https://freeshot.live/upload/source/MAX-SPORT-2-BG-logo.png" group-title="Diğer",MAX SPORT 2 BG
+http://cdn.tv-rds.workers.dev/MaxSport2BG.m3u8
 #EXTINF:-1 tvg-name="MEDYA TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/6c12e765-bae8-4877-8336-5130a11af5b7.png" group-title="Diğer",MEDYA TV
 https://streams.uzunmuhalefet.com/stream/9faa96c3-7564-47e7-bfe9-3f4fd737ecb2.m3u8
 #EXTINF:-1 tvg-name="MEGA TV İSKENDERUN" tvg-logo="https://assets.uzunmuhalefet.com/logos/a57eae1c-2533-4985-8771-5940499dfcca.png" group-title="Diğer",MEGA TV İSKENDERUN
@@ -1029,6 +1031,8 @@ https://streams.uzunmuhalefet.com/stream/edd365b2-72a9-4140-85fc-3389abc3bd71.m3
 https://streams.uzunmuhalefet.com/stream/9a07157c-4c20-4b8b-951a-0ee75fc8dd31.m3u8
 #EXTINF:-1 tvg-name="TOPRAK TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/dd4da8fc-609f-4d05-8adb-9bba0f584738.png" group-title="Belgesel",TOPRAK TV
 https://streams.uzunmuhalefet.com/stream/54fd8806-0142-4839-930e-aa1d662ad866.m3u8
+#EXTINF:-1 tvg-name="TORBA TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/13a15812-c9fd-4092-858d-9b4c6ecd12e4.png" group-title="Diğer",TORBA TV
+https://streams.uzunmuhalefet.com/stream/5ff4a325-ab1b-4393-a802-b2b95e97812d.m3u8
 #EXTINF:-1 tvg-name="TOSHKENT" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/iTUCW2.png" group-title="Diğer",TOSHKENT
 http://live.sarkortv.workers.dev/?ID=10
 #EXTINF:-1 tvg-name="TRACE SPORT STARS" tvg-logo="http://sarkor.tv/static/images/channels/Trace Sport Stars HD.png" group-title="Diğer",TRACE SPORT STARS
@@ -1187,8 +1191,6 @@ https://streams.uzunmuhalefet.com/stream/c2bd18c5-013b-4621-bab6-3eb9093008e1.m3
 http://cdn.tv-rds.workers.dev/ZiggoSport3.m3u8
 #EXTINF:-1 tvg-name="ZIGGO SPORT 5 NL" tvg-logo="https://freeshot.live/upload/source/ziggo-sport-5-nl-logo.png" group-title="Diğer",ZIGGO SPORT 5 NL
 http://cdn.tv-rds.workers.dev/ZiggoSport5.m3u8
-#EXTINF:-1 tvg-name="ZIGGO SPORT NL" tvg-logo="https://freeshot.live/upload/source/ziggo-sport-nl-logo.png" group-title="Diğer",ZIGGO SPORT NL
-http://cdn.tv-rds.workers.dev/ZiggoSport.m3u8
 #EXTINF:-1 tvg-name="ZOO TV" tvg-logo="http://sarkor.tv/static/images/channels/Zoo TV.png" group-title="Diğer",ZOO TV
 http://live.sarkortv.workers.dev/?ID=101
 #EXTINF:-1 tvg-name="ZOR TV" tvg-logo="http://sarkor.tv/static/images/channels/ZOR TV HD.png" group-title="Diğer",ZOR TV
