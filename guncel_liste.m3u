@@ -191,8 +191,6 @@ https://augsburgtv.iptv-playoutcenter.de/augsburgtv/augsburgtv.stream_1/playlist
 https://streams.uzunmuhalefet.com/stream/2a5c0961-edbd-4e43-a973-289983b8ec97.m3u8
 #EXTINF:-1 tvg-name="BABA RADYO" group-title="Diğer",BABA RADYO
 https://tinyurl.com/SyndraxicBABA
-#EXTINF:-1 tvg-name="BALKAN TÜRK" tvg-logo="https://assets.uzunmuhalefet.com/logos/d0535f53-9efe-4747-aebe-fe66044ae991.png" group-title="Diğer",BALKAN TÜRK
-https://streams.uzunmuhalefet.com/stream/2d9582c2-b343-45a1-8930-27026aa91798.m3u8
 #EXTINF:-1 tvg-name="BAŞKA TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/feb106f8-f8a2-41bf-bd0b-9b79eea6e49c.png" group-title="Diğer",BAŞKA TV
 https://streams.uzunmuhalefet.com/stream/ad9354e2-2403-488d-a708-59e84822b6ae.m3u8
 #EXTINF:-1 tvg-name="BBC Top Gear Germany" group-title="Diğer",BBC Top Gear Germany
@@ -209,8 +207,6 @@ https://zeus324232.cfd/b4/index.txt
 https://zeus324232.cfd/b5/index.txt
 #EXTINF:-1 tvg-name="BEIN SPORT MAX 1" tvg-logo="https://i.hizliresim.com/k6ic0s7.jpg" group-title="Spor",BEIN SPORT MAX 1
 https://zeus324232.cfd/b1max/index.txt
-#EXTINF:-1 tvg-id="beINSPORTS1.tr" tvg-name="BEIN SPORTS 1" tvg-logo="https://freeshot.live/upload/source/bein_sports1-logo.png" group-title="Spor",BEIN SPORTS 1
-http://cdn.tv-rds.workers.dev/beINSPORTS1TR.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 3 TURKEY" tvg-logo="https://freeshot.live/upload/source/bein-sports_3-logo.png" group-title="Diğer",BEIN SPORTS 3 TURKEY
 http://cdn.tv-rds.workers.dev/beINSPORTS3TR.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 5 TURKEY" tvg-logo="https://freeshot.live/upload/source/beINSPORTS5-logo.png" group-title="Diğer",BEIN SPORTS 5 TURKEY
@@ -485,6 +481,8 @@ https://streams.uzunmuhalefet.com/stream/707a8dee-c8ff-4935-b86f-291ced31d37f.m3
 https://streams.uzunmuhalefet.com/stream/d21f8900-206b-40b1-8aa3-13b5a03674a8.m3u8
 #EXTINF:-1 tvg-name="FORTUNA TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/69520272-a5e8-4d6f-891a-5e5620d92acc.png" group-title="Diğer",FORTUNA TV
 https://streams.uzunmuhalefet.com/stream/01866493-8ff3-40e3-9699-15bb264e5c03.m3u8
+#EXTINF:-1 tvg-name="FOX SPORTS 2 ARG" tvg-logo="https://freeshot.live/upload/source/Fox-Sports-2-ARG-logo.png" group-title="Diğer",FOX SPORTS 2 ARG
+http://cdn.tv-rds.workers.dev/FOX2ARG.m3u8
 #EXTINF:-1 tvg-id="France24.tr" tvg-name="FRANCE24HD" tvg-logo="http://sarkor.tv/static/images/channels/France24HD.png" group-title="Diğer",FRANCE24HD
 http://live.sarkortv.workers.dev/?ID=89
 #EXTINF:-1 tvg-name="FRT TV" tvg-logo="play.png" group-title="Diğer",FRT TV
@@ -913,6 +911,8 @@ http://cdn.tv-rds.workers.dev/SkySportMixIT.m3u8
 http://cdn.tv-rds.workers.dev/SkySportMotoGPIT.m3u8
 #EXTINF:-1 tvg-name="SKY SPORT TENNIS IT" tvg-logo="https://freeshot.live/upload/source/Sky-sport-tennis.png" group-title="Diğer",SKY SPORT TENNIS IT
 http://cdn.tv-rds.workers.dev/SkySportTennisIT.m3u8
+#EXTINF:-1 tvg-name="SKY SPORTS PREMIER LEAGUE UK" tvg-logo="https://freeshot.live/upload/source/sky-sports-premier-league_logo.png" group-title="Diğer",SKY SPORTS PREMIER LEAGUE UK
+http://cdn.tv-rds.workers.dev/SkySportsPremierLeague.m3u8
 #EXTINF:-1 tvg-name="SLOW KARADENIZ TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/a12167d3-511c-4cb1-8470-9be1567a50cf.png" group-title="Diğer",SLOW KARADENIZ TV
 https://streams.uzunmuhalefet.com/stream/3772f7d1-1c05-4469-a817-0cd926815748.m3u8
 #EXTINF:-1 tvg-name="SPOR SMART 1" tvg-logo="https://i.hizliresim.com/ioxh9th.png" group-title="Spor",SPOR SMART 1
@@ -1057,10 +1057,12 @@ https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
 https://streams.uzunmuhalefet.com/stream/d8fcd134-0f23-4883-ae8f-4c04cc3cc49a.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT WORLD" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/10-2019/TRT-World.png" group-title="Diğer",TRT WORLD
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTÇocuk.tr" tvg-name="TRT ÇOCUK" tvg-logo="https://assets.uzunmuhalefet.com/logos/ec9eb56f-cabd-4dd5-b0cf-d743e92a288b.png" group-title="Diğer",TRT ÇOCUK
+https://streams.uzunmuhalefet.com/stream/6ad16f63-33f5-45bd-9742-1b98a71ce6ed.m3u8
+#EXTINF:-1 tvg-id="TRTÇocuk.tr" tvg-name="TRT ÇOCUK" group-title="Diğer",TRT ÇOCUK
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TSN1" tvg-logo="https://freeshot.live/upload/source/TSN1_Logo.png" group-title="Diğer",TSN1
 http://cdn.tv-rds.workers.dev/TSN1.m3u8
-#EXTINF:-1 tvg-name="TSN3" tvg-logo="https://freeshot.live/upload/source/TSN3_Logo.png" group-title="Diğer",TSN3
-http://cdn.tv-rds.workers.dev/TSN3.m3u8
 #EXTINF:-1 tvg-name="TSN5" tvg-logo="https://freeshot.live/upload/source/TSN5_Logo.png" group-title="Diğer",TSN5
 http://cdn.tv-rds.workers.dev/TSN5.m3u8
 #EXTINF:-1 tvg-name="TUGANTEL" tvg-logo="http://sarkor.tv/static/images/channels/TuganTEL.png" group-title="Diğer",TUGANTEL
@@ -1069,6 +1071,8 @@ http://live.sarkortv.workers.dev/?ID=95
 https://streams.uzunmuhalefet.com/stream/d7051f7d-26dd-4405-acc7-4acecca6aafb.m3u8
 #EXTINF:-1 tvg-name="TV 2 SPORT 2 NORWAY" tvg-logo="https://freeshot.live/upload/source/TV2Sport2-logo.png" group-title="Diğer",TV 2 SPORT 2 NORWAY
 http://cdn.tv-rds.workers.dev/TV2Sport2.m3u8
+#EXTINF:-1 tvg-name="TV 2 SPORT X DENMARK" tvg-logo="https://freeshot.live/upload/source/TV2SportX-logo.png" group-title="Diğer",TV 2 SPORT X DENMARK
+http://cdn.tv-rds.workers.dev/TV2SportX.m3u8
 #EXTINF:-1 tvg-name="TV 2020" tvg-logo="https://assets.uzunmuhalefet.com/logos/94106af4-b8c4-4b07-9c29-dc9933755457.png" group-title="Diğer",TV 2020
 https://streams.uzunmuhalefet.com/stream/b0f9e41b-ed43-4373-8844-566529163b01.m3u8
 #EXTINF:-1 tvg-name="TV 38" tvg-logo="https://assets.uzunmuhalefet.com/logos/d57cb5d8-26d1-4db9-9a58-2a63ae76f6f8.png" group-title="Diğer",TV 38
