@@ -9,6 +9,8 @@ https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-3
 https://zeus324232.cfd/xatv/index.txt
 #EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/S/Js/246030/logo.png" group-title="Ulusal Kanallar",ATV
 https://streams.uzunmuhalefet.com/stream/c8758555-8581-4dec-9a46-ebcfaf9ace0a.m3u8
+#EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV" tvg-logo="https://i.ibb.co/DwFJ0vn/atv.png" group-title="Ulusal Kanallar",ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/a/-p/245931/logo.png" group-title="Ulusal Kanallar",KANAL D
 https://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/a/-p/245931/logo.png" group-title="Ulusal Kanallar",KANAL D
@@ -245,8 +247,6 @@ https://streams.uzunmuhalefet.com/stream/2682a160-6a4f-483e-985f-f98502605506.m3
 https://streams.uzunmuhalefet.com/stream/7cded060-e914-4c19-9adc-ba95c80e3697.m3u8
 #EXTINF:-1 tvg-name="CNBC-E" tvg-logo="https://yt3.ggpht.com/Rh1aC6tWB_CLSqR2gRW8UPXfCsqZE-7m83CPpBNLk8CI6ybTGDNWy7jF7jFGkHIffyUEyF8BW38" group-title="Diğer",CNBC-E
 https://streams.uzunmuhalefet.com/stream/41cde2c5-8f3c-405f-b5a2-fd6242d1d0a4.m3u8
-#EXTINF:-1 tvg-name="Chemnitz Fernsehen" group-title="Diğer",Chemnitz Fernsehen
-https://chemnitz.iptv-playoutcenter.de/chemnitz/chemnitzfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-name="DAMAR FM" group-title="Diğer",DAMAR FM
 https://tinyurl.com/SyndraxicDAMARfm
 #EXTINF:-1 tvg-name="DAMAR TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/b8ff3910-3c04-4824-aafb-ad0c499f65b4.png" group-title="Diğer",DAMAR TV
@@ -299,12 +299,12 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
 #EXTINF:-1 tvg-name="Dokusat" group-title="Diğer",Dokusat
 https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
-#EXTINF:-1 tvg-name="Dresden Fernsehen" group-title="Diğer",Dresden Fernsehen
-https://dresden.iptv-playoutcenter.de/dresden/dresdenfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-name="DÜZCE TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/1ba7f34e-b950-4e49-a6ad-87bc39d45a76.png" group-title="Diğer",DÜZCE TV
 https://streams.uzunmuhalefet.com/stream/288404e1-7bf2-40da-8303-75706bccdcb4.m3u8
 #EXTINF:-1 tvg-name="EBA TV ORTAOKUL" tvg-logo="play.png" group-title="Diğer",EBA TV ORTAOKUL
 https://tv-e-okul01.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-name="EGE LIVE TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/4a1c798d-6f17-49cb-8d61-bcaddd000138.png" group-title="Diğer",EGE LIVE TV
+https://streams.uzunmuhalefet.com/stream/016a8c68-5bd7-4c6a-8d0c-98f695bd8b57.m3u8
 #EXTINF:-1 tvg-name="EKOL SPORTS" tvg-logo="https://assets.uzunmuhalefet.com/logos/d34e5e05-83e3-41d5-a8a9-fc7b3603aeb7.png" group-title="Spor",EKOL SPORTS
 https://streams.uzunmuhalefet.com/stream/e71f5266-932f-4348-a530-ee3a48520e3e.m3u8
 #EXTINF:-1 tvg-name="EKOL TV" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/ekol_tv_aHD.png" group-title="Diğer",EKOL TV
@@ -449,8 +449,6 @@ https://streams.uzunmuhalefet.com/stream/adb18c81-9f08-49a7-8b70-94a6a6ee7649.m3
 https://streams.uzunmuhalefet.com/stream/c9c46c4d-efa9-464b-8a16-394b25096f35.m3u8
 #EXTINF:-1 tvg-name="KANAL T" tvg-logo="https://assets.uzunmuhalefet.com/logos/39b624fe-91e1-47a6-9f1c-b088795fedff.png" group-title="Diğer",KANAL T
 https://streams.uzunmuhalefet.com/stream/33d40a7a-7bd6-4b47-afbf-be2b8fa2b9f0.m3u8
-#EXTINF:-1 tvg-name="KANAL URFA" tvg-logo="https://assets.uzunmuhalefet.com/logos/99427daa-074a-4389-85fa-8aab992dbfb3.png" group-title="Diğer",KANAL URFA
-https://streams.uzunmuhalefet.com/stream/cfc91d04-4b42-4f53-bf0a-cb4aaf8b8af2.m3u8
 #EXTINF:-1 tvg-name="KANAL V" tvg-logo="https://assets.uzunmuhalefet.com/logos/3191110d-6ecc-499d-b614-8a3582ccbb7e.png" group-title="Diğer",KANAL V
 https://streams.uzunmuhalefet.com/stream/e73ec6ce-9225-49a0-8d68-1ee1df124f8c.m3u8
 #EXTINF:-1 tvg-name="KARADENIZ TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/b4ca1c02-80c2-4620-b0cc-7dacd10821a7.png" group-title="Diğer",KARADENIZ TV
@@ -495,6 +493,8 @@ https://streams.uzunmuhalefet.com/stream/20e9a9b6-92aa-4168-b151-9a0a7f55012d.m3
 https://streams.uzunmuhalefet.com/stream/4d9f1bdf-9eef-47e9-8a88-1b37efcedb50.m3u8
 #EXTINF:-1 tvg-name="KUZEY KIBRIS TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/24f4c73c-7234-4dba-bab9-e55736be3208.png" group-title="Diğer",KUZEY KIBRIS TV
 https://streams.uzunmuhalefet.com/stream/3ffde98c-2303-4b73-8ff7-610d7b55a2c7.m3u8
+#EXTINF:-1 tvg-name="KÖY TV" tvg-logo="play.png" group-title="Belgesel",KÖY TV
+https://streams.uzunmuhalefet.com/stream/7a1294e7-9fa8-4c3d-89b8-eb67e33bc2e6.m3u8
 #EXTINF:-1 tvg-name="KÜLTÜR VE SANAT TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/e22ad125-fbcb-4d96-af58-33669ea2ceb9.png" group-title="Diğer",KÜLTÜR VE SANAT TV
 https://streams.uzunmuhalefet.com/stream/d8f27cac-4831-464f-a8be-22926200851f.m3u8
 #EXTINF:-1 tvg-name="LALEGÜL TV" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_306933.png" group-title="Diğer",LALEGÜL TV
@@ -619,6 +619,8 @@ https://streams.uzunmuhalefet.com/stream/6ba73eec-740e-474a-bc0f-c5f527c4c627.m3
 https://streams.uzunmuhalefet.com/stream/e18990dd-ce05-4bdc-bc32-deb0b485b212.m3u8
 #EXTINF:-1 tvg-name="S SPORT 2" tvg-logo="https://i.hizliresim.com/bcnszq0.png" group-title="Spor",S SPORT 2
 https://zeus324232.cfd/s2/index.txt
+#EXTINF:-1 tvg-name="SALIHLI SONSÖZ TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/9d05bb08-a8fc-4f2c-8411-867167a8f6ce.png" group-title="Diğer",SALIHLI SONSÖZ TV
+https://streams.uzunmuhalefet.com/stream/48abbe5f-8d44-46f2-8f74-99cd22ccbe6a.m3u8
 #EXTINF:-1 tvg-name="SAT 7 TÜRK" tvg-logo="play.png" group-title="Diğer",SAT 7 TÜRK
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 #EXTINF:-1 tvg-name="SAT 7 TÜRK" tvg-logo="play.png" group-title="Diğer",SAT 7 TÜRK
@@ -651,8 +653,6 @@ https://streams.uzunmuhalefet.com/stream/9107d3c7-7a99-4290-ba5a-3bfd3a3dc867.m3
 https://streams.uzunmuhalefet.com/stream/7eebfc81-7667-49f0-9cc8-94e05ce24be2.m3u8
 #EXTINF:-1 tvg-name="SHOW MAX" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/show_max_Ke7.png" group-title="Diğer",SHOW MAX
 https://streams.uzunmuhalefet.com/stream/2ffa76f2-5c2b-4f98-b29b-9bbda2f75ad6.m3u8
-#EXTINF:-1 tvg-name="SHOW TÜRK" tvg-logo="https://assets.uzunmuhalefet.com/logos/7b1e3f67-3dd8-427f-8d3c-f0d1b80e7961.png" group-title="Diğer",SHOW TÜRK
-https://streams.uzunmuhalefet.com/stream/16e43b9b-e175-482c-a105-2253c06515c9.m3u8
 #EXTINF:-1 tvg-name="SILA TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/7becde68-83ee-495e-b96f-243d66eb6254.png" group-title="Diğer",SILA TV
 https://streams.uzunmuhalefet.com/stream/ee7c9715-04be-4f10-8d31-6fa81f8d6866.m3u8
 #EXTINF:-1 tvg-name="SITELER TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/fb00cc4a-821d-4e9e-af31-3c11883f63fc.png" group-title="Diğer",SITELER TV
@@ -797,8 +797,6 @@ https://streams.uzunmuhalefet.com/stream/a0b3f486-60ca-4956-925b-a5d2b4c8f5ee.m3
 https://streams.uzunmuhalefet.com/stream/e8b425ad-571d-475d-a657-37bca8985836.m3u8
 #EXTINF:-1 tvg-name="ULUSLARARASI TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/e997a98d-c5a5-47f0-8882-ab2d9ed3fc80.png" group-title="Diğer",ULUSLARARASI TV
 https://streams.uzunmuhalefet.com/stream/ecb5affe-0dcc-4182-a355-a22086b01e10.m3u8
-#EXTINF:-1 tvg-name="URFANATIK TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/f985ac5b-7b39-4b94-965f-1b169a6e3526.png" group-title="Diğer",URFANATIK TV
-https://streams.uzunmuhalefet.com/stream/f4bbf371-4d46-40b8-81b4-bc7abcb77170.m3u8
 #EXTINF:-1 tvg-name="VAAZ TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/be0a02ec-3296-4e7b-8387-0d588693116f.png" group-title="Diğer",VAAZ TV
 https://streams.uzunmuhalefet.com/stream/09274a64-3c48-442a-8061-dd4b2651c537.m3u8
 #EXTINF:-1 tvg-name="VAN GÖLÜ TV" tvg-logo="https://assets.uzunmuhalefet.com/logos/631c5e6c-6177-4076-822c-7cee63d36a97.png" group-title="Diğer",VAN GÖLÜ TV
