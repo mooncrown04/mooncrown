@@ -93,8 +93,6 @@ https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTINF:-1 tvg-name="BIR TV" tvg-logo="https://i.ibb.co/dDdPMWq/birtv.png" group-title="Diğer",BIR TV
 https://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-name="BRİÇ VE SATRANÇ TV" group-title="Spor",BRİÇ VE SATRANÇ TV
-http://139.162.182.79/live/test/index.m3u8
 #EXTINF:-1 tvg-name="Baden TV Süd" group-title="Diğer",Baden TV Süd
 https://cdn.icu.de/rtplive/smil:btvsued.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Bibel TV" group-title="Diğer",Bibel TV
