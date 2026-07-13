@@ -1,6 +1,8 @@
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-tr.xml"
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TRT 1" tvg-logo="https://i.ibb.co/thr6mVk/trt-1.png" group-title="Ulusal Kanallar",TRT 1
 https://tv-trt1.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TRT 1" tvg-logo="https://i.ibb.co/thr6mVk/trt-1.png" group-title="Ulusal Kanallar",TRT 1
+https://tv-trt1-esdai.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="SHOW TV" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/X/rT/245949/logo.png" group-title="Ulusal Kanallar",SHOW TV
 https://ciner.daioncdn.net/showtv/showtv.m3u8?app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 #EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="SHOW TV" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/X/rT/245949/logo.png" group-title="Ulusal Kanallar",SHOW TV
@@ -27,6 +29,8 @@ https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
 #EXTINF:-1 tvg-name="TV 8" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/M/NO/246132/logo.png" group-title="Ulusal Kanallar",TV 8
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
+#EXTINF:-1 tvg-id="TV8,5.tr" tvg-name="TV 8.5" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png" group-title="Ulusal Kanallar",TV 8.5
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8
 #EXTINF:-1 tvg-id="Teve2.tr" tvg-name="TEVE 2" tvg-logo="https://i.ibb.co/JRpJc2P/teve2.png" group-title="Ulusal Kanallar",TEVE 2
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
 #EXTINF:-1 tvg-id="Teve2.tr" tvg-name="TEVE 2" tvg-logo="https://i.ibb.co/JRpJc2P/teve2.png" group-title="Ulusal Kanallar",TEVE 2
@@ -63,7 +67,7 @@ https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 https://tv.ensonhaber.com/tv360/tv360.m3u8
 #EXTINF:-1 tvg-id="360.tr" tvg-name="360 TV" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kZVDU4urtdSMj-Ubv76W22JRs-GiLQN1UA29bzu4aa6uk" group-title="Diğer",360 TV
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
-#EXTINF:-1 tvg-id="ASpor.tr" tvg-name="A SPOR" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/T/Rx/246135/logo.png" group-title="Spor",A SPOR
+#EXTINF:-1 tvg-id="ASpor.tr" tvg-name="A SPOR" tvg-logo="https://i.ibb.co/rwnrgFV/a-spor.png" group-title="Spor",A SPOR
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
 #EXTINF:-1 tvg-name="AKSU TV" tvg-logo="http://hd200.gliptv.com/menu/epg/imagesNew/cim_304365.png" group-title="Diğer",AKSU TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
@@ -231,10 +235,6 @@ http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/4001/index.m3u8
 #EXTINF:-1 tvg-name="TRT AVRUPA" tvg-logo="play.png" group-title="Diğer",TRT AVRUPA
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-name="TRT COCUK" tvg-logo="https://yt3.ggpht.com/6_jhTr2aolmOP8qNq24ReRalaiu8LNSX-OD4fh9wWcIALv67la_kYKHDe-2QjmGJ3GqH8UULVQ" group-title="Diğer",TRT COCUK
-https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-name="TRT COCUK" tvg-logo="https://yt3.ggpht.com/6_jhTr2aolmOP8qNq24ReRalaiu8LNSX-OD4fh9wWcIALv67la_kYKHDe-2QjmGJ3GqH8UULVQ" group-title="Diğer",TRT COCUK
-https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-name="TRT COCUK DIYANET" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png" group-title="Diğer",TRT COCUK DIYANET
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-name="TRT DİYANET ÇOCUK" group-title="Diğer",TRT DİYANET ÇOCUK
@@ -257,8 +257,6 @@ http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8
 https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT WORLD" tvg-logo="https://media.mediabay.tv/www_data/newlogos/channels/10-2019/TRT-World.png" group-title="Diğer",TRT WORLD
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTÇocuk.tr" tvg-name="TRT ÇOCUK" group-title="Diğer",TRT ÇOCUK
-https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TURKHABERTV.tr" tvg-name="TURKHABER" tvg-logo="https://i.ibb.co/ySv65wg/turk-haber.png" group-title="Diğer",TURKHABER
 https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 4" tvg-logo="https://d3ckc0u56niq67.cloudfront.net/conf/images/tv4_Vz8.png" group-title="Diğer",TV 4
