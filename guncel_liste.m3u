@@ -95,6 +95,8 @@ https://tv.ensonhaber.com/benguturk/benguturk_720p.m3u8
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
 #EXTINF:-1 tvg-id="BEYAZTV.tr" tvg-name="BEYAZ TV" tvg-logo="https://zdi2vdd5r0wt.merlincdn.net/content/z/s0/246105/logo.png" group-title="Diğer",BEYAZ TV
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
+#EXTINF:-1 tvg-name="BIR TV" tvg-logo="play.png" group-title="Diğer",BIR TV
+https://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="BRİÇ VE SATRANÇ TV" group-title="Spor",BRİÇ VE SATRANÇ TV
 http://139.162.182.79/live/test/index.m3u8
 #EXTINF:-1 tvg-name="Bibel TV" group-title="Diğer",Bibel TV
