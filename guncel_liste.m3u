@@ -8,8 +8,6 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png" group-title="Ulusal Kanallar",KANAL D
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png" group-title="Ulusal Kanallar",KANAL D
-https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_720p.m3u8
-#EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png" group-title="Ulusal Kanallar",KANAL D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png" group-title="Ulusal Kanallar",KANAL D
 http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/track_4_1250/playlist.m3u8
@@ -61,8 +59,6 @@ https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
 #EXTINF:-1 tvg-id="AHaber.tr" tvg-name="A HABER" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a-haber-tr.png" group-title="Diğer",A HABER
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8
-#EXTINF:-1 tvg-id="ASpor.tr" tvg-name="A SPOR" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/archive/e/e9/20140920094552%21A_Spor_logosu.png" group-title="Spor",A SPOR
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
 #EXTINF:-1 tvg-name="AKSU TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/aksu-tv-tr.png" group-title="Diğer",AKSU TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/chunks.m3u8
 #EXTINF:-1 tvg-name="AKSU TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/aksu-tv-tr.png" group-title="Diğer",AKSU TV
@@ -127,8 +123,6 @@ https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_3_750/playlist.m3u8
 #EXTINF:-1 tvg-name="F TV" group-title="Diğer",F TV
 https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
-#EXTINF:-1 tvg-name="FANATIK SİNEMA DAĞ:🎬" group-title="Diğer",FANATIK SİNEMA DAĞ:🎬
-https://catcast.ismailturret.workers.dev/fanatikmaxdag.m3u8
 #EXTINF:-1 tvg-id="FBTV.tr" tvg-name="FB TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqzS70I58r2o70L-oPmTBqtL--C_sv4vR1Pw&s" group-title="Spor",FB TV
 https://1hskrdto.rocketcdn.com/fenerbahcetv.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="FILM SCREEN" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png" group-title="Diğer",FILM SCREEN
@@ -289,6 +283,8 @@ http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/chunks.m3u8
 #EXTINF:-1 tvg-name="TR:SOZCU TV" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/sozcu.png" group-title="Diğer",TR:SOZCU TV
 https://helga.iptv2022.com/szc_tv/index.m3u8
+#EXTINF:-1 tvg-name="TRAVEL" tvg-logo="https://imgs.search.brave.com/jqGiLB8MoGnJ6MgSbceLfxYH7II-QDhWrW_g4zEZk-M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hLmpz/cmRuLmNvbS9obHMv/MjMwNjQvNGstdHJh/dmVsLXR2L3RodW1i/aF8yMDIyMDUzMV8x/ODM4MTguanBn" group-title="Belgesel",TRAVEL
+https://streams2.sofast.tv/umaxx/v1/01977dd01f661ebd47042b72b0c07c/01977dd12cc51ebd416a3eb5c6c77f/4k_travel_tv_2500k.m3u8
 #EXTINF:-1 tvg-id="TRT4K.tr" tvg-name="TRT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuf0VbbCYUyd_hUcaxw_iOtp84-aGKdfkvog&s" group-title="Diğer",TRT
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/4001/index.m3u8
 #EXTINF:-1 tvg-id="TRTAVAZ.tr" tvg-name="TRT AVAZ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/512px-TRT_Avaz_logo.svg.png" group-title="Diğer",TRT AVAZ
