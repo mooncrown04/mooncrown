@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-tr.xml"
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TRT 1" tvg-logo="https://picon.pics/TR/Ulusal/Trt1.png" group-title="Ulusal Kanallar",TRT 1
 https://trt.daioncdn.net/trt-1/master.m3u8?app=clean
-#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TRT 1" tvg-logo="https://picon.pics/TR/Ulusal/Trt1.png" group-title="Ulusal Kanallar",TRT 1
-https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/atv-tr.png" group-title="Ulusal Kanallar",ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png" group-title="Ulusal Kanallar",KANAL D
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png" group-title="Ulusal Kanallar",KANAL D
@@ -19,14 +19,12 @@ https://kanal7-live.daioncdn.net/kanal7/kanal7_720p.m3u8
 https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
 #EXTINF:-1 tvg-name="TV 8" tvg-logo="https://imgs.search.brave.com/OjYN02PMadfM-5wK12rHI66fq_jdflScTuMdKdwaj5k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9maWxl/cy5zaWtheWV0dmFy/LmNvbS9sZy9jbXAv/MTEvMTE3Mi5wbmc_/MTUyMjY1MDEyNQ" group-title="Ulusal Kanallar",TV 8
 https://tatatam.trt1sultanfatihss.workers.dev/https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?app=tv8_web
-#EXTINF:-1 tvg-name="TV 8" tvg-logo="https://imgs.search.brave.com/OjYN02PMadfM-5wK12rHI66fq_jdflScTuMdKdwaj5k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9maWxl/cy5zaWtheWV0dmFy/LmNvbS9sZy9jbXAv/MTEvMTE3Mi5wbmc_/MTUyMjY1MDEyNQ" group-title="Ulusal Kanallar",TV 8
-https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #EXTINF:-1 tvg-id="TV8,5.tr" tvg-name="TV 8.5" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png" group-title="Ulusal Kanallar",TV 8.5
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8
 #EXTINF:-1 tvg-id="Teve2.tr" tvg-name="TEVE 2" tvg-logo="https://i.ibb.co/JRpJc2P/teve2.png" group-title="Ulusal Kanallar",TEVE 2
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8
-#EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" group-title="Ulusal Kanallar",A2
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
+#EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/e/e8/A2_logosu.jpg?20161129163613" group-title="Ulusal Kanallar",A2
+http://89.187.191.41/A2-HD-TR/video.m3u8
 #EXTINF:-1 tvg-id="HalkTV.tr" tvg-name="HALK TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/halk-tv-tr.png" group-title="Haberler",HALK TV
 https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8
 #EXTINF:-1 tvg-id="HalkTV.tr" tvg-name="HALK TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/halk-tv-tr.png" group-title="Haberler",HALK TV
@@ -189,6 +187,8 @@ https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/muziktv/playlist.m3u8
 https://aegis-cloudfront-1.tubi.video/bb1fc6ad-9948-42ea-aaf3-20acfcdeecac/playlist1080p.m3u8
 #EXTINF:-1 tvg-name="NDR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/de/NDR_Dachmarke.png" group-title="Diğer",NDR
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8
+#EXTINF:-1 tvg-name="NEO TV HABER" group-title="Diğer",NEO TV HABER
+https://edge1.taksimbilisim.com/neohaber/bant1/chunks.m3u8
 #EXTINF:-1 tvg-name="NR 1" tvg-logo="https://tr.canlitv.watch/channels/number-one-tv.webp" group-title="Diğer",NR 1
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/chunklist_b400000.m3u8
 #EXTINF:-1 tvg-name="NR1 FASHION ONE" tvg-logo="https://i.ibb.co/HV0x9JZ/fashion-one.png" group-title="Diğer",NR1 FASHION ONE
@@ -287,12 +287,6 @@ https://streams2.sofast.tv/umaxx/v1/01977dd01f661ebd47042b72b0c07c/01977dd12cc51
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/4001/index.m3u8
 #EXTINF:-1 tvg-id="TRTAVAZ.tr" tvg-name="TRT AVAZ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/512px-TRT_Avaz_logo.svg.png" group-title="Diğer",TRT AVAZ
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-name="TRT COCUK" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-cocuk-tr.png" group-title="Diğer",TRT COCUK
-https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-name="TRT COCUK" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-cocuk-tr.png" group-title="Diğer",TRT COCUK
-https://tv-trtcocuk.medya.trt.com.tr/master_1440.m3u8
-#EXTINF:-1 tvg-name="TRT COCUK" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-cocuk-tr.png" group-title="Diğer",TRT COCUK
-https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-name="TRT COCUK DIYANET" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png" group-title="Diğer",TRT COCUK DIYANET
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-name="TRT DIYANET ÇOCUK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNwBQtkeuk0a1Ofxhin7lGP_VtWNecIwOsSA&s" group-title="Diğer",TRT DIYANET ÇOCUK
