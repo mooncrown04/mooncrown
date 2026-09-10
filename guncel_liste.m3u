@@ -177,8 +177,6 @@ https://catcast.ismailturret.workers.dev/50823.m3u8
 https://catcast.ismailturret.workers.dev/50822.m3u8
 #EXTINF:-1 tvg-name="KANAL FIRAT" group-title="Diğer",KANAL FIRAT
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/chunks.m3u8
-#EXTINF:-1 tvg-name="KANAL PLUS" group-title="Diğer",KANAL PLUS
-https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
 #EXTINF:-1 tvg-name="KIŞISEL GELIŞIM TV" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/rJtTnjScrxamhMCc.png" group-title="Diğer",KIŞISEL GELIŞIM TV
 https://kisiselvideo.stopvideodownload.com:8443/nefes/ngrp:live_all/playlist.m3u8
 #EXTINF:-1 tvg-name="KONYA OLAY TV" tvg-logo="play.png" group-title="Diğer",KONYA OLAY TV
@@ -191,10 +189,6 @@ http://dygvideo.dygdigital.com/live/hls/kralpop
 http://dygvideo.dygdigital.com/live/hls/kralpop?m3u8
 #EXTINF:-1 tvg-name="LALEGUL TV" group-title="Diğer",LALEGUL TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
-#EXTINF:-1 tvg-name="LIFE TV" tvg-logo="https://i.imgur.com/lWeJxm0.png" group-title="Diğer",LIFE TV
-https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8
-#EXTINF:-1 tvg-name="LIFE TV" tvg-logo="https://i.imgur.com/lWeJxm0.png" group-title="Diğer",LIFE TV
-https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 #EXTINF:-1 tvg-name="M TÜRK TV - KODLUK.COM" tvg-logo="https://assets.uzunmuhalefet.com/logos/f5da7259-11f3-42e6-9f8e-87edfa917288.png" group-title="Diğer",M TÜRK TV - KODLUK.COM
 https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="MADINAH TV" tvg-logo="https://e7.pngegg.com/pngimages/758/259/png-clipart-medina-mecca-television-channel-streaming-media-others-miscellaneous-television.png" group-title="Diğer",MADINAH TV
