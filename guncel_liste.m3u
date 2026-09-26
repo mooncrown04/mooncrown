@@ -65,6 +65,8 @@ https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
 #EXTINF:-1 tvg-id="AHaber.tr" tvg-name="A HABER" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a-haber-tr.png" group-title="Diğer",A HABER
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8
+#EXTINF:-1 tvg-id="ASpor.tr" tvg-name="A SPOR" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a-spor-tr.png" group-title="Spor",A SPOR
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
 #EXTINF:-1 tvg-name="AKSU TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/aksu-tv-tr.png" group-title="Diğer",AKSU TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/chunks.m3u8
 #EXTINF:-1 tvg-name="AKSU TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/aksu-tv-tr.png" group-title="Diğer",AKSU TV
@@ -91,8 +93,6 @@ https://andro.evrenesoglu65.lat/checklist/androstreamlivebiraz1.m3u8
 https://andro.evrenesoglu65.lat/checklist/androstreamlivebs3.m3u8
 #EXTINF:-1 tvg-name="BIZIM SPOR 5" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png" group-title="Spor",BIZIM SPOR 5
 https://andro.evrenesoglu65.lat/checklist/androstreamlivebs5.m3u8
-#EXTINF:-1 tvg-name="BIZIM SPOR ALTERNATIF 4" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png" group-title="Spor",BIZIM SPOR ALTERNATIF 4
-https://yayinlarfidanafidanlaragaca.xyz/hls/4.m3u8
 #EXTINF:-1 tvg-id="BloombergHT.tr" tvg-name="BLOOMBERG HT" tvg-logo="https://picon.pics/TR/News/Bloomberg.png" group-title="Diğer",BLOOMBERG HT
 https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
 #EXTINF:-1 tvg-name="BRÜKSEL TÜRK - KODLUK.COM" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/aRzROOdpKcyOfVTo.png" group-title="Diğer",BRÜKSEL TÜRK - KODLUK.COM
