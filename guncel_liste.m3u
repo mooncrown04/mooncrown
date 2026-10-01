@@ -105,10 +105,6 @@ https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_outpu
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_1080p.m3u8
 #EXTINF:-1 tvg-name="CNBC-E - KODLUK.COM" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/KtQBKvChbqGjMgXu.png" group-title="Spor",CNBC-E - KODLUK.COM
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
-#EXTINF:-1 tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/cnn-turk-tr.png" group-title="Diğer",CNN
-http://izlego.minikirppis-com.workers.dev/ID=427315396743dfe9212c50
-#EXTINF:-1 tvg-name="DAMAR TV" tvg-logo="https://i.hizliresim.com/hkbu81q.png" group-title="Diğer",DAMAR TV
-https://tvsms.club/tv.php?kanal=damar&file=.m3u8
 #EXTINF:-1 tvg-name="DENIZ POSTASI" tvg-logo="play.png" group-title="Diğer",DENIZ POSTASI
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 #EXTINF:-1 tvg-name="DENIZ POSTASI TV" tvg-logo="https://i.imgur.com/Mm8hdfx.png" group-title="Diğer",DENIZ POSTASI TV
@@ -265,8 +261,6 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_1080p.m3u8
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
 #EXTINF:-1 tvg-name="SHOW TÜRK" tvg-logo="https://assets.tvcdn.net/d4d340ec-891e-4601-9776-e979a750b7e3.png" group-title="Diğer",SHOW TÜRK
 https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/showturk.m3u8
-#EXTINF:-1 tvg-name="SILA TV" tvg-logo="https://i.hizliresim.com/clds0hv.png" group-title="Diğer",SILA TV
-https://tvsms.club/tv.php?kanal=silatv&file=.m3u8
 #EXTINF:-1 tvg-name="SPOR TV" group-title="Spor",SPOR TV
 https://cdn-gzcspor.yayin.com.tr/gzcspor/gzcspor/playlist.m3u8
 #EXTINF:-1 tvg-name="STINGRAY CLASSIC ROCK" tvg-logo="https://i.imgur.com/FBgu8yB.png" group-title="Diğer",STINGRAY CLASSIC ROCK
