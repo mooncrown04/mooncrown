@@ -33,8 +33,6 @@ https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8
 #EXTINF:-1 tvg-id="Teve2.tr" tvg-name="TEVE 2" tvg-logo="https://i.ibb.co/JRpJc2P/teve2.png" group-title="Ulusal Kanallar",TEVE 2
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8
-#EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" group-title="Ulusal Kanallar",A2
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
 #EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/e/e8/A2_logosu.jpg?20161129163613" group-title="Ulusal Kanallar",A2
 http://89.187.191.41/A2-HD-TR/video.m3u8
 #EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/e/e8/A2_logosu.jpg?20161129163613" group-title="Ulusal Kanallar",A2
@@ -45,10 +43,6 @@ https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8
 #EXTINF:-1 tvg-id="HalkTV.tr" tvg-name="HALK TV" tvg-logo="play.png" group-title="Haberler",HALK TV
 https://halktv.daioncdn.net/halktv/halktv_1080p.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609
-#EXTINF:-1 tvg-id="TV100.tr" tvg-name="TV 100" tvg-logo="https://imgs.search.brave.com/ghOIv8YGQM2cNY0WM3mtT1rZtaVXJVARGdjgI3eHKPY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9mb3Rv/LmhhYmVybGVyLmNv/bS9oYWJlci8yMDI2/LzA3LzE0L3R2MTAw/LWNhbmxpLWl6bGUt/ZmVuZXJiYWhjZS1s/YXNrLXR2MTAwLWtl/c2ludGlzaXpfNGJk/YzBkNmNkNl9hbXAu/anBn" group-title="Haberler",TV 100
-https://tv.ensonhaber.com/tv100/tv100_1080p.m3u8
-#EXTINF:-1 tvg-id="TV100.tr" tvg-name="TV 100" tvg-logo="https://imgs.search.brave.com/ghOIv8YGQM2cNY0WM3mtT1rZtaVXJVARGdjgI3eHKPY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9mb3Rv/LmhhYmVybGVyLmNv/bS9oYWJlci8yMDI2/LzA3LzE0L3R2MTAw/LWNhbmxpLWl6bGUt/ZmVuZXJiYWhjZS1s/YXNrLXR2MTAwLWtl/c2ludGlzaXpfNGJk/YzBkNmNkNl9hbXAu/anBn" group-title="Haberler",TV 100
-https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8
 #EXTINF:-1 tvg-id="NTV.tr" tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/ntv-tr.png" group-title="Haberler",NTV
 https://tatatam.trt1sultanfatihss.workers.dev/https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8?&sid=8noxlzj7u4u7&app=c68bddbe-3dbf-49f7-892a-93de5ae37f1f&ce=2
 #EXTINF:-1 tvg-id="NTV.tr" tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/ntv-tr.png" group-title="Haberler",NTV
@@ -153,6 +147,8 @@ https://1hskrdto.rocketcdn.com/fenerbahcetv.stream/playlist.m3u8
 https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8
 #EXTINF:-1 tvg-name="FIT YAŞA TV" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/rGiogSDpVEUtAwTl.png" group-title="Diğer",FIT YAŞA TV
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/fit-yasa-tv/playlist.m3u8
+#EXTINF:-1 tvg-name="FOX" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/fox-tr.png" group-title="Diğer",FOX
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 #EXTINF:-1 tvg-name="FRT TV" tvg-logo="play.png" group-title="Diğer",FRT TV
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 #EXTINF:-1 tvg-id="HABERTURK.tr" tvg-name="HABER TURK" tvg-logo="https://imgs.search.brave.com/IatIIzow7IVAfeAmnTgmRAUBDmINMSbdBABRzpzwb7M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZWxvZ292ZWN0/b3JzLm5ldC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOC8wMy9o/YWJlcnR1cmstbG9n/by5wbmc" group-title="Diğer",HABER TURK
