@@ -6,6 +6,10 @@ https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="SHOW TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_of_Show_TV.png" group-title="Ulusal Kanallar",SHOW TV
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png" group-title="Ulusal Kanallar",KANAL D
+https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png" group-title="Ulusal Kanallar",KANAL D
+https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_720p.m3u8
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png" group-title="Ulusal Kanallar",KANAL D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png" group-title="Ulusal Kanallar",KANAL D
 http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/track_4_1250/playlist.m3u8
@@ -137,14 +141,18 @@ https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
 #EXTINF:-1 tvg-name="EURO D" tvg-logo="https://eurod.kanald.com.tr/assets/img/logo.v5.png" group-title="Diğer",EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_3_750/playlist.m3u8
+#EXTINF:-1 tvg-name="FANATIK DİZİ ED STAFFORD:📺" group-title="Diğer",FANATIK DİZİ ED STAFFORD:📺
+https://catcast.ismailturret.workers.dev/fanatikprimeEdStafford.m3u8
+#EXTINF:-1 tvg-name="FANATIK SİNEMA DAĞ:🎬" group-title="Diğer",FANATIK SİNEMA DAĞ:🎬
+https://catcast.ismailturret.workers.dev/fanatikmaxdag.m3u8
+#EXTINF:-1 tvg-name="FANATIK SİNEMA KORKU:🎬" group-title="Diğer",FANATIK SİNEMA KORKU:🎬
+https://catcast.ismailturret.workers.dev/fanatikmaxkorku.m3u8
 #EXTINF:-1 tvg-id="FBTV.tr" tvg-name="FB TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqzS70I58r2o70L-oPmTBqtL--C_sv4vR1Pw&s" group-title="Spor",FB TV
 https://1hskrdto.rocketcdn.com/fenerbahcetv.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="FILM SCREEN" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png" group-title="Diğer",FILM SCREEN
 https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8
 #EXTINF:-1 tvg-name="FIT YAŞA TV" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/rGiogSDpVEUtAwTl.png" group-title="Diğer",FIT YAŞA TV
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/fit-yasa-tv/playlist.m3u8
-#EXTINF:-1 tvg-name="FOX" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/fox-tr.png" group-title="Diğer",FOX
-https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 #EXTINF:-1 tvg-name="FRT TV" tvg-logo="play.png" group-title="Diğer",FRT TV
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 #EXTINF:-1 tvg-id="HABERTURK.tr" tvg-name="HABER TURK" tvg-logo="https://imgs.search.brave.com/IatIIzow7IVAfeAmnTgmRAUBDmINMSbdBABRzpzwb7M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZWxvZ292ZWN0/b3JzLm5ldC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOC8wMy9o/YWJlcnR1cmstbG9n/by5wbmc" group-title="Diğer",HABER TURK
@@ -259,6 +267,8 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
 https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/showturk.m3u8
 #EXTINF:-1 tvg-name="SILA TV" tvg-logo="https://i.hizliresim.com/clds0hv.png" group-title="Diğer",SILA TV
 https://tvsms.club/tv.php?kanal=silatv&file=.m3u8
+#EXTINF:-1 tvg-name="SPOR TV" group-title="Spor",SPOR TV
+https://cdn-gzcspor.yayin.com.tr/gzcspor/gzcspor/playlist.m3u8
 #EXTINF:-1 tvg-name="STINGRAY CLASSIC ROCK" tvg-logo="https://i.imgur.com/FBgu8yB.png" group-title="Diğer",STINGRAY CLASSIC ROCK
 https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-name="STINGRAY CLASSICA" tvg-logo="https://i.imgur.com/nh1k5RC.png" group-title="Diğer",STINGRAY CLASSICA
@@ -363,8 +373,6 @@ https://andro.evrenesoglu65.lat/checklist/androstreamlivess2.m3u8
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-name="ÇIFTÇI TV" tvg-logo="https://www.ciftcitv.com/wp-content/uploads/2021/02/favicon.png" group-title="Diğer",ÇIFTÇI TV
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
-#EXTINF:-1 tvg-name="İHA" tvg-logo="https://i.imgur.com/VZhag2x.png" group-title="Diğer",İHA
-https://live01.iha.tv/webabone/live2/chunks.m3u8
 #EXTINF:-1 tvg-id="UlkeTV.tr" tvg-name="İLKE TV" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/VpQdSsreBFTRpGob.png" group-title="Diğer",İLKE TV
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 #EXTINF:-1 tvg-name="İSVİÇRE TV" tvg-logo="https://i.hizliresim.com/qg54j1v.png" group-title="Diğer",İSVİÇRE TV
