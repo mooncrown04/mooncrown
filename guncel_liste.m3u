@@ -6,8 +6,6 @@ https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="SHOW TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_of_Show_TV.png" group-title="Ulusal Kanallar",SHOW TV
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png" group-title="Ulusal Kanallar",KANAL D
-https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8
-#EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png" group-title="Ulusal Kanallar",KANAL D
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_720p.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/kanal-d-tr.png" group-title="Ulusal Kanallar",KANAL D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
@@ -50,8 +48,6 @@ https://tv.ensonhaber.com/tv100/tv100_1080p.m3u8
 #EXTINF:-1 tvg-id="TV100.tr" tvg-name="TV 100" tvg-logo="https://imgs.search.brave.com/ghOIv8YGQM2cNY0WM3mtT1rZtaVXJVARGdjgI3eHKPY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9mb3Rv/LmhhYmVybGVyLmNv/bS9oYWJlci8yMDI2/LzA3LzE0L3R2MTAw/LWNhbmxpLWl6bGUt/ZmVuZXJiYWhjZS1s/YXNrLXR2MTAwLWtl/c2ludGlzaXpfNGJk/YzBkNmNkNl9hbXAu/anBn" group-title="Haberler",TV 100
 https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8
 #EXTINF:-1 tvg-id="NTV.tr" tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/ntv-tr.png" group-title="Haberler",NTV
-https://tatatam.trt1sultanfatihss.workers.dev/https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8?&sid=8noxlzj7u4u7&app=c68bddbe-3dbf-49f7-892a-93de5ae37f1f&ce=2
-#EXTINF:-1 tvg-id="NTV.tr" tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/ntv-tr.png" group-title="Haberler",NTV
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 #EXTINF:-1 tvg-id="HABERGLOBAL.tr" tvg-name="HABER GLOBAL" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/haber-global-tr.png" group-title="Haberler",HABER GLOBAL
 https://ensonhaber-live.ercdn.net/haberglobal/haberglobal_720p.m3u8
@@ -75,8 +71,6 @@ https://tv.ensonhaber.com/tv24/tv24.m3u8
 https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
 #EXTINF:-1 tvg-id="360.tr" tvg-name="360 TV" tvg-logo="https://gitlatte.github.io/m3ueditor/images/kanal-gorselleri/turkiye/360-tr.png" group-title="Diğer",360 TV
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
-#EXTINF:-1 tvg-id="ASpor.tr" tvg-name="A SPOR" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/archive/e/e9/20140920094552%21A_Spor_logosu.png" group-title="Spor",A SPOR
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
 #EXTINF:-1 tvg-name="AKSU TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/aksu-tv-tr.png" group-title="Diğer",AKSU TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/chunks.m3u8
 #EXTINF:-1 tvg-name="AKSU TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/aksu-tv-tr.png" group-title="Diğer",AKSU TV
@@ -141,12 +135,6 @@ https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
 #EXTINF:-1 tvg-name="EURO D" tvg-logo="https://eurod.kanald.com.tr/assets/img/logo.v5.png" group-title="Diğer",EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_3_750/playlist.m3u8
-#EXTINF:-1 tvg-name="FANATIK DİZİ ED STAFFORD:📺" group-title="Diğer",FANATIK DİZİ ED STAFFORD:📺
-https://catcast.ismailturret.workers.dev/fanatikprimeEdStafford.m3u8
-#EXTINF:-1 tvg-name="FANATIK SİNEMA DAĞ:🎬" group-title="Diğer",FANATIK SİNEMA DAĞ:🎬
-https://catcast.ismailturret.workers.dev/fanatikmaxdag.m3u8
-#EXTINF:-1 tvg-name="FANATIK SİNEMA KORKU:🎬" group-title="Diğer",FANATIK SİNEMA KORKU:🎬
-https://catcast.ismailturret.workers.dev/fanatikmaxkorku.m3u8
 #EXTINF:-1 tvg-id="FBTV.tr" tvg-name="FB TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqzS70I58r2o70L-oPmTBqtL--C_sv4vR1Pw&s" group-title="Spor",FB TV
 https://1hskrdto.rocketcdn.com/fenerbahcetv.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="FILM SCREEN" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png" group-title="Diğer",FILM SCREEN
@@ -221,8 +209,6 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_72
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/muziktv/playlist.m3u8
 #EXTINF:-1 tvg-name="NDR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/de/NDR_Dachmarke.png" group-title="Diğer",NDR
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8
-#EXTINF:-1 tvg-name="NEO TV HABER" group-title="Diğer",NEO TV HABER
-https://edge1.taksimbilisim.com/neohaber/bant1/chunks.m3u8
 #EXTINF:-1 tvg-name="NR 1" tvg-logo="https://tr.canlitv.watch/channels/number-one-tv.webp" group-title="Diğer",NR 1
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/chunklist_b400000.m3u8
 #EXTINF:-1 tvg-name="NR1 FASHION ONE" tvg-logo="https://i.ibb.co/HV0x9JZ/fashion-one.png" group-title="Diğer",NR1 FASHION ONE
@@ -267,8 +253,6 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
 https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/showturk.m3u8
 #EXTINF:-1 tvg-name="SILA TV" tvg-logo="https://i.hizliresim.com/clds0hv.png" group-title="Diğer",SILA TV
 https://tvsms.club/tv.php?kanal=silatv&file=.m3u8
-#EXTINF:-1 tvg-name="SPOR TV" group-title="Spor",SPOR TV
-https://cdn-gzcspor.yayin.com.tr/gzcspor/gzcspor/playlist.m3u8
 #EXTINF:-1 tvg-name="STINGRAY CLASSIC ROCK" tvg-logo="https://i.imgur.com/FBgu8yB.png" group-title="Diğer",STINGRAY CLASSIC ROCK
 https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-name="STINGRAY CLASSICA" tvg-logo="https://i.imgur.com/nh1k5RC.png" group-title="Diğer",STINGRAY CLASSICA
