@@ -91,8 +91,6 @@ https://andro.evrenesoglu65.lat/checklist/androstreamlivebs2.m3u8
 https://andro.evrenesoglu65.lat/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 tvg-name="BIZIM SPOR ALTERNATIF" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png" group-title="Spor",BIZIM SPOR ALTERNATIF
 https://andro.evrenesoglu65.lat/checklist/androstreamlivebs1.m3u8
-#EXTINF:-1 tvg-name="BIZIM SPOR ALTERNATIF 3" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png" group-title="Spor",BIZIM SPOR ALTERNATIF 3
-https://yayinlarfidanafidanlaragaca.xyz/hls/8.m3u8
 #EXTINF:-1 tvg-id="BLOOMBERG.tr" tvg-name="BLOOMBERG" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/bloomberg-ht-tr.png" group-title="Diğer",BLOOMBERG
 https://tatatam.trt1sultanfatihss.workers.dev/https://ciner.daioncdn.net/bloomberght/bloomberght_720p.m3u8?app=201b9556-b11c-4d92-b264-f21fd24e9aaf&ce=3
 #EXTINF:-1 tvg-id="BloombergHT.tr" tvg-name="BLOOMBERG HT" tvg-logo="https://picon.pics/TR/News/Bloomberg.png" group-title="Diğer",BLOOMBERG HT
@@ -149,6 +147,8 @@ https://1hskrdto.rocketcdn.com/fenerbahcetv.stream/playlist.m3u8
 https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8
 #EXTINF:-1 tvg-name="FIT YAŞA TV" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/rGiogSDpVEUtAwTl.png" group-title="Diğer",FIT YAŞA TV
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/fit-yasa-tv/playlist.m3u8
+#EXTINF:-1 tvg-name="FOX" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/fox-tr.png" group-title="Diğer",FOX
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 #EXTINF:-1 tvg-name="FRT TV" tvg-logo="play.png" group-title="Diğer",FRT TV
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 #EXTINF:-1 tvg-id="HABERTURK.tr" tvg-name="HABER TURK" tvg-logo="https://imgs.search.brave.com/IatIIzow7IVAfeAmnTgmRAUBDmINMSbdBABRzpzwb7M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZWxvZ292ZWN0/b3JzLm5ldC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOC8wMy9o/YWJlcnR1cmstbG9n/by5wbmc" group-title="Diğer",HABER TURK
@@ -301,8 +301,6 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=1993
 https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
 #EXTINF:-1 tvg-id="TLC.tr" tvg-name="TLC" tvg-logo="https://img-tlctv.mncdn.com/logo.png" group-title="Belgesel",TLC
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8
-#EXTINF:-1 tvg-name="TON TV" group-title="Diğer",TON TV
-https://live.artidijitalmedya.com/artidijital_tontv/tontv/chunks.m3u8
 #EXTINF:-1 tvg-name="TRAVEL" tvg-logo="https://imgs.search.brave.com/jqGiLB8MoGnJ6MgSbceLfxYH7II-QDhWrW_g4zEZk-M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hLmpz/cmRuLmNvbS9obHMv/MjMwNjQvNGstdHJh/dmVsLXR2L3RodW1i/aF8yMDIyMDUzMV8x/ODM4MTguanBn" group-title="Belgesel",TRAVEL
 https://streams2.sofast.tv/umaxx/v1/01977dd01f661ebd47042b72b0c07c/01977dd12cc51ebd416a3eb5c6c77f/4k_travel_tv_2500k.m3u8
 #EXTINF:-1 tvg-id="TRT4K.tr" tvg-name="TRT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuf0VbbCYUyd_hUcaxw_iOtp84-aGKdfkvog&s" group-title="Diğer",TRT
