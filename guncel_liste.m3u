@@ -28,8 +28,6 @@ https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8
 #EXTINF:-1 tvg-id="Teve2.tr" tvg-name="TEVE 2" tvg-logo="https://i.ibb.co/JRpJc2P/teve2.png" group-title="Ulusal Kanallar",TEVE 2
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8
 #EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a2-tr.png" group-title="Ulusal Kanallar",A2
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
-#EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a2-tr.png" group-title="Ulusal Kanallar",A2
 http://89.187.191.41/A2-HD-TR/video.m3u8
 #EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a2-tr.png" group-title="Ulusal Kanallar",A2
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
@@ -83,8 +81,6 @@ https://andro.evrenesoglu65.lat/checklist/androstreamlivebiraz1.m3u8
 https://andro.evrenesoglu65.lat/checklist/androstreamlivebs3.m3u8
 #EXTINF:-1 tvg-name="BIZIM SPOR 5" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png" group-title="Spor",BIZIM SPOR 5
 https://andro.evrenesoglu65.lat/checklist/androstreamlivebs5.m3u8
-#EXTINF:-1 tvg-name="BIZIM SPOR ALTERNATIF 2" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png" group-title="Spor",BIZIM SPOR ALTERNATIF 2
-https://yayinlarfidanafidanlaragaca.xyz/hls/4.m3u8
 #EXTINF:-1 tvg-name="BIZIM SPOR ALTERNATIF 4" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png" group-title="Spor",BIZIM SPOR ALTERNATIF 4
 https://andro.evrenesoglu101.click/checklist/batutest.m3u8
 #EXTINF:-1 tvg-id="BloombergHT.tr" tvg-name="BLOOMBERG HT" tvg-logo="https://picon.pics/TR/News/Bloomberg.png" group-title="Diğer",BLOOMBERG HT
