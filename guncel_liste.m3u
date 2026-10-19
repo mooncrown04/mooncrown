@@ -6,8 +6,6 @@ https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="SHOW TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/show-tr.png" group-title="Ulusal Kanallar",SHOW TV
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://i.ibb.co/hf2mSz5/kanal-d.png" group-title="Ulusal Kanallar",KANAL D
-https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_720p.m3u8
-#EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://i.ibb.co/hf2mSz5/kanal-d.png" group-title="Ulusal Kanallar",KANAL D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="KANAL D" tvg-logo="https://i.ibb.co/hf2mSz5/kanal-d.png" group-title="Ulusal Kanallar",KANAL D
 http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/track_4_1250/playlist.m3u8
@@ -22,11 +20,7 @@ https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
 #EXTINF:-1 tvg-id="KANAL7.tr" tvg-name="KANAL 7" tvg-logo="https://picon.pics/TR/Ulusal/Kanal7.png" group-title="Ulusal Kanallar",KANAL 7
 https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
 #EXTINF:-1 tvg-name="TV 8" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png" group-title="Ulusal Kanallar",TV 8
-https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
-#EXTINF:-1 tvg-name="TV 8" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png" group-title="Ulusal Kanallar",TV 8
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8
-#EXTINF:-1 tvg-id="TV8,5.tr" tvg-name="TV 8.5" tvg-logo="https://imgs.search.brave.com/s3URAsUXPeTGzjutcMtQ6S1-xTNldgqU5BqvklDZ0i0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9mb3Rv/LmhhYmVybGVyLmNv/bS9oYWJlci8yMDI0/LzA1LzAxL3R2LTgt/NS10di04LWJ1Y3Vr/LWd1bmNlbC1oZC1m/cmVrYW5zLWRlZ2Vy/bGVyaS0xNzI4NDk5/NV85MzA3X2FtcC5q/cGc" group-title="Ulusal Kanallar",TV 8.5
-https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8
 #EXTINF:-1 tvg-id="Teve2.tr" tvg-name="TEVE 2" tvg-logo="https://i.ibb.co/JRpJc2P/teve2.png" group-title="Ulusal Kanallar",TEVE 2
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8
 #EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a2-tr.png" group-title="Ulusal Kanallar",A2
@@ -63,6 +57,8 @@ https://tv.ensonhaber.com/tv24/tv24.m3u8
 https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
 #EXTINF:-1 tvg-id="360.tr" tvg-name="360 TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/360-tr.png" group-title="Diğer",360 TV
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
+#EXTINF:-1 tvg-id="AHaber.tr" tvg-name="A HABER" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a-haber-tr.png" group-title="Diğer",A HABER
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8
 #EXTINF:-1 tvg-name="AKSU TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/aksu-tv-tr.png" group-title="Diğer",AKSU TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/chunks.m3u8
 #EXTINF:-1 tvg-name="AKSU TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/aksu-tv-tr.png" group-title="Diğer",AKSU TV
@@ -77,12 +73,6 @@ https://tv.ensonhaber.com/benguturk/benguturk_720p.m3u8
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
 #EXTINF:-1 tvg-id="BEYAZTV.tr" tvg-name="BEYAZ TV" tvg-logo="https://picon.pics/TR/Ulusal/Beyaztv.png" group-title="Diğer",BEYAZ TV
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
-#EXTINF:-1 tvg-name="BIZIM SPOR" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png" group-title="Spor",BIZIM SPOR
-https://andro.evrenesoglu65.lat/checklist/androstreamlivebiraz1.m3u8
-#EXTINF:-1 tvg-name="BIZIM SPOR 3" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png" group-title="Spor",BIZIM SPOR 3
-https://andro.evrenesoglu65.lat/checklist/androstreamlivebs3.m3u8
-#EXTINF:-1 tvg-name="BIZIM SPOR 5" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png" group-title="Spor",BIZIM SPOR 5
-https://andro.evrenesoglu65.lat/checklist/androstreamlivebs5.m3u8
 #EXTINF:-1 tvg-name="BIZIM SPOR ALTERNATIF 4" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png" group-title="Spor",BIZIM SPOR ALTERNATIF 4
 https://andro.evrenesoglu101.click/checklist/batutest.m3u8
 #EXTINF:-1 tvg-id="BloombergHT.tr" tvg-name="BLOOMBERG HT" tvg-logo="https://picon.pics/TR/News/Bloomberg.png" group-title="Diğer",BLOOMBERG HT
@@ -121,6 +111,8 @@ https://tv-e-okul01.medya.trt.com.tr/master_720.m3u8
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
 #EXTINF:-1 tvg-name="ER TV" tvg-logo="https://i.imgur.com/VDGEPrD.png" group-title="Diğer",ER TV
 https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
+#EXTINF:-1 tvg-name="ERCIYES TV" group-title="Diğer",ERCIYES TV
+https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/chunks.m3u8
 #EXTINF:-1 tvg-name="ERZURUM WEB TV" tvg-logo="https://i.imgur.com/HF7N4Li.png" group-title="Diğer",ERZURUM WEB TV
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 #EXTINF:-1 tvg-name="ES TV" tvg-logo="https://i.imgur.com/epAEBrp.png" group-title="Diğer",ES TV
@@ -199,8 +191,6 @@ https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks
 https://andro.evrenesoglu101.click/checklist/androstreamlivets3.m3u8
 #EXTINF:-1 tvg-name="MERCAN TV" tvg-logo="play.png" group-title="Diğer",MERCAN TV
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
-#EXTINF:-1 tvg-name="MINIKA COCUK" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/minika-cocuk-tr.png" group-title="Diğer",MINIKA COCUK
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_720p.m3u8
 #EXTINF:-1 tvg-name="MINIKA COCUK" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/minika-cocuk-tr.png" group-title="Diğer",MINIKA COCUK
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
 #EXTINF:-1 tvg-id="MinikaGO.tr" tvg-name="MINIKA GO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/MinikaGO_logo.png/1536px-MinikaGO_logo.png?20200428070543" group-title="Sinema",MINIKA GO
@@ -303,6 +293,10 @@ https://helga.iptv2022.com/szc_tv/index.m3u8
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/4001/index.m3u8
 #EXTINF:-1 tvg-id="TRTAVAZ.tr" tvg-name="TRT AVAZ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/512px-TRT_Avaz_logo.svg.png" group-title="Diğer",TRT AVAZ
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT COCUK" tvg-logo="https://yt3.ggpht.com/6_jhTr2aolmOP8qNq24ReRalaiu8LNSX-OD4fh9wWcIALv67la_kYKHDe-2QjmGJ3GqH8UULVQ" group-title="Diğer",TRT COCUK
+https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-name="TRT COCUK" tvg-logo="https://yt3.ggpht.com/6_jhTr2aolmOP8qNq24ReRalaiu8LNSX-OD4fh9wWcIALv67la_kYKHDe-2QjmGJ3GqH8UULVQ" group-title="Diğer",TRT COCUK
+https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-name="TRT DIYANET COCUK" tvg-logo="https://imgs.search.brave.com/Ep9Blm2jnFvJFSB2t6j1xv9eaGn-6FjHk4MqvCCAixM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kaXlh/bmV0aGFiZXJjb210/ci50ZWltZy5jb20v/Y3JvcC8xMjgweDcy/MC9kaXlhbmV0aGFi/ZXItY29tLXRyL3Vw/bG9hZHMvMjAyMy8w/NS90cnQtZGl5YW5l/dC1jb2N1ay1mcmVr/YW5zLWJpbGdpbGVy/aS5qcGc" group-title="Diğer",TRT DIYANET COCUK
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-name="TRT DIYANET ÇOCUK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNwBQtkeuk0a1Ofxhin7lGP_VtWNecIwOsSA&s" group-title="Diğer",TRT DIYANET ÇOCUK
@@ -343,8 +337,6 @@ https://tytturk-live.ercdn.net/tytturk/tytturk_720p.m3u8
 https://internettv.guventechnology.com/hls/ulusaltv/index.m3u8
 #EXTINF:-1 tvg-name="VUSLAT TV" tvg-logo="play.png" group-title="Diğer",VUSLAT TV
 https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
-#EXTINF:-1 tvg-name="Z SPOR" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/default-channel.png" group-title="Spor",Z SPOR
-https://andro.evrenesoglu65.lat/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 tvg-name="ZAROK TV" tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="Diğer",ZAROK TV
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-name="ÇIFTÇI TV" tvg-logo="https://www.ciftcitv.com/wp-content/uploads/2021/02/favicon.png" group-title="Diğer",ÇIFTÇI TV
