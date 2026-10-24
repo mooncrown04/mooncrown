@@ -30,8 +30,6 @@ https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8
 #EXTINF:-1 tvg-id="Teve2.tr" tvg-name="TEVE 2" tvg-logo="https://i.ibb.co/JRpJc2P/teve2.png" group-title="Ulusal Kanallar",TEVE 2
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8
 #EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a2-tr.png" group-title="Ulusal Kanallar",A2
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
-#EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a2-tr.png" group-title="Ulusal Kanallar",A2
 http://89.187.191.41/A2-HD-TR/video.m3u8
 #EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a2-tr.png" group-title="Ulusal Kanallar",A2
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
@@ -95,6 +93,8 @@ https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8?session=MB4VJMtU3MMh9iDu8dtZRu
 #EXTINF:-1 tvg-name="CNBC-E - KODLUK.COM" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/KtQBKvChbqGjMgXu.png" group-title="Spor",CNBC-E - KODLUK.COM
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
+#EXTINF:-1 tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/cnn-turk-tr.png" group-title="Diğer",CNN
+http://izlego.minikirppis-com.workers.dev/ID=427315396743dfe9212c50
 #EXTINF:-1 tvg-name="DAMAR TV" tvg-logo="https://i.hizliresim.com/hkbu81q.png" group-title="Diğer",DAMAR TV
 https://tvsms.club/tv.php?kanal=damar&file=.m3u8
 #EXTINF:-1 tvg-name="DENIZ POSTASI" tvg-logo="play.png" group-title="Diğer",DENIZ POSTASI
@@ -199,6 +199,8 @@ https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_720p.m3u8
 #EXTINF:-1 tvg-name="MINIKA COCUK" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/minika-cocuk-tr.png" group-title="Diğer",MINIKA COCUK
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
+#EXTINF:-1 tvg-id="MinikaGO.tr" tvg-name="MINIKA GO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/MinikaGO_logo.png/1536px-MinikaGO_logo.png?20200428070543" group-title="Sinema",MINIKA GO
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8?tv=1
 #EXTINF:-1 tvg-name="MÜZIK TV" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/AmbjxRavXbOLkuNk.png" group-title="Diğer",MÜZIK TV
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/muziktv/playlist.m3u8
 #EXTINF:-1 tvg-name="NATURE TIME" tvg-logo="https://yt3.googleusercontent.com/QjLbhhmxYP_tHilu9YO_nwjqIkDawsu0uXE3ps6UjQAeDlL3IoNeV6WtRLpYfUaOE35oMZz8RA=s160-c-k-c0x00ffffff-no-rj" group-title="Belgesel",NATURE TIME
@@ -233,6 +235,8 @@ https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="POWERTÜRK SLOW" tvg-logo="https://i.ibb.co/R4pcKqK/powerturk-slow.png" group-title="Diğer",POWERTÜRK SLOW
 https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="RIZE TURK TV" group-title="Diğer",RIZE TURK TV
+https://yayin.rizeturk.com:3777/hybrid/play.m3u8
 #EXTINF:-1 tvg-name="SAT 7 TÜRK" tvg-logo="play.png" group-title="Diğer",SAT 7 TÜRK
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 #EXTINF:-1 tvg-name="SAĞLIK CHANNEL TV" tvg-logo="https://i.hizliresim.com/cvhj6qg.png" group-title="Diğer",SAĞLIK CHANNEL TV
@@ -295,6 +299,10 @@ https://helga.iptv2022.com/szc_tv/index.m3u8
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/4001/index.m3u8
 #EXTINF:-1 tvg-id="TRTAVAZ.tr" tvg-name="TRT AVAZ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/512px-TRT_Avaz_logo.svg.png" group-title="Diğer",TRT AVAZ
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT COCUK" tvg-logo="https://yt3.ggpht.com/6_jhTr2aolmOP8qNq24ReRalaiu8LNSX-OD4fh9wWcIALv67la_kYKHDe-2QjmGJ3GqH8UULVQ" group-title="Diğer",TRT COCUK
+https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-name="TRT COCUK" tvg-logo="https://yt3.ggpht.com/6_jhTr2aolmOP8qNq24ReRalaiu8LNSX-OD4fh9wWcIALv67la_kYKHDe-2QjmGJ3GqH8UULVQ" group-title="Diğer",TRT COCUK
+https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-name="TRT DIYANET COCUK" tvg-logo="https://imgs.search.brave.com/Ep9Blm2jnFvJFSB2t6j1xv9eaGn-6FjHk4MqvCCAixM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kaXlh/bmV0aGFiZXJjb210/ci50ZWltZy5jb20v/Y3JvcC8xMjgweDcy/MC9kaXlhbmV0aGFi/ZXItY29tLXRyL3Vw/bG9hZHMvMjAyMy8w/NS90cnQtZGl5YW5l/dC1jb2N1ay1mcmVr/YW5zLWJpbGdpbGVy/aS5qcGc" group-title="Diğer",TRT DIYANET COCUK
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-name="TRT DIYANET ÇOCUK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNwBQtkeuk0a1Ofxhin7lGP_VtWNecIwOsSA&s" group-title="Diğer",TRT DIYANET ÇOCUK
