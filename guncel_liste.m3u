@@ -153,6 +153,8 @@ https://catcast.ismailturret.workers.dev/fanatikkidsarkilar.m3u8
 https://catcast.ismailturret.workers.dev/fanatikkidspepee.m3u8
 #EXTINF:-1 tvg-name="FANATIK SİNEMA DAĞ:🎬" group-title="Diğer",FANATIK SİNEMA DAĞ:🎬
 https://catcast.ismailturret.workers.dev/fanatikmaxdag.m3u8
+#EXTINF:-1 tvg-name="FANATIK SİNEMA KORKU:🎬" group-title="Diğer",FANATIK SİNEMA KORKU:🎬
+https://catcast.ismailturret.workers.dev/fanatikmaxkorku.m3u8
 #EXTINF:-1 tvg-id="FBTV.tr" tvg-name="FB TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqzS70I58r2o70L-oPmTBqtL--C_sv4vR1Pw&s" group-title="Spor",FB TV
 https://1hskrdto.rocketcdn.com/fenerbahcetv.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="FILM SCREEN" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png" group-title="Diğer",FILM SCREEN
@@ -203,8 +205,6 @@ http://dygvideo.dygdigital.com/live/hls/kralpop
 http://dygvideo.dygdigital.com/live/hls/kralpop?m3u8
 #EXTINF:-1 tvg-name="LALEGUL TV" group-title="Diğer",LALEGUL TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
-#EXTINF:-1 tvg-id="LIDERHABERTV.tr" tvg-name="LIDER HABER" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPetOFCn_nsYX6EVJwnZujeJFxlUHLm-Htgw&s" group-title="Diğer",LIDER HABER
-http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/sec-f5-v1-a1.m3u8
 #EXTINF:-1 tvg-name="LIFE TV" tvg-logo="https://i.imgur.com/lWeJxm0.png" group-title="Diğer",LIFE TV
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8
 #EXTINF:-1 tvg-name="LIFE TV" tvg-logo="https://i.imgur.com/lWeJxm0.png" group-title="Diğer",LIFE TV
