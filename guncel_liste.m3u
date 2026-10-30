@@ -17,6 +17,8 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
 http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/track_4_1250/playlist.m3u8
 #EXTINF:-1 tvg-id="StarTV.tr" tvg-name="STAR" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/star-tv-tr.png" group-title="Ulusal Kanallar",STAR
 https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b1a9cfaa3718
+#EXTINF:-1 tvg-id="NOWTV.tr" tvg-name="NOW" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/NOW_TV_%28Turkey%29_wordmark-red.svg/1920px-NOW_TV_%28Turkey%29_wordmark-red.svg.png" group-title="Ulusal Kanallar",NOW
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 #EXTINF:-1 tvg-id="KANAL7.tr" tvg-name="KANAL 7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/kanal-7-tr.png" group-title="Ulusal Kanallar",KANAL 7
 https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
 #EXTINF:-1 tvg-id="KANAL7.tr" tvg-name="KANAL 7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/kanal-7-tr.png" group-title="Ulusal Kanallar",KANAL 7
@@ -71,6 +73,8 @@ https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 #EXTINF:-1 tvg-id="AHaber.tr" tvg-name="A HABER" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a-haber-tr.png" group-title="Diğer",A HABER
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8
+#EXTINF:-1 tvg-id="ASpor.tr" tvg-name="A SPOR" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/a-spor-tr.png" group-title="Spor",A SPOR
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
 #EXTINF:-1 tvg-name="AKSU TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/aksu-tv-tr.png" group-title="Diğer",AKSU TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/chunks.m3u8
 #EXTINF:-1 tvg-name="AKSU TV" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/aksu-tv-tr.png" group-title="Diğer",AKSU TV
@@ -107,6 +111,8 @@ https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_outpu
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_1080p.m3u8
 #EXTINF:-1 tvg-name="CNBC-E - KODLUK.COM" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/KtQBKvChbqGjMgXu.png" group-title="Spor",CNBC-E - KODLUK.COM
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
+#EXTINF:-1 tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/cnn-turk-tr.png" group-title="Diğer",CNN
+http://izlego.minikirppis-com.workers.dev/ID=427315396743dfe9212c50
 #EXTINF:-1 tvg-name="DAMAR TV" tvg-logo="https://i.hizliresim.com/hkbu81q.png" group-title="Diğer",DAMAR TV
 https://tvsms.club/tv.php?kanal=damar&file=.m3u8
 #EXTINF:-1 tvg-name="DENIZ POSTASI" tvg-logo="play.png" group-title="Diğer",DENIZ POSTASI
@@ -321,6 +327,10 @@ http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/4001/index.m3u8
 https://tv-trtarabi.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-name="TRT AVRUPA" tvg-logo="play.png" group-title="Diğer",TRT AVRUPA
 https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT COCUK" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-cocuk-tr.png" group-title="Diğer",TRT COCUK
+https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-name="TRT COCUK" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-cocuk-tr.png" group-title="Diğer",TRT COCUK
+https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-name="TRT COCUK DIYANET" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png" group-title="Diğer",TRT COCUK DIYANET
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-name="TRT DIYANET ÇOCUK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNwBQtkeuk0a1Ofxhin7lGP_VtWNecIwOsSA&s" group-title="Diğer",TRT DIYANET ÇOCUK
